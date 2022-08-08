@@ -1,0 +1,20 @@
+3: bgl-ads-2812: 2021-09-29T22:09:43: %ATS-6-INFO: %[pid=4131792][pname=MainProcess]: Checking all devices are up and ready is disabled, '--check-all-devices-up' must be set to True in case of pyats runs or '-check_all_devices_up' set to True in case of legacy easypy runs
+4: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=4.1/3][pid=4131792][pname=MainProcess]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/topology/device.py:58:
+5: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=4.2/3][pid=4131792][pname=MainProcess]: DeprecationWarning: Device apic-em 'tacacs.username' is deprecated in the testbed YAML.  This key has been moved to device 'credentials'.
+6: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=4.3/3][pid=4131792][pname=MainProcess]:   self._deprecation_check()
+7: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=7.1/3][pid=4131792][pname=MainProcess]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/topology/device.py:58:
+8: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=7.2/3][pid=4131792][pname=MainProcess]: DeprecationWarning: Device apic-em 'passwords.linux' is  deprecated in the testbed YAML.  Use 'credentials' instead.
+9: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=7.3/3][pid=4131792][pname=MainProcess]:   self._deprecation_check()
+10: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=10.1/3][pid=4131792][pname=MainProcess]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/genie/libs/conf/device/__init__.py:49:
+11: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=10.2/3][pid=4131792][pname=MainProcess]: UnsupportedDeviceOsWarning: Device apic-em OS is unknown; Extended Device functionality will not be available: mandatory field 'os' was not given in the yaml file
+12: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=10.3/3][pid=4131792][pname=MainProcess]:   UnsupportedDeviceOsWarning)
+13: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=13.1/3][pid=4131792][pname=MainProcess]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/genie/libs/conf/device/__init__.py:49:
+14: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=13.2/3][pid=4131792][pname=MainProcess]: UnsupportedDeviceOsWarning: Device ixia OS is unknown; Extended Device functionality will not be available: mandatory field 'os' was not given in the yaml file
+15: bgl-ads-2812: 2021-09-29T22:09:45: %WARNINGS-4-WARNING: %[part=13.3/3][pid=4131792][pname=MainProcess]:   UnsupportedDeviceOsWarning)
+0: bgl-ads-2812: 2021-09-29T22:09:45: %EASYPY-6-INFO: %[pid=4131959][pname=Task-1]: Starting task execution: Task-1
+1: bgl-ads-2812: 2021-09-29T22:09:45: %EASYPY-6-INFO: %[pid=4131959][pname=Task-1]:     test harness = pyats.aetest
+2: bgl-ads-2812: 2021-09-29T22:09:45: %EASYPY-6-INFO: %[pid=4131959][pname=Task-1]:     testscript   = /auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py
+16: bgl-ads-2812: 2021-09-29T22:10:49: %EASYPY-6-INFO: %[pid=4131792][pname=MainProcess]: TIMS result uploading is not enabled
+17: bgl-ads-2812: 2021-09-29T22:10:50: %CISCO-6-INFO: %[pid=4131792][pname=MainProcess]: Start Telemetry - Test
+18: bgl-ads-2812: 2021-09-29T22:10:52: %CISCO-6-INFO: %[pid=4131792][pname=MainProcess]: Posted data to Kafka returning status code 200 within time 0:00:01.223705
+19: bgl-ads-2812: 2021-09-29T22:10:52: %CONTRIB-6-INFO: %[pid=4131792][pname=MainProcess]: WebEx Token not given as argument or in config. No WebEx notification will be sent

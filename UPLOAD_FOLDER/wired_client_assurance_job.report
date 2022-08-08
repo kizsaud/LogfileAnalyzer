@@ -1,0 +1,110 @@
++------------------------------------------------------------------------------+
+|                                Easypy Report                                 |
++------------------------------------------------------------------------------+
+pyATS Instance   : /auto/iconatest-bgl/production/hcl/pyats3.6.3
+Python Version   : cpython-3.6.4 (64bit)
+CLI Arguments    : /auto/iconatest-bgl/production/hcl/pyats3.6.3/bin/easypy wired_client_assurance_job.py --testbed=/auto/date/enterprise/projects/preg/scripts/feature/dnac_assurance/data/wired_client_testbed_preg.yaml --config=/auto/date/enterprise/projects/preg/scripts/feature/dnac_assurance/data/wired_client_local_preg.json --script wired_client_assurance.py --input=/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/data/wired_client_input_preg.json --controller_ip=10.126.109.107 --testbed_e2e=/auto/date/enterprise/projects/preg/scripts/feature/dnac_assurance/data/wired_client_topo_preg.yaml --device_list=edge-9300
+User             : udasubra
+Host Server      : bgl-ads-2812
+Host OS Version  : Red Hat Enterprise Linux 8.3 Ootpa (x86_64)
+
+Job Information
+    Name         : wired_client_assurance_job
+    Start time   : 2021-09-29 22:09:43.734113
+    Stop time    : 2021-09-29 22:10:49.843907
+    Elapsed time : 66.109794
+    Archive      : /auto/iconatest-bgl/production/hcl/pyats3.6.3/users/udasubra/archive/21-09/wired_client_assurance_job.2021Sep29_22:09:37.611925.zip
+
+Total Tasks    : 1 
+
+Overall Stats
+    Passed     : 0
+    Passx      : 0
+    Failed     : 0
+    Aborted    : 0
+    Blocked    : 30
+    Skipped    : 0
+    Errored    : 2
+
+    TOTAL      : 32
+
+Success Rate   : 0.00 %
+
++------------------------------------------------------------------------------+
+|                             Task Result Summary                              |
++------------------------------------------------------------------------------+
+Task-1: wired_client_assurance.common_setup                              ERRORED
+Task-1: wired_client_assurance.TestBrownFieldScenario                    BLOCKED
+Task-1: wired_client_assurance.TestTelemetryConnectionBrownField         BLOCKED
+Task-1: wired_client_assurance.DnacGreenFieldScenario                    BLOCKED
+Task-1: wired_client_assurance.TestTelemetryConnectionGreenField         BLOCKED
+Task-1: wired_client_assurance.DeviceConfigurations                      BLOCKED
+Task-1: wired_client_assurance.PopulateAccessDictionary                  BLOCKED
+Task-1: wired_client_assurance.TestRemoveNetconf                         BLOCKED
+Task-1: wired_client_assurance.TestIpDhcpFailure                         BLOCKED
+Task-1: wired_client_assurance.TestAaaDown                               BLOCKED
+Task-1: wired_client_assurance.DeviceTrackingDbCleared                   BLOCKED
+Task-1: wired_client_assurance.TestAuthenticatorAndTimeout               BLOCKED
+Task-1: wired_client_assurance.AccessVlanChange                          BLOCKED
+Task-1: wired_client_assurance.TestAccessSessionHostMode                 BLOCKED
+Task-1: wired_client_assurance.TestIpDeleteAccessVlan                    BLOCKED
+Task-1: wired_client_assurance.ShutAccessVlan                            BLOCKED
+Task-1: wired_client_assurance.RemoveAccessVlan                          BLOCKED
+Task-1: wired_client_assurance.ConcurrentAuthAllSuccess                  BLOCKED
+Task-1: wired_client_assurance.ConcurrentAuthMabFailDot1xPass            BLOCKED
+Task-1: wired_client_assurance.ConcurrentAuthDot1xFailMabPass            BLOCKED
+Task-1: wired_client_assurance.ConcurrentAuthAllFail                     BLOCKED
+Task-1: wired_client_assurance.ConcurrentAuthPriMabFailDot1xPass         BLOCKED
+Task-1: wired_client_assurance.ConcurrentAuthPriMabPassDot1xFail         BLOCKED
+Task-1: wired_client_assurance.ErrDisableSecurityViolation               BLOCKED
+Task-1: wired_client_assurance.ProtectSecurityViolation                  BLOCKED
+Task-1: wired_client_assurance.ReplaceSecurityViolation                  BLOCKED
+Task-1: wired_client_assurance.RestrictSecurityViolation                 BLOCKED
+Task-1: wired_client_assurance.TestDeviceReload                          BLOCKED
+Task-1: wired_client_assurance.TestSwo                                   BLOCKED
+Task-1: wired_client_assurance.ISSUUpdate                                BLOCKED
+Task-1: wired_client_assurance.DeleteDevicesFromDnac                     BLOCKED
+Task-1: wired_client_assurance.common_cleanup                            ERRORED
+
++------------------------------------------------------------------------------+
+|                             Task Result Details                              |
++------------------------------------------------------------------------------+
+Task-1: wired_client_assurance
+|-- common_setup                                                         ERRORED
+|   |-- common_setup                                                      PASSED
+|   |-- connect_to_devices                                               ERRORED
+|   |-- dnac_connect                                                      PASSED
+|   `-- create_parent_parameters                                          PASSED
+|-- TestBrownFieldScenario                                               BLOCKED
+|-- TestTelemetryConnectionBrownField                                    BLOCKED
+|-- DnacGreenFieldScenario                                               BLOCKED
+|-- TestTelemetryConnectionGreenField                                    BLOCKED
+|-- DeviceConfigurations                                                 BLOCKED
+|-- PopulateAccessDictionary                                             BLOCKED
+|-- TestRemoveNetconf                                                    BLOCKED
+|-- TestIpDhcpFailure                                                    BLOCKED
+|-- TestAaaDown                                                          BLOCKED
+|-- DeviceTrackingDbCleared                                              BLOCKED
+|-- TestAuthenticatorAndTimeout                                          BLOCKED
+|-- AccessVlanChange                                                     BLOCKED
+|-- TestAccessSessionHostMode                                            BLOCKED
+|-- TestIpDeleteAccessVlan                                               BLOCKED
+|-- ShutAccessVlan                                                       BLOCKED
+|-- RemoveAccessVlan                                                     BLOCKED
+|-- ConcurrentAuthAllSuccess                                             BLOCKED
+|-- ConcurrentAuthMabFailDot1xPass                                       BLOCKED
+|-- ConcurrentAuthDot1xFailMabPass                                       BLOCKED
+|-- ConcurrentAuthAllFail                                                BLOCKED
+|-- ConcurrentAuthPriMabFailDot1xPass                                    BLOCKED
+|-- ConcurrentAuthPriMabPassDot1xFail                                    BLOCKED
+|-- ErrDisableSecurityViolation                                          BLOCKED
+|-- ProtectSecurityViolation                                             BLOCKED
+|-- ReplaceSecurityViolation                                             BLOCKED
+|-- RestrictSecurityViolation                                            BLOCKED
+|-- TestDeviceReload                                                     BLOCKED
+|-- TestSwo                                                              BLOCKED
+|-- ISSUUpdate                                                           BLOCKED
+|-- DeleteDevicesFromDnac                                                BLOCKED
+`-- common_cleanup                                                       ERRORED
+    |-- clean_up_devices                                                 ERRORED
+    `-- disconnect_from_devices                                           PASSED

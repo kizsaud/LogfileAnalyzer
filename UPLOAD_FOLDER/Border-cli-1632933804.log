@@ -1,0 +1,11 @@
+
+2021-09-29 22:13:24,676: %UNICON-INFO: +++ Border logfile /auto/iconatest-bgl/production/hcl/pyats3.6.3/users/udasubra/runinfo/wired_client_assurance_job.2021Sep29_22:12:57.040291/Border-cli-1632933804.log +++
+
+2021-09-29 22:13:24,676: %UNICON-INFO: +++ Unicon plugin ios +++
+Trying 10.106.19.224...
+
+
+2021-09-29 22:13:24,688: %UNICON-INFO: +++ connection to spawn: telnet 10.106.19.224 2029, id: 140079236546800 +++
+
+2021-09-29 22:13:24,688: %UNICON-INFO: connection to Border
+telnet: connect to address 10.106.19.224: Connection refused

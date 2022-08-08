@@ -1,0 +1,1142 @@
+
+2021-09-29 22:16:11,795: %UNICON-INFO: +++ edge-9300 logfile /auto/iconatest-bgl/production/hcl/pyats3.6.3/users/udasubra/runinfo/wired_client_assurance_job.2021Sep29_22:16:01.293902/edge-9300-a-1632933971.log +++
+
+2021-09-29 22:16:11,795: %UNICON-INFO: +++ Unicon plugin iosxe/cat9k +++
+
+2021-09-29 22:16:13,298: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'term length 0' +++
+
+2021-09-29 22:16:13,557: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'term width 0' +++
+
+2021-09-29 22:16:13,812: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show version' +++
+
+2021-09-29 22:16:27,167: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'sh redundancy state' +++
+
+2021-09-29 22:16:27,976: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'clear logging' +++
+
+2021-09-29 22:29:04,363: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:29:15,311: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:29:38,299: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:29:49,726: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:29:51,554: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:29:52,966: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 22:29:53,363: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:30:19,228: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:30:30,200: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:30:32,030: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:30:43,498: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:30:45,323: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:30:46,782: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 22:30:47,796: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:31:54,128: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:32:24,471: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:32:54,855: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:33:25,209: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:33:55,641: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:34:25,970: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:34:56,316: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:35:26,660: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:35:57,010: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:36:27,362: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:36:57,712: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:37:28,062: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:37:58,451: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:38:28,803: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:38:59,122: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database  interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:39:29,695: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:39:30,024: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:40:30,652: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:40:30,968: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:41:31,598: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:41:31,911: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:42:32,537: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:42:32,846: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:43:33,492: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:43:33,806: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:45:35,602: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:45:46,553: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:46:09,580: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:46:21,043: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:46:22,872: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:46:24,329: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 22:46:24,698: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:51:25,607: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:51:25,919: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:52:26,545: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:52:26,864: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:53:27,496: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:53:27,867: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:54:28,536: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:54:28,847: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:55:29,443: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:55:29,755: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 22:57:31,838: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:57:42,806: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:58:05,760: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:58:17,231: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 22:58:19,095: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 22:58:20,543: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 22:58:20,913: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:03:47,796: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:03:58,750: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:04:21,701: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:04:33,160: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:04:35,015: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:04:36,474: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 23:04:36,834: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:05:04,359: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-29 23:06:20,664: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-29 23:06:20,947: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-29 23:06:21,415: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:06:21,727: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:07:22,370: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:07:22,684: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:08:23,803: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:08:24,118: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:09:24,774: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:09:25,118: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:10:25,836: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:10:26,184: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:12:27,860: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:12:38,806: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:13:01,723: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:13:13,241: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:13:15,116: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:13:16,702: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 23:13:17,172: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:18:50,857: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-29 23:20:19,339: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-29 23:20:19,607: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-29 23:20:20,065: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:20:20,376: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:21:21,009: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:21:21,320: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:22:21,940: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:22:22,269: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:23:22,899: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:23:23,214: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:24:23,891: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:24:24,205: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:26:25,959: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:26:36,891: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:26:59,913: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:27:11,382: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:27:13,241: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:27:14,703: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 23:27:15,709: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:32:16,622: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:32:16,932: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:33:17,565: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:33:17,880: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:34:18,508: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:34:18,823: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:35:19,505: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:35:19,816: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:36:20,485: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:36:20,823: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:38:22,637: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:38:33,584: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:38:56,473: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:39:07,940: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:39:09,772: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:39:11,233: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 23:39:11,630: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:44:34,579: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:44:45,531: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:44:47,358: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:44:58,845: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:45:00,749: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:45:02,215: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 23:45:03,277: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:45:03,589: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-29 23:46:51,294: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-29 23:46:51,563: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-29 23:46:52,123: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:46:52,438: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:47:53,118: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:47:53,435: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:48:54,101: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:48:54,430: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:49:54,996: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:49:55,316: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:50:55,953: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:50:56,269: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-29 23:52:58,095: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:53:09,119: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:53:32,105: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:53:43,565: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:53:45,428: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:53:46,877: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 23:53:47,736: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:59:10,964: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:59:21,904: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:59:23,739: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:59:35,201: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:59:37,053: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-29 23:59:38,510: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-29 23:59:39,527: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-29 23:59:39,843: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-30 00:01:28,917: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-30 00:01:29,184: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-30 00:01:29,657: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:01:29,974: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:02:30,600: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:02:30,927: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:03:31,536: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:03:31,852: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:04:32,496: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:04:32,817: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:05:33,452: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:05:33,804: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:07:35,756: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:07:46,709: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:08:09,611: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:08:21,077: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:08:22,915: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:08:24,373: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:08:24,744: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:13:47,105: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:13:58,054: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:14:20,988: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:14:32,459: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:14:34,289: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:14:35,751: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:14:36,766: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:14:37,076: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-30 00:16:26,123: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-30 00:16:26,431: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-30 00:16:26,898: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:16:27,236: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:17:27,894: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:17:28,208: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:18:28,833: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:18:29,227: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:19:29,899: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:19:30,212: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:20:30,848: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:20:31,192: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:22:33,351: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:22:44,388: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:23:07,378: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:23:18,835: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:23:20,698: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:23:22,147: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:23:23,165: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:28:50,202: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:29:01,143: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:29:02,976: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:29:14,452: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:29:16,281: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:29:17,728: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:29:18,742: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:29:40,193: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:29:51,132: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:30:14,221: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:30:25,738: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:30:27,608: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:30:29,066: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:30:29,437: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:30:29,748: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-30 00:32:18,815: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-30 00:32:19,085: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-30 00:32:19,697: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:32:20,046: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:33:21,933: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:33:22,252: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:34:22,906: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:34:23,225: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:35:23,907: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:35:24,217: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:36:24,857: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:36:25,198: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:38:27,008: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:38:37,960: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:39:00,923: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:39:12,382: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:39:14,219: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:39:15,676: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:39:16,054: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:44:39,292: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:44:50,303: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:44:52,141: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:45:03,599: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:45:05,437: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:45:06,888: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:45:07,931: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:45:08,246: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-30 00:46:57,319: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-30 00:46:57,588: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-30 00:46:58,030: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:46:58,345: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:47:58,991: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:47:59,306: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:48:59,968: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:49:00,285: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:50:00,913: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:50:01,233: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:51:01,924: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:51:02,242: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 00:53:04,075: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:53:15,071: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:53:38,011: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:53:49,475: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:53:51,318: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 00:53:52,767: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 00:53:53,162: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:59:20,222: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:59:31,185: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 00:59:54,223: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:00:05,739: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:00:07,615: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:00:09,068: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:00:09,438: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:00:30,819: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:00:41,761: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:01:04,715: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:01:16,177: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:01:18,006: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:01:19,456: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:01:20,468: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:01:20,794: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging' +++
+
+2021-09-30 01:03:09,854: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i traceback' +++
+
+2021-09-30 01:03:10,151: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show logging | i crash' +++
+
+2021-09-30 01:03:10,616: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:03:10,935: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:04:11,505: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:04:11,817: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:05:12,444: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:05:12,764: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:06:13,372: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:06:13,685: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:07:14,335: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:07:14,653: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:09:16,426: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:09:27,444: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:09:50,381: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:10:01,846: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:10:03,723: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:10:05,191: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:10:05,564: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:15:27,509: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:15:38,456: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:15:40,285: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:15:51,771: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:15:53,602: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:15:55,053: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:15:56,070: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:15:56,609: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:15:56,943: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:16:57,535: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:16:57,855: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:17:58,493: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:17:58,805: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:18:59,369: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:18:59,685: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:20:01,604: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:20:01,957: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:22:03,707: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:22:14,666: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:22:37,649: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:22:49,110: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:22:50,942: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:22:52,391: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:22:53,447: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:28:15,837: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:28:26,816: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:28:28,638: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:28:40,095: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:28:41,923: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:28:43,382: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:28:44,396: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:28:44,903: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:28:45,214: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:29:45,834: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:29:46,153: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:30:46,717: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:30:47,051: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:31:47,672: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:31:47,983: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:32:48,610: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:32:48,922: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:34:50,704: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:35:01,656: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:35:24,660: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:35:36,129: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:35:37,962: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:35:39,436: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:35:40,456: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:41:03,299: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:41:14,252: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:41:16,104: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:41:27,565: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:41:29,453: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:41:30,905: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:41:31,915: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:41:32,405: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:41:32,718: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:42:33,351: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:42:33,663: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:43:34,295: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:43:34,610: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:44:35,237: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:44:35,591: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:45:36,565: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:45:36,876: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:47:38,722: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:47:49,657: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:47:51,478: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:48:02,940: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:48:04,773: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:48:06,225: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:48:07,243: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:53:30,479: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:53:41,456: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:54:04,400: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:54:15,874: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:54:17,723: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 01:54:19,174: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 01:54:19,534: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:54:20,030: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:54:20,344: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:55:20,976: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:55:21,325: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:56:21,963: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:56:22,274: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:57:22,912: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:57:23,229: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 01:58:23,907: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 01:58:24,222: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:00:26,021: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:00:36,971: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:00:59,980: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:01:11,464: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:01:13,294: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:01:14,748: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:01:15,764: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:06:37,824: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:06:48,772: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:06:50,608: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:07:02,074: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:07:03,904: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:07:05,365: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:07:06,387: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:07:06,913: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:07:07,231: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:08:08,053: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:08:08,363: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:09:08,960: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:09:09,279: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:10:09,908: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:10:10,239: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:11:11,979: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:11:12,291: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:13:14,000: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:13:24,947: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:13:47,942: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:13:59,410: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:14:01,241: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:14:02,727: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:14:03,096: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:19:25,634: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:19:36,578: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:19:38,499: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:19:49,960: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:19:51,790: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:19:53,251: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:19:54,295: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:20:09,813: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:20:10,122: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:21:10,754: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:21:11,069: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:22:11,651: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:22:11,968: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:23:12,567: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:23:12,898: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:24:13,525: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:24:13,843: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:26:15,702: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:26:26,642: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:26:28,464: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:26:39,931: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:26:41,761: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:26:43,199: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:26:44,215: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:32:06,093: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:32:17,068: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:32:40,037: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:32:51,505: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:32:53,337: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:32:54,787: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:32:55,164: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:33:10,720: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:33:11,067: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:34:11,699: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:34:12,011: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:35:12,641: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:35:12,964: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:36:13,564: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:36:13,875: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:37:14,519: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:37:14,854: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:39:16,713: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:39:27,661: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:39:50,619: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:40:02,078: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:40:03,912: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:40:05,370: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:40:05,740: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:45:27,601: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:45:38,540: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:45:40,360: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:45:51,824: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:45:53,658: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:45:55,112: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:45:56,129: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:46:11,630: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:46:11,941: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:47:12,566: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:47:12,877: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:48:13,769: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:48:14,080: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:49:14,643: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:49:14,955: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:50:15,573: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:50:15,886: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 02:52:17,718: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:52:28,656: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:52:51,672: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:53:03,129: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:53:04,978: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:53:06,454: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:53:07,462: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:58:29,229: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:58:40,170: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:58:42,067: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:58:53,526: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:58:55,511: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 02:58:57,055: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 02:58:58,163: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:59:13,766: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 02:59:14,075: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:00:14,717: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:00:15,072: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:01:15,669: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:01:15,984: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:02:16,591: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:02:16,912: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:03:17,543: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:03:17,861: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:05:19,687: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:05:30,632: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:05:32,462: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:05:43,931: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:05:45,751: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:05:47,215: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 03:05:48,260: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:11:10,396: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:11:21,348: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:11:23,178: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:11:34,647: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:11:36,477: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:11:37,931: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 03:11:38,943: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:11:41,113: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'write memory' +++
+
+2021-09-30 03:11:46,508: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:11:46,820: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:12:47,450: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:12:47,761: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:13:48,356: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:13:48,667: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:14:49,230: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:14:49,556: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:15:50,160: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:15:50,492: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:17:52,243: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:18:03,237: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:18:05,092: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:18:16,557: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:18:18,383: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:18:19,828: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 03:18:22,069: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:23:22,643: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'write memory' +++
+
+2021-09-30 03:23:28,204: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:23:28,518: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:24:29,155: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:24:29,466: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:25:30,123: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:25:30,470: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:26:31,096: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:26:31,443: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:27:32,073: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:27:32,388: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show telemetry internal connection' +++
+
+2021-09-30 03:29:34,250: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show run interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:29:45,231: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:29:47,081: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:29:58,540: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:30:00,366: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show interface vlan 100' +++
+
+2021-09-30 03:30:01,820: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show authentication sessions interface TenGigabitEthernet3/0/18 details' +++
+
+2021-09-30 03:30:03,830: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show device-tracking database interface TenGigabitEthernet3/0/18' +++
+
+2021-09-30 03:35:04,634: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show redundancy sta |  in peer' +++
+
+2021-09-30 03:35:04,991: %UNICON-INFO: +++ edge-9300 with alias 'a': executing command 'show redundancy sta | inc Redundancy State' +++

@@ -1,0 +1,10 @@
+
+2021-09-02 11:01:10,910: %UNICON-INFO: +++ edge-9300 logfile /auto/iconatest-bgl/production/hcl/pyats3.6.3/users/udasubra/runinfo/wired_client_assurance_job.2021Sep02_11:00:59.299663/edge-9300-b-1630560670.log +++
+
+2021-09-02 11:01:10,910: %UNICON-INFO: +++ Unicon plugin iosxe/cat9k +++
+
+2021-09-02 11:01:19,493: %UNICON-INFO: +++ edge-9300 with alias 'b': executing command 'term length 0' +++
+
+2021-09-02 11:01:19,879: %UNICON-INFO: +++ edge-9300 with alias 'b': executing command 'term width 0' +++
+
+2021-09-02 11:01:20,153: %UNICON-INFO: +++ edge-9300 with alias 'b': executing command 'show version' +++

@@ -1,0 +1,201 @@
+
+2021-09-02 13:42:58,838: %UNICON-INFO: +++ Border logfile /auto/iconatest-bgl/production/hcl/pyats3.6.3/users/udasubra/runinfo/wired_client_assurance_job.2021Sep02_13:42:32.685371/Border-cli-1630570378.log +++
+
+2021-09-02 13:42:58,838: %UNICON-INFO: +++ Unicon plugin ios +++
+Trying 10.106.19.224...
+
+
+2021-09-02 13:42:58,851: %UNICON-INFO: +++ connection to spawn: telnet 10.106.19.224 2029, id: 139713139589304 +++
+
+2021-09-02 13:42:58,851: %UNICON-INFO: connection to Border
+Connected to 10.106.19.224.
+Escape character is '^]'.
+
+Border#
+
+2021-09-02 13:42:59,453: %UNICON-INFO: +++ initializing handle +++
+
+2021-09-02 13:42:59,497: %UNICON-INFO: +++ Border with alias 'a': executing command 'term length 0' +++
+term length 0
+Border#
+
+2021-09-02 13:42:59,660: %UNICON-INFO: +++ Border with alias 'a': executing command 'term width 0' +++
+term width 0
+Border#
+
+2021-09-02 13:42:59,818: %UNICON-INFO: +++ Border with alias 'a': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version 17.05.01
+Cisco IOS Software [Bengaluru], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.5.1, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Sat 27-Mar-21 14:59 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2021 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.3.1r[FC2], RELEASE SOFTWARE (P)
+
+Border uptime is 22 weeks, 2 days, 17 hours, 43 minutes
+Uptime for this control processor is 22 weeks, 2 days, 17 hours, 44 minutes
+System returned to ROM by Image Install 
+System image file is "bootflash:packages.conf"
+Last reload reason: Image Install 
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information: 
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot  
+------------------------------------------------------------------------------
+network-advantage   	Smart License                 	 network-advantage   
+dna-advantage       	Subscription Smart License    	 dna-advantage                 
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C9500-48Y4C (X86) processor with 2895271K/6147K bytes of memory.
+Processor board ID FDO243407SJ
+4 Virtual Ethernet interfaces
+48 TwentyFive Gigabit Ethernet interfaces
+4 Hundred Gigabit Ethernet interfaces
+32768K bytes of non-volatile configuration memory.
+15995844K bytes of physical memory.
+11161600K bytes of Bootflash at bootflash:.
+1638400K bytes of Crash Files at crashinfo:.
+234430023K bytes of SATA hard disk at disk0:.
+
+Base Ethernet MAC Address          : 8c:94:1f:ac:28:e0
+Motherboard Assembly Number        : 4873
+Motherboard Serial Number          : FDO243407SJ
+Model Revision Number              : V02
+Motherboard Revision Number        : 4
+Model Number                       : C9500-48Y4C         
+System Serial Number               : FDO243407SJ
+
+Border#
+
+2021-09-02 13:43:03,587: %UNICON-INFO: +++ Border with alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Border(config)#no logging console
+Border(config)#line console 0
+Border(config-line)#exec-timeout 0
+Border(config-line)#end
+Border#
+
+2021-09-02 13:43:04,133: %UNICON-INFO: +++ Border with alias 'a': executing command 'clear logging' +++
+clear logging
+Clear logging buffer [confirm]
+Border#
+
+2021-09-02 13:49:47,242: %UNICON-INFO: +++ Border with alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Border(config)#ip routing 
+Border(config)#                 ip dhcp pool dhcp4_1 
+Border(dhcp-config)#                 network 150.1.1.0 255.255.255.0 
+Border(dhcp-config)#                 default-router 150.1.1.1 
+Border(dhcp-config)#                 lease 0 0 10 
+Border(dhcp-config)#                 ipv6 unicast-routing 
+Border(config)#                 ipv6 dhcp pool dhcp6_1 
+Border(config-dhcpv6)#                 address prefix 150:1:1::/64 
+Border(config-dhcpv6)#                 dns-server ABCD::1 
+Border(config-dhcpv6)#                 domain-name cisco.com 
+Border(config-dhcpv6)#                 vlan 2 
+Border(config-vlan)#                 vrf definition 1 
+Border(config-vrf)#                 address-family ipv4 
+Border(config-vrf-af)#                 exit-address-family 
+Border(config-vrf)#                 address-family ipv6 
+Border(config-vrf-af)#                 exit-address-family 
+Border(config-vrf)#                 interface GigabitEthernet1/0/1 
+                 interface GigabitEthernet1/0/1 
+                                              ^
+% Invalid input detected at '^' marker.
+
+Border(config)#end
+Border#
+
+2021-09-02 13:49:49,190: %UNICON-INFO: +++ Border with alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Border(config)#ip routing 
+Border(config)#                 ip dhcp pool dhcp4_2 
+Border(dhcp-config)#                 network 151.1.1.0 255.255.255.0 
+Border(dhcp-config)#                 default-router 151.1.1.1 
+Border(dhcp-config)#                 lease 0 0 10 
+Border(dhcp-config)#                 ipv6 unicast-routing 
+Border(config)#                 ipv6 dhcp pool dhcp6_2 
+Border(config-dhcpv6)#                 address prefix 151:1:1::/64 
+Border(config-dhcpv6)#                 dns-server ABCD::1 
+Border(config-dhcpv6)#                 domain-name cisco.com 
+Border(config-dhcpv6)#                 vlan 3 
+Border(config-vlan)#                 vrf definition 2 
+Border(config-vrf)#                 address-family ipv4 
+Border(config-vrf-af)#                 exit-address-family 
+Border(config-vrf)#                 address-family ipv6 
+Border(config-vrf-af)#                 exit-address-family 
+Border(config-vrf)#                 interface GigabitEthernet1/0/3 
+                 interface GigabitEthernet1/0/3 
+                                              ^
+% Invalid input detected at '^' marker.
+
+Border(config)#end
+Border#
+
+2021-09-02 13:49:51,113: %UNICON-INFO: +++ Border with alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+Border(config)#ip routing 
+Border(config)#                 ip dhcp pool dhcp4_3 
+Border(dhcp-config)#                 network 153.1.1.0 255.255.255.0 
+Border(dhcp-config)#                 default-router 153.1.1.1 
+Border(dhcp-config)#                 lease 0 0 10 
+Border(dhcp-config)#                 ipv6 unicast-routing 
+Border(config)#                 ipv6 dhcp pool dhcp6_3 
+Border(config-dhcpv6)#                 address prefix 153:1:1::/64 
+Border(config-dhcpv6)#                 dns-server ABCD::1 
+Border(config-dhcpv6)#                 domain-name cisco.com 
+Border(config-dhcpv6)#                 vlan 4 
+Border(config-vlan)#                 vrf definition 3 
+Border(config-vrf)#                 address-family ipv4 
+Border(config-vrf-af)#                 exit-address-family 
+Border(config-vrf)#                 address-family ipv6 
+Border(config-vrf-af)#                 exit-address-family 
+Border(config-vrf)#                 interface GigabitEthernet1/0/11 
+                 interface GigabitEthernet1/0/11 
+                                              ^
+% Invalid input detected at '^' marker.
+
+Border(config)#end
+Border#
