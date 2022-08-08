@@ -1,0 +1,2 @@
+36: assurance-tb1.cisco.com: 2021-06-29T21:55:45: %CISCO-6-INFO: %[pid=8495][pname=Task-1]: Start Telemetry - Task
+37: assurance-tb1.cisco.com: 2021-06-29T21:55:46: %CISCO-6-INFO: %[pid=8495][pname=Task-1]: Posted data to Kafka returning status code 200 within time 0:00:00.859234

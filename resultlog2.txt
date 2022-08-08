@@ -1,0 +1,400 @@
+ %ASYNC_-3-ERROR: %[part=185.1/20][pid=3463865][pname=ChildLabor-3:1]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=185.3/20][pid=3463865][pname=ChildLabor-3:1]:   args = (<class 'TestRemoveNetconf' uid='TestRemoveNetconf'>, <weakproxy at 0x7ff4a7203408 to Steps at 0x7ff4a71d6a90>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=185.4/20][pid=3463865][pname=ChildLabor-3:1]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=185.5/20][pid=3463865][pname=ChildLabor-3:1]: 
+ %ASYNC_-3-ERROR: %[part=185.6/20][pid=3463865][pname=ChildLabor-3:1]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=185.7/20][pid=3463865][pname=ChildLabor-3:1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 1932, in test_case
+ %ASYNC_-3-ERROR: %[part=185.8/20][pid=3463865][pname=ChildLabor-3:1]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=185.9/20][pid=3463865][pname=ChildLabor-3:1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=185.10/20][pid=3463865][pname=ChildLabor-3:1]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=185.11/20][pid=3463865][pname=ChildLabor-3:1]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=185.12/20][pid=3463865][pname=ChildLabor-3:1]: 
+ %ASYNC_-3-ERROR: %[part=185.13/20][pid=3463865][pname=ChildLabor-3:1]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=185.14/20][pid=3463865][pname=ChildLabor-3:1]: 
+ %ASYNC_-3-ERROR: %[part=185.15/20][pid=3463865][pname=ChildLabor-3:1]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=185.16/20][pid=3463865][pname=ChildLabor-3:1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=185.17/20][pid=3463865][pname=ChildLabor-3:1]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=185.18/20][pid=3463865][pname=ChildLabor-3:1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 1935, in test_case
+ %ASYNC_-3-ERROR: %[part=185.19/20][pid=3463865][pname=ChildLabor-3:1]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=185.20/20][pid=3463865][pname=ChildLabor-3:1]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=186.1/20][pid=3467508][pname=ChildLabor-3:2]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=186.3/20][pid=3467508][pname=ChildLabor-3:2]:   args = (<class 'TestIpDhcpFailure' uid='TestIpDhcpFailure'>, <weakproxy at 0x7ff4a6cb54a8 to Steps at 0x7ff4a6cc29e8>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=186.4/20][pid=3467508][pname=ChildLabor-3:2]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=186.5/20][pid=3467508][pname=ChildLabor-3:2]: 
+ %ASYNC_-3-ERROR: %[part=186.6/20][pid=3467508][pname=ChildLabor-3:2]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.7/20][pid=3467508][pname=ChildLabor-3:2]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2006, in test_case
+ %ASYNC_-3-ERROR: %[part=186.8/20][pid=3467508][pname=ChildLabor-3:2]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=186.9/20][pid=3467508][pname=ChildLabor-3:2]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=186.10/20][pid=3467508][pname=ChildLabor-3:2]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=186.11/20][pid=3467508][pname=ChildLabor-3:2]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=186.12/20][pid=3467508][pname=ChildLabor-3:2]: 
+ %ASYNC_-3-ERROR: %[part=186.13/20][pid=3467508][pname=ChildLabor-3:2]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=186.14/20][pid=3467508][pname=ChildLabor-3:2]: 
+ %ASYNC_-3-ERROR: %[part=186.15/20][pid=3467508][pname=ChildLabor-3:2]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.16/20][pid=3467508][pname=ChildLabor-3:2]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=186.17/20][pid=3467508][pname=ChildLabor-3:2]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=186.18/20][pid=3467508][pname=ChildLabor-3:2]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2009, in test_case
+ %ASYNC_-3-ERROR: %[part=186.19/20][pid=3467508][pname=ChildLabor-3:2]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=186.20/20][pid=3467508][pname=ChildLabor-3:2]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=185.1/20][pid=3473006][pname=ChildLabor-3:3]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=185.3/20][pid=3473006][pname=ChildLabor-3:3]:   args = (<class 'TestAaaDown' uid='TestAaaDown'>, <weakproxy at 0x7ff4a6d3aea8 to Steps at 0x7ff4a6cb60b8>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=185.4/20][pid=3473006][pname=ChildLabor-3:3]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=185.5/20][pid=3473006][pname=ChildLabor-3:3]: 
+ %ASYNC_-3-ERROR: %[part=185.6/20][pid=3473006][pname=ChildLabor-3:3]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=185.7/20][pid=3473006][pname=ChildLabor-3:3]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2205, in test_case
+ %ASYNC_-3-ERROR: %[part=185.8/20][pid=3473006][pname=ChildLabor-3:3]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=185.9/20][pid=3473006][pname=ChildLabor-3:3]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=185.10/20][pid=3473006][pname=ChildLabor-3:3]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=185.11/20][pid=3473006][pname=ChildLabor-3:3]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=185.12/20][pid=3473006][pname=ChildLabor-3:3]: 
+ %ASYNC_-3-ERROR: %[part=185.13/20][pid=3473006][pname=ChildLabor-3:3]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=185.14/20][pid=3473006][pname=ChildLabor-3:3]: 
+ %ASYNC_-3-ERROR: %[part=185.15/20][pid=3473006][pname=ChildLabor-3:3]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=185.16/20][pid=3473006][pname=ChildLabor-3:3]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=185.17/20][pid=3473006][pname=ChildLabor-3:3]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=185.18/20][pid=3473006][pname=ChildLabor-3:3]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2208, in test_case
+ %ASYNC_-3-ERROR: %[part=185.19/20][pid=3473006][pname=ChildLabor-3:3]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=185.20/20][pid=3473006][pname=ChildLabor-3:3]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=186.1/20][pid=3477592][pname=ChildLabor-3:4]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=186.3/20][pid=3477592][pname=ChildLabor-3:4]:   args = (<class 'DeviceTrackingDbCleared' uid='DeviceTrackingDbCleared'>, <weakproxy at 0x7ff4a6cb92c8 to Steps at 0x7ff4a6cc25c0>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=186.4/20][pid=3477592][pname=ChildLabor-3:4]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=186.5/20][pid=3477592][pname=ChildLabor-3:4]: 
+ %ASYNC_-3-ERROR: %[part=186.6/20][pid=3477592][pname=ChildLabor-3:4]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.7/20][pid=3477592][pname=ChildLabor-3:4]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2377, in test_case
+ %ASYNC_-3-ERROR: %[part=186.8/20][pid=3477592][pname=ChildLabor-3:4]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=186.9/20][pid=3477592][pname=ChildLabor-3:4]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=186.10/20][pid=3477592][pname=ChildLabor-3:4]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=186.11/20][pid=3477592][pname=ChildLabor-3:4]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=186.12/20][pid=3477592][pname=ChildLabor-3:4]: 
+ %ASYNC_-3-ERROR: %[part=186.13/20][pid=3477592][pname=ChildLabor-3:4]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=186.14/20][pid=3477592][pname=ChildLabor-3:4]: 
+ %ASYNC_-3-ERROR: %[part=186.15/20][pid=3477592][pname=ChildLabor-3:4]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.16/20][pid=3477592][pname=ChildLabor-3:4]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=186.17/20][pid=3477592][pname=ChildLabor-3:4]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=186.18/20][pid=3477592][pname=ChildLabor-3:4]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2380, in test_case
+ %ASYNC_-3-ERROR: %[part=186.19/20][pid=3477592][pname=ChildLabor-3:4]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=186.20/20][pid=3477592][pname=ChildLabor-3:4]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=194.1/20][pid=3481262][pname=ChildLabor-3:5]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=194.3/20][pid=3481262][pname=ChildLabor-3:5]:   args = (<class 'TestAuthenticatorAndTimeout' uid='TestAuthenticatorAndTimeout'>, <weakproxy at 0x7ff4a6cb5408 to Steps at 0x7ff4a6d490f0>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=194.4/20][pid=3481262][pname=ChildLabor-3:5]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=194.5/20][pid=3481262][pname=ChildLabor-3:5]: 
+ %ASYNC_-3-ERROR: %[part=194.6/20][pid=3481262][pname=ChildLabor-3:5]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=194.7/20][pid=3481262][pname=ChildLabor-3:5]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2579, in test_case
+ %ASYNC_-3-ERROR: %[part=194.8/20][pid=3481262][pname=ChildLabor-3:5]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=194.9/20][pid=3481262][pname=ChildLabor-3:5]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=194.10/20][pid=3481262][pname=ChildLabor-3:5]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=194.11/20][pid=3481262][pname=ChildLabor-3:5]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=194.12/20][pid=3481262][pname=ChildLabor-3:5]: 
+ %ASYNC_-3-ERROR: %[part=194.13/20][pid=3481262][pname=ChildLabor-3:5]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=194.14/20][pid=3481262][pname=ChildLabor-3:5]: 
+ %ASYNC_-3-ERROR: %[part=194.15/20][pid=3481262][pname=ChildLabor-3:5]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=194.16/20][pid=3481262][pname=ChildLabor-3:5]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=194.17/20][pid=3481262][pname=ChildLabor-3:5]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=194.18/20][pid=3481262][pname=ChildLabor-3:5]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2582, in test_case
+ %ASYNC_-3-ERROR: %[part=194.19/20][pid=3481262][pname=ChildLabor-3:5]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=194.20/20][pid=3481262][pname=ChildLabor-3:5]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=187.1/20][pid=3486365][pname=ChildLabor-3:6]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=187.3/20][pid=3486365][pname=ChildLabor-3:6]:   args = (<class 'AccessVlanChange' uid='AccessVlanChange'>, <weakproxy at 0x7ff4a7203818 to Steps at 0x7ff4a624abe0>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=187.4/20][pid=3486365][pname=ChildLabor-3:6]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=187.5/20][pid=3486365][pname=ChildLabor-3:6]: 
+ %ASYNC_-3-ERROR: %[part=187.6/20][pid=3486365][pname=ChildLabor-3:6]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=187.7/20][pid=3486365][pname=ChildLabor-3:6]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2819, in test_case
+ %ASYNC_-3-ERROR: %[part=187.8/20][pid=3486365][pname=ChildLabor-3:6]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=187.9/20][pid=3486365][pname=ChildLabor-3:6]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=187.10/20][pid=3486365][pname=ChildLabor-3:6]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=187.11/20][pid=3486365][pname=ChildLabor-3:6]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=187.12/20][pid=3486365][pname=ChildLabor-3:6]: 
+ %ASYNC_-3-ERROR: %[part=187.13/20][pid=3486365][pname=ChildLabor-3:6]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=187.14/20][pid=3486365][pname=ChildLabor-3:6]: 
+ %ASYNC_-3-ERROR: %[part=187.15/20][pid=3486365][pname=ChildLabor-3:6]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=187.16/20][pid=3486365][pname=ChildLabor-3:6]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=187.17/20][pid=3486365][pname=ChildLabor-3:6]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=187.18/20][pid=3486365][pname=ChildLabor-3:6]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 2822, in test_case
+ %ASYNC_-3-ERROR: %[part=187.19/20][pid=3486365][pname=ChildLabor-3:6]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=187.20/20][pid=3486365][pname=ChildLabor-3:6]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=188.1/20][pid=3491487][pname=ChildLabor-3:7]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=188.3/20][pid=3491487][pname=ChildLabor-3:7]:   args = (<class 'TestAccessSessionHostMode' uid='TestAccessSessionHostMode'>, <weakproxy at 0x7ff4a6cb9818 to Steps at 0x7ff4a71d6860>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=188.4/20][pid=3491487][pname=ChildLabor-3:7]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=188.5/20][pid=3491487][pname=ChildLabor-3:7]: 
+ %ASYNC_-3-ERROR: %[part=188.6/20][pid=3491487][pname=ChildLabor-3:7]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=188.7/20][pid=3491487][pname=ChildLabor-3:7]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3049, in test_case
+ %ASYNC_-3-ERROR: %[part=188.8/20][pid=3491487][pname=ChildLabor-3:7]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=188.9/20][pid=3491487][pname=ChildLabor-3:7]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=188.10/20][pid=3491487][pname=ChildLabor-3:7]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=188.11/20][pid=3491487][pname=ChildLabor-3:7]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=188.12/20][pid=3491487][pname=ChildLabor-3:7]: 
+ %ASYNC_-3-ERROR: %[part=188.13/20][pid=3491487][pname=ChildLabor-3:7]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=188.14/20][pid=3491487][pname=ChildLabor-3:7]: 
+ %ASYNC_-3-ERROR: %[part=188.15/20][pid=3491487][pname=ChildLabor-3:7]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=188.16/20][pid=3491487][pname=ChildLabor-3:7]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=188.17/20][pid=3491487][pname=ChildLabor-3:7]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=188.18/20][pid=3491487][pname=ChildLabor-3:7]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3052, in test_case
+ %ASYNC_-3-ERROR: %[part=188.19/20][pid=3491487][pname=ChildLabor-3:7]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=188.20/20][pid=3491487][pname=ChildLabor-3:7]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=186.1/20][pid=3496407][pname=ChildLabor-3:8]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=186.3/20][pid=3496407][pname=ChildLabor-3:8]:   args = (<class 'TestIpDeleteAccessVlan' uid='TestIpDeleteAccessVlan'>, <weakproxy at 0x7ff4a6cb5638 to Steps at 0x7ff4a624ae80>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=186.4/20][pid=3496407][pname=ChildLabor-3:8]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=186.5/20][pid=3496407][pname=ChildLabor-3:8]: 
+ %ASYNC_-3-ERROR: %[part=186.6/20][pid=3496407][pname=ChildLabor-3:8]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.7/20][pid=3496407][pname=ChildLabor-3:8]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3281, in test_case
+ %ASYNC_-3-ERROR: %[part=186.8/20][pid=3496407][pname=ChildLabor-3:8]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=186.9/20][pid=3496407][pname=ChildLabor-3:8]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=186.10/20][pid=3496407][pname=ChildLabor-3:8]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=186.11/20][pid=3496407][pname=ChildLabor-3:8]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=186.12/20][pid=3496407][pname=ChildLabor-3:8]: 
+ %ASYNC_-3-ERROR: %[part=186.13/20][pid=3496407][pname=ChildLabor-3:8]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=186.14/20][pid=3496407][pname=ChildLabor-3:8]: 
+ %ASYNC_-3-ERROR: %[part=186.15/20][pid=3496407][pname=ChildLabor-3:8]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.16/20][pid=3496407][pname=ChildLabor-3:8]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=186.17/20][pid=3496407][pname=ChildLabor-3:8]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=186.18/20][pid=3496407][pname=ChildLabor-3:8]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3284, in test_case
+ %ASYNC_-3-ERROR: %[part=186.19/20][pid=3496407][pname=ChildLabor-3:8]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=186.20/20][pid=3496407][pname=ChildLabor-3:8]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=188.1/20][pid=3501442][pname=ChildLabor-3:9]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=188.3/20][pid=3501442][pname=ChildLabor-3:9]:   args = (<class 'ShutAccessVlan' uid='ShutAccessVlan'>, <weakproxy at 0x7ff4a6cb9728 to Steps at 0x7ff4a6cc29b0>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=188.4/20][pid=3501442][pname=ChildLabor-3:9]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=188.5/20][pid=3501442][pname=ChildLabor-3:9]: 
+ %ASYNC_-3-ERROR: %[part=188.6/20][pid=3501442][pname=ChildLabor-3:9]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=188.7/20][pid=3501442][pname=ChildLabor-3:9]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3508, in test_case
+ %ASYNC_-3-ERROR: %[part=188.8/20][pid=3501442][pname=ChildLabor-3:9]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=188.9/20][pid=3501442][pname=ChildLabor-3:9]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=188.10/20][pid=3501442][pname=ChildLabor-3:9]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=188.11/20][pid=3501442][pname=ChildLabor-3:9]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=188.12/20][pid=3501442][pname=ChildLabor-3:9]: 
+ %ASYNC_-3-ERROR: %[part=188.13/20][pid=3501442][pname=ChildLabor-3:9]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=188.14/20][pid=3501442][pname=ChildLabor-3:9]: 
+ %ASYNC_-3-ERROR: %[part=188.15/20][pid=3501442][pname=ChildLabor-3:9]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=188.16/20][pid=3501442][pname=ChildLabor-3:9]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=188.17/20][pid=3501442][pname=ChildLabor-3:9]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=188.18/20][pid=3501442][pname=ChildLabor-3:9]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3511, in test_case
+ %ASYNC_-3-ERROR: %[part=188.19/20][pid=3501442][pname=ChildLabor-3:9]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=188.20/20][pid=3501442][pname=ChildLabor-3:9]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=189.1/20][pid=3506145][pname=ChildLabor-3:10]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=189.3/20][pid=3506145][pname=ChildLabor-3:10]:   args = (<class 'RemoveAccessVlan' uid='RemoveAccessVlan'>, <weakproxy at 0x7ff4a6cb9228 to Steps at 0x7ff4a6cc2470>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=189.4/20][pid=3506145][pname=ChildLabor-3:10]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=189.5/20][pid=3506145][pname=ChildLabor-3:10]: 
+ %ASYNC_-3-ERROR: %[part=189.6/20][pid=3506145][pname=ChildLabor-3:10]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=189.7/20][pid=3506145][pname=ChildLabor-3:10]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3718, in test_case
+ %ASYNC_-3-ERROR: %[part=189.8/20][pid=3506145][pname=ChildLabor-3:10]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=189.9/20][pid=3506145][pname=ChildLabor-3:10]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=189.10/20][pid=3506145][pname=ChildLabor-3:10]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=189.11/20][pid=3506145][pname=ChildLabor-3:10]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=189.12/20][pid=3506145][pname=ChildLabor-3:10]: 
+ %ASYNC_-3-ERROR: %[part=189.13/20][pid=3506145][pname=ChildLabor-3:10]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=189.14/20][pid=3506145][pname=ChildLabor-3:10]: 
+ %ASYNC_-3-ERROR: %[part=189.15/20][pid=3506145][pname=ChildLabor-3:10]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=189.16/20][pid=3506145][pname=ChildLabor-3:10]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=189.17/20][pid=3506145][pname=ChildLabor-3:10]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=189.18/20][pid=3506145][pname=ChildLabor-3:10]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3721, in test_case
+ %ASYNC_-3-ERROR: %[part=189.19/20][pid=3506145][pname=ChildLabor-3:10]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=189.20/20][pid=3506145][pname=ChildLabor-3:10]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=183.1/20][pid=3513478][pname=ChildLabor-3:11]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=183.3/20][pid=3513478][pname=ChildLabor-3:11]:   args = (<class 'ConcurrentAuthAllSuccess' uid='ConcurrentAuthAllSuccess'>, <weakproxy at 0x7ff4a6cb9f98 to Steps at 0x7ff4a623d7b8>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=183.4/20][pid=3513478][pname=ChildLabor-3:11]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=183.5/20][pid=3513478][pname=ChildLabor-3:11]: 
+ %ASYNC_-3-ERROR: %[part=183.6/20][pid=3513478][pname=ChildLabor-3:11]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=183.7/20][pid=3513478][pname=ChildLabor-3:11]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3927, in test_case
+ %ASYNC_-3-ERROR: %[part=183.8/20][pid=3513478][pname=ChildLabor-3:11]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=183.9/20][pid=3513478][pname=ChildLabor-3:11]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=183.10/20][pid=3513478][pname=ChildLabor-3:11]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=183.11/20][pid=3513478][pname=ChildLabor-3:11]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=183.12/20][pid=3513478][pname=ChildLabor-3:11]: 
+ %ASYNC_-3-ERROR: %[part=183.13/20][pid=3513478][pname=ChildLabor-3:11]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=183.14/20][pid=3513478][pname=ChildLabor-3:11]: 
+ %ASYNC_-3-ERROR: %[part=183.15/20][pid=3513478][pname=ChildLabor-3:11]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=183.16/20][pid=3513478][pname=ChildLabor-3:11]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=183.17/20][pid=3513478][pname=ChildLabor-3:11]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=183.18/20][pid=3513478][pname=ChildLabor-3:11]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 3930, in test_case
+ %ASYNC_-3-ERROR: %[part=183.19/20][pid=3513478][pname=ChildLabor-3:11]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=183.20/20][pid=3513478][pname=ChildLabor-3:11]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=186.1/20][pid=3520927][pname=ChildLabor-3:12]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=186.3/20][pid=3520927][pname=ChildLabor-3:12]:   args = (<class 'ConcurrentAuthMabFailDot1xPass' uid='ConcurrentAuthMabFailDot1xPass'>, <weakproxy at 0x7ff4a6cc4db8 to Steps at 0x7ff4a623d208>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=186.4/20][pid=3520927][pname=ChildLabor-3:12]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=186.5/20][pid=3520927][pname=ChildLabor-3:12]: 
+ %ASYNC_-3-ERROR: %[part=186.6/20][pid=3520927][pname=ChildLabor-3:12]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.7/20][pid=3520927][pname=ChildLabor-3:12]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4081, in test_case
+ %ASYNC_-3-ERROR: %[part=186.8/20][pid=3520927][pname=ChildLabor-3:12]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=186.9/20][pid=3520927][pname=ChildLabor-3:12]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=186.10/20][pid=3520927][pname=ChildLabor-3:12]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=186.11/20][pid=3520927][pname=ChildLabor-3:12]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=186.12/20][pid=3520927][pname=ChildLabor-3:12]: 
+ %ASYNC_-3-ERROR: %[part=186.13/20][pid=3520927][pname=ChildLabor-3:12]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=186.14/20][pid=3520927][pname=ChildLabor-3:12]: 
+ %ASYNC_-3-ERROR: %[part=186.15/20][pid=3520927][pname=ChildLabor-3:12]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=186.16/20][pid=3520927][pname=ChildLabor-3:12]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=186.17/20][pid=3520927][pname=ChildLabor-3:12]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=186.18/20][pid=3520927][pname=ChildLabor-3:12]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4084, in test_case
+ %ASYNC_-3-ERROR: %[part=186.19/20][pid=3520927][pname=ChildLabor-3:12]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=186.20/20][pid=3520927][pname=ChildLabor-3:12]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=184.1/20][pid=3532319][pname=ChildLabor-3:13]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=184.3/20][pid=3532319][pname=ChildLabor-3:13]:   args = (<class 'ConcurrentAuthDot1xFailMabPass' uid='ConcurrentAuthDot1xFailMabPass'>, <weakproxy at 0x7ff4a6cb99a8 to Steps at 0x7ff4a6cc2438>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=184.4/20][pid=3532319][pname=ChildLabor-3:13]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=184.5/20][pid=3532319][pname=ChildLabor-3:13]: 
+ %ASYNC_-3-ERROR: %[part=184.6/20][pid=3532319][pname=ChildLabor-3:13]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=184.7/20][pid=3532319][pname=ChildLabor-3:13]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4234, in test_case
+ %ASYNC_-3-ERROR: %[part=184.8/20][pid=3532319][pname=ChildLabor-3:13]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=184.9/20][pid=3532319][pname=ChildLabor-3:13]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=184.10/20][pid=3532319][pname=ChildLabor-3:13]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=184.11/20][pid=3532319][pname=ChildLabor-3:13]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=184.12/20][pid=3532319][pname=ChildLabor-3:13]: 
+ %ASYNC_-3-ERROR: %[part=184.13/20][pid=3532319][pname=ChildLabor-3:13]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=184.14/20][pid=3532319][pname=ChildLabor-3:13]: 
+ %ASYNC_-3-ERROR: %[part=184.15/20][pid=3532319][pname=ChildLabor-3:13]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=184.16/20][pid=3532319][pname=ChildLabor-3:13]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=184.17/20][pid=3532319][pname=ChildLabor-3:13]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=184.18/20][pid=3532319][pname=ChildLabor-3:13]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4237, in test_case
+ %ASYNC_-3-ERROR: %[part=184.19/20][pid=3532319][pname=ChildLabor-3:13]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=184.20/20][pid=3532319][pname=ChildLabor-3:13]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=183.1/20][pid=3536680][pname=ChildLabor-3:14]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=183.3/20][pid=3536680][pname=ChildLabor-3:14]:   args = (<class 'ConcurrentAuthAllFail' uid='ConcurrentAuthAllFail'>, <weakproxy at 0x7ff4a6d3a408 to Steps at 0x7ff4a6cc2b38>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=183.4/20][pid=3536680][pname=ChildLabor-3:14]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=183.5/20][pid=3536680][pname=ChildLabor-3:14]: 
+ %ASYNC_-3-ERROR: %[part=183.6/20][pid=3536680][pname=ChildLabor-3:14]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=183.7/20][pid=3536680][pname=ChildLabor-3:14]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4390, in test_case
+ %ASYNC_-3-ERROR: %[part=183.8/20][pid=3536680][pname=ChildLabor-3:14]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=183.9/20][pid=3536680][pname=ChildLabor-3:14]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=183.10/20][pid=3536680][pname=ChildLabor-3:14]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=183.11/20][pid=3536680][pname=ChildLabor-3:14]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=183.12/20][pid=3536680][pname=ChildLabor-3:14]: 
+ %ASYNC_-3-ERROR: %[part=183.13/20][pid=3536680][pname=ChildLabor-3:14]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=183.14/20][pid=3536680][pname=ChildLabor-3:14]: 
+ %ASYNC_-3-ERROR: %[part=183.15/20][pid=3536680][pname=ChildLabor-3:14]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=183.16/20][pid=3536680][pname=ChildLabor-3:14]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=183.17/20][pid=3536680][pname=ChildLabor-3:14]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=183.18/20][pid=3536680][pname=ChildLabor-3:14]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4393, in test_case
+ %ASYNC_-3-ERROR: %[part=183.19/20][pid=3536680][pname=ChildLabor-3:14]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=183.20/20][pid=3536680][pname=ChildLabor-3:14]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=185.1/20][pid=3540611][pname=ChildLabor-3:15]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=185.3/20][pid=3540611][pname=ChildLabor-3:15]:   args = (<class 'ConcurrentAuthPriMabFailDot1xPass' uid='ConcurrentAuthPriMabFailDot1xPass'>, <weakproxy at 0x7ff4a6cc4818 to Steps at 0x7ff4a6247240>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=185.4/20][pid=3540611][pname=ChildLabor-3:15]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=185.5/20][pid=3540611][pname=ChildLabor-3:15]: 
+ %ASYNC_-3-ERROR: %[part=185.6/20][pid=3540611][pname=ChildLabor-3:15]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=185.7/20][pid=3540611][pname=ChildLabor-3:15]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4595, in test_case
+ %ASYNC_-3-ERROR: %[part=185.8/20][pid=3540611][pname=ChildLabor-3:15]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=185.9/20][pid=3540611][pname=ChildLabor-3:15]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=185.10/20][pid=3540611][pname=ChildLabor-3:15]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=185.11/20][pid=3540611][pname=ChildLabor-3:15]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=185.12/20][pid=3540611][pname=ChildLabor-3:15]: 
+ %ASYNC_-3-ERROR: %[part=185.13/20][pid=3540611][pname=ChildLabor-3:15]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=185.14/20][pid=3540611][pname=ChildLabor-3:15]: 
+ %ASYNC_-3-ERROR: %[part=185.15/20][pid=3540611][pname=ChildLabor-3:15]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=185.16/20][pid=3540611][pname=ChildLabor-3:15]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=185.17/20][pid=3540611][pname=ChildLabor-3:15]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=185.18/20][pid=3540611][pname=ChildLabor-3:15]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4598, in test_case
+ %ASYNC_-3-ERROR: %[part=185.19/20][pid=3540611][pname=ChildLabor-3:15]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=185.20/20][pid=3540611][pname=ChildLabor-3:15]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=183.1/20][pid=3544205][pname=ChildLabor-3:16]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=183.3/20][pid=3544205][pname=ChildLabor-3:16]:   args = (<class 'ConcurrentAuthPriMabPassDot1xFail' uid='ConcurrentAuthPriMabPassDot1xFail'>, <weakproxy at 0x7ff4a6cc4ea8 to Steps at 0x7ff4a6cb64e0>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=183.4/20][pid=3544205][pname=ChildLabor-3:16]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=183.5/20][pid=3544205][pname=ChildLabor-3:16]: 
+ %ASYNC_-3-ERROR: %[part=183.6/20][pid=3544205][pname=ChildLabor-3:16]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=183.7/20][pid=3544205][pname=ChildLabor-3:16]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4739, in test_case
+ %ASYNC_-3-ERROR: %[part=183.8/20][pid=3544205][pname=ChildLabor-3:16]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=183.9/20][pid=3544205][pname=ChildLabor-3:16]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=183.10/20][pid=3544205][pname=ChildLabor-3:16]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=183.11/20][pid=3544205][pname=ChildLabor-3:16]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=183.12/20][pid=3544205][pname=ChildLabor-3:16]: 
+ %ASYNC_-3-ERROR: %[part=183.13/20][pid=3544205][pname=ChildLabor-3:16]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=183.14/20][pid=3544205][pname=ChildLabor-3:16]: 
+ %ASYNC_-3-ERROR: %[part=183.15/20][pid=3544205][pname=ChildLabor-3:16]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=183.16/20][pid=3544205][pname=ChildLabor-3:16]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=183.17/20][pid=3544205][pname=ChildLabor-3:16]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=183.18/20][pid=3544205][pname=ChildLabor-3:16]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4742, in test_case
+ %ASYNC_-3-ERROR: %[part=183.19/20][pid=3544205][pname=ChildLabor-3:16]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=183.20/20][pid=3544205][pname=ChildLabor-3:16]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=188.1/20][pid=3548360][pname=ChildLabor-3:17]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=188.3/20][pid=3548360][pname=ChildLabor-3:17]:   args = (<class 'ErrDisableSecurityViolation' uid='ErrDisableSecurityViolation'>, <weakproxy at 0x7ff4a6cb2278 to Steps at 0x7ff4a624a6d8>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=188.4/20][pid=3548360][pname=ChildLabor-3:17]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=188.5/20][pid=3548360][pname=ChildLabor-3:17]: 
+ %ASYNC_-3-ERROR: %[part=188.6/20][pid=3548360][pname=ChildLabor-3:17]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=188.7/20][pid=3548360][pname=ChildLabor-3:17]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4897, in test_case
+ %ASYNC_-3-ERROR: %[part=188.8/20][pid=3548360][pname=ChildLabor-3:17]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=188.9/20][pid=3548360][pname=ChildLabor-3:17]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=188.10/20][pid=3548360][pname=ChildLabor-3:17]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=188.11/20][pid=3548360][pname=ChildLabor-3:17]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=188.12/20][pid=3548360][pname=ChildLabor-3:17]: 
+ %ASYNC_-3-ERROR: %[part=188.13/20][pid=3548360][pname=ChildLabor-3:17]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=188.14/20][pid=3548360][pname=ChildLabor-3:17]: 
+ %ASYNC_-3-ERROR: %[part=188.15/20][pid=3548360][pname=ChildLabor-3:17]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=188.16/20][pid=3548360][pname=ChildLabor-3:17]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=188.17/20][pid=3548360][pname=ChildLabor-3:17]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=188.18/20][pid=3548360][pname=ChildLabor-3:17]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 4900, in test_case
+ %ASYNC_-3-ERROR: %[part=188.19/20][pid=3548360][pname=ChildLabor-3:17]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=188.20/20][pid=3548360][pname=ChildLabor-3:17]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=189.1/20][pid=3552646][pname=ChildLabor-3:18]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=189.3/20][pid=3552646][pname=ChildLabor-3:18]:   args = (<class 'ProtectSecurityViolation' uid='ProtectSecurityViolation'>, <weakproxy at 0x7ff4a6cc46d8 to Steps at 0x7ff4a6cbf0b8>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=189.4/20][pid=3552646][pname=ChildLabor-3:18]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=189.5/20][pid=3552646][pname=ChildLabor-3:18]: 
+ %ASYNC_-3-ERROR: %[part=189.6/20][pid=3552646][pname=ChildLabor-3:18]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=189.7/20][pid=3552646][pname=ChildLabor-3:18]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5059, in test_case
+ %ASYNC_-3-ERROR: %[part=189.8/20][pid=3552646][pname=ChildLabor-3:18]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=189.9/20][pid=3552646][pname=ChildLabor-3:18]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=189.10/20][pid=3552646][pname=ChildLabor-3:18]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=189.11/20][pid=3552646][pname=ChildLabor-3:18]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=189.12/20][pid=3552646][pname=ChildLabor-3:18]: 
+ %ASYNC_-3-ERROR: %[part=189.13/20][pid=3552646][pname=ChildLabor-3:18]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=189.14/20][pid=3552646][pname=ChildLabor-3:18]: 
+ %ASYNC_-3-ERROR: %[part=189.15/20][pid=3552646][pname=ChildLabor-3:18]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=189.16/20][pid=3552646][pname=ChildLabor-3:18]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=189.17/20][pid=3552646][pname=ChildLabor-3:18]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=189.18/20][pid=3552646][pname=ChildLabor-3:18]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5062, in test_case
+ %ASYNC_-3-ERROR: %[part=189.19/20][pid=3552646][pname=ChildLabor-3:18]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=189.20/20][pid=3552646][pname=ChildLabor-3:18]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=202.1/20][pid=3561614][pname=ChildLabor-3:19]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=202.3/20][pid=3561614][pname=ChildLabor-3:19]:   args = (<class 'ReplaceSecurityViolation' uid='ReplaceSecurityViolation'>, <weakproxy at 0x7ff4a6cb9728 to Steps at 0x7ff4a6cc23c8>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=202.4/20][pid=3561614][pname=ChildLabor-3:19]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=202.5/20][pid=3561614][pname=ChildLabor-3:19]: 
+ %ASYNC_-3-ERROR: %[part=202.6/20][pid=3561614][pname=ChildLabor-3:19]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=202.7/20][pid=3561614][pname=ChildLabor-3:19]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5228, in test_case
+ %ASYNC_-3-ERROR: %[part=202.8/20][pid=3561614][pname=ChildLabor-3:19]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=202.9/20][pid=3561614][pname=ChildLabor-3:19]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=202.10/20][pid=3561614][pname=ChildLabor-3:19]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=202.11/20][pid=3561614][pname=ChildLabor-3:19]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=202.12/20][pid=3561614][pname=ChildLabor-3:19]: 
+ %ASYNC_-3-ERROR: %[part=202.13/20][pid=3561614][pname=ChildLabor-3:19]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=202.14/20][pid=3561614][pname=ChildLabor-3:19]: 
+ %ASYNC_-3-ERROR: %[part=202.15/20][pid=3561614][pname=ChildLabor-3:19]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=202.16/20][pid=3561614][pname=ChildLabor-3:19]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=202.17/20][pid=3561614][pname=ChildLabor-3:19]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=202.18/20][pid=3561614][pname=ChildLabor-3:19]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5231, in test_case
+ %ASYNC_-3-ERROR: %[part=202.19/20][pid=3561614][pname=ChildLabor-3:19]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=202.20/20][pid=3561614][pname=ChildLabor-3:19]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED
+ %ASYNC_-3-ERROR: %[part=187.1/20][pid=3566562][pname=ChildLabor-3:20]: Caught error while executing target in child process-0:
+ %ASYNC_-3-ERROR: %[part=187.3/20][pid=3566562][pname=ChildLabor-3:20]:   args = (<class 'RestrictSecurityViolation' uid='RestrictSecurityViolation'>, <weakproxy at 0x7ff4a6cc48b8 to Steps at 0x7ff4a6d49c18>, 'https://10.126.109.107/api/assurance/v1/events/view?entityId={}&offset=1&limit=3000&entityType=wired_client&startTime={}&endTime={}&order=asc', 'https://10.126.109.107/api/assurance/v1/host/{}/service/?timestamp={}', 'https://10.126.109.107/api/assurance/v1/host/{}/neighbor-topology?timestamp={}', 'https://10.126.109.107/api/assurance/v1/issue?entityId={}&entityName=macAddr&limit=1000&offset=1&startTime={}&endTIme={}&sortBy=priority&order=asc', <Logger pyats.aetest.testscript.wired_client_assurance (DEBUG)>, <uniq.common.base.Base object at 0x7ff4a728c0b8>, 'uut1')
+ %ASYNC_-3-ERROR: %[part=187.4/20][pid=3566562][pname=ChildLabor-3:20]:   kwargs = {}
+ %ASYNC_-3-ERROR: %[part=187.5/20][pid=3566562][pname=ChildLabor-3:20]: 
+ %ASYNC_-3-ERROR: %[part=187.6/20][pid=3566562][pname=ChildLabor-3:20]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=187.7/20][pid=3566562][pname=ChildLabor-3:20]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5389, in test_case
+ %ASYNC_-3-ERROR: %[part=187.8/20][pid=3566562][pname=ChildLabor-3:20]:     basic_check(Variables, dev, self.parent.parameters)
+ %ASYNC_-3-ERROR: %[part=187.9/20][pid=3566562][pname=ChildLabor-3:20]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 388, in basic_check
+ %ASYNC_-3-ERROR: %[part=187.10/20][pid=3566562][pname=ChildLabor-3:20]:     raise Exception('Verification failed Client is not Up')
+ %ASYNC_-3-ERROR: %[part=187.11/20][pid=3566562][pname=ChildLabor-3:20]: Exception: Verification failed Client is not Up
+ %ASYNC_-3-ERROR: %[part=187.12/20][pid=3566562][pname=ChildLabor-3:20]: 
+ %ASYNC_-3-ERROR: %[part=187.13/20][pid=3566562][pname=ChildLabor-3:20]: During handling of the above exception, another exception occurred:
+ %ASYNC_-3-ERROR: %[part=187.14/20][pid=3566562][pname=ChildLabor-3:20]: 
+ %ASYNC_-3-ERROR: %[part=187.15/20][pid=3566562][pname=ChildLabor-3:20]: Traceback (most recent call last):
+ %ASYNC_-3-ERROR: %[part=187.16/20][pid=3566562][pname=ChildLabor-3:20]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/async_/parallelcall.py", line 90, in run
+ %ASYNC_-3-ERROR: %[part=187.17/20][pid=3566562][pname=ChildLabor-3:20]:     result += (True, self._target(*self._args, **self._kwargs))
+ %ASYNC_-3-ERROR: %[part=187.18/20][pid=3566562][pname=ChildLabor-3:20]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5392, in test_case
+ %ASYNC_-3-ERROR: %[part=187.19/20][pid=3566562][pname=ChildLabor-3:20]:     raise ChildProcessException()
+ %ASYNC_-3-ERROR: %[part=187.20/20][pid=3566562][pname=ChildLabor-3:20]: pyats.async_.exceptions.ChildProcessException
+ %AETEST-6-INFO: %[pid=3457129][pname=Task-1]: The result of section test_sub_function is => FAILED

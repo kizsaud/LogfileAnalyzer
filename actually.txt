@@ -1,0 +1,12 @@
+ %AETEST-6-INFO: %[part=407.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 1: Obtain REP Interface details before Test Start is => ERRORED
+
+ %AETEST-6-INFO: %[part=464.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 2: Obtain REP Interface details before Test Start is => ERRORED
+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 6:  Stopping the TRAFFIC from IXIA is => ERRORED
+
+ %AETEST-6-INFO: %[part=744.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+

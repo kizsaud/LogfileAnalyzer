@@ -1,0 +1,238 @@
+3: assurance-tb1.cisco.com: 2021-07-01T13:40:29: %AETEST-6-INFO: %[part=3.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+4: assurance-tb1.cisco.com: 2021-07-01T13:40:29: %AETEST-6-INFO: %[part=3.2/3][pid=8226][pname=Task-1]: |                            Starting common setup                             |
+5: assurance-tb1.cisco.com: 2021-07-01T13:40:29: %AETEST-6-INFO: %[part=3.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+6: assurance-tb1.cisco.com: 2021-07-01T13:40:29: %AETEST-6-INFO: %[part=6.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+7: assurance-tb1.cisco.com: 2021-07-01T13:40:29: %AETEST-6-INFO: %[part=6.2/3][pid=8226][pname=Task-1]: |                       Starting subsection common_setup                       |
+8: assurance-tb1.cisco.com: 2021-07-01T13:40:29: %AETEST-6-INFO: %[part=6.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+9: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.1/31][pid=8226][pname=Task-1]: Caught an exception while executing subsection common_setup:
+10: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.2/31][pid=8226][pname=Task-1]: Traceback (most recent call last):
+11: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.3/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 1161, in common_setup
+12: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.4/31][pid=8226][pname=Task-1]:     connect=True)
+13: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.5/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/uniq/apis/apicem/client_manager.py", line 204, in __init__
+14: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.6/31][pid=8226][pname=Task-1]:     self.connect()
+15: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.7/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/uniq/apis/apicem/client_manager.py", line 382, in connect
+16: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.8/31][pid=8226][pname=Task-1]:     self._maglev_authenticate()
+17: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.9/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/uniq/apis/apicem/client_manager.py", line 544, in _maglev_authenticate
+18: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.10/31][pid=8226][pname=Task-1]:     verify=False)
+19: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.11/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/uniq/apis/apicem/client_manager.py", line 494, in call_api
+20: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.12/31][pid=8226][pname=Task-1]:     **kwargs)
+21: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.13/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/uniq/apis/client_manager.py", line 211, in call_api
+22: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.14/31][pid=8226][pname=Task-1]:     response = requests.request(method, url, headers=headers, verify=verify, **kwargs)
+23: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.15/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/requests/api.py", line 61, in request
+24: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.16/31][pid=8226][pname=Task-1]:     return session.request(method=method, url=url, **kwargs)
+25: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.17/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+26: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.18/31][pid=8226][pname=Task-1]:     resp = self.send(prep, **send_kwargs)
+27: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.19/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+28: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.20/31][pid=8226][pname=Task-1]:     r = adapter.send(request, **kwargs)
+29: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.21/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+30: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.22/31][pid=8226][pname=Task-1]:     timeout=timeout
+31: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.23/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 696, in urlopen
+32: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.24/31][pid=8226][pname=Task-1]:     self._prepare_proxy(conn)
+33: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.25/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 964, in _prepare_proxy
+34: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.26/31][pid=8226][pname=Task-1]:     conn.connect()
+35: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.27/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 359, in connect
+36: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.28/31][pid=8226][pname=Task-1]:     conn = self._connect_tls_proxy(hostname, conn)
+37: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.29/31][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/urllib3/connection.py", line 496, in _connect_tls_proxy
+38: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.30/31][pid=8226][pname=Task-1]:     ssl_context.check_hostname = True
+39: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=9.31/31][pid=8226][pname=Task-1]: ValueError: check_hostname needs a SSL context with either CERT_OPTIONAL or CERT_REQUIRED
+40: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of subsection common_setup is => ERRORED
+41: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=41.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+42: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=41.2/3][pid=8226][pname=Task-1]: |                    Starting subsection connect_to_devices                    |
+43: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=41.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+44: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %SCRIPT-6-INFO: %[part=44.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+45: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %SCRIPT-6-INFO: %[part=44.2/3][pid=8226][pname=Task-1]: |                       ***** Aetest Common Setup *****                        |
+46: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %SCRIPT-6-INFO: %[part=44.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+47: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=47.1/5][pid=8226][pname=Task-1]: Caught an exception while executing subsection connect_to_devices:
+48: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=47.2/5][pid=8226][pname=Task-1]: Traceback (most recent call last):
+49: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=47.3/5][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 1226, in connect_to_devices
+50: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=47.4/5][pid=8226][pname=Task-1]:     for dev in self.testbed.devices if not dev == 'apic-em' and not dev == 'ixia'}
+51: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=47.5/5][pid=8226][pname=Task-1]: AttributeError: 'CommonSetup' object has no attribute 'testbed'
+52: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of subsection connect_to_devices is => ERRORED
+53: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=53.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+54: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=53.2/3][pid=8226][pname=Task-1]: |                       Starting subsection dnac_connect                       |
+55: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=53.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+56: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=56.1/5][pid=8226][pname=Task-1]: Caught an exception while executing subsection dnac_connect:
+57: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=56.2/5][pid=8226][pname=Task-1]: Traceback (most recent call last):
+58: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=56.3/5][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 1248, in dnac_connect
+59: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=56.4/5][pid=8226][pname=Task-1]:     apic_device = self.testbed.devices['apic-em']
+60: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=56.5/5][pid=8226][pname=Task-1]: AttributeError: 'CommonSetup' object has no attribute 'testbed'
+61: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of subsection dnac_connect is => ERRORED
+62: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=62.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+63: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=62.2/3][pid=8226][pname=Task-1]: |                 Starting subsection create_parent_parameters                 |
+64: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=62.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+65: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=65.1/5][pid=8226][pname=Task-1]: Caught an exception while executing subsection create_parent_parameters:
+66: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=65.2/5][pid=8226][pname=Task-1]: Traceback (most recent call last):
+67: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=65.3/5][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 1282, in create_parent_parameters
+68: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=65.4/5][pid=8226][pname=Task-1]:     'testbed': self.testbed,
+69: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=65.5/5][pid=8226][pname=Task-1]: AttributeError: 'CommonSetup' object has no attribute 'testbed'
+70: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of subsection create_parent_parameters is => ERRORED
+71: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of common setup is => ERRORED
+72: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=72.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+73: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=72.2/3][pid=8226][pname=Task-1]: |                   Starting testcase TestBrownFieldScenario                   |
+74: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=72.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+75: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestBrownFieldScenario because common_setup did not pass.
+76: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestBrownFieldScenario is => BLOCKED
+77: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=77.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+78: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=77.2/3][pid=8226][pname=Task-1]: |             Starting testcase TestTelemetryConnectionBrownField              |
+79: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=77.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+80: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestTelemetryConnectionBrownField because common_setup did not pass.
+81: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestTelemetryConnectionBrownField is => BLOCKED
+82: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=82.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+83: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=82.2/3][pid=8226][pname=Task-1]: |                   Starting testcase DnacGreenFieldScenario                   |
+84: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=82.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+85: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking DnacGreenFieldScenario because common_setup did not pass.
+86: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase DnacGreenFieldScenario is => BLOCKED
+87: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=87.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+88: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=87.2/3][pid=8226][pname=Task-1]: |             Starting testcase TestTelemetryConnectionGreenField              |
+89: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=87.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+90: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestTelemetryConnectionGreenField because common_setup did not pass.
+91: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestTelemetryConnectionGreenField is => BLOCKED
+92: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=92.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+93: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=92.2/3][pid=8226][pname=Task-1]: |                    Starting testcase DeviceConfigurations                    |
+94: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=92.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+95: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking DeviceConfigurations because common_setup did not pass.
+96: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase DeviceConfigurations is => BLOCKED
+97: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=97.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+98: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=97.2/3][pid=8226][pname=Task-1]: |                  Starting testcase PopulateAccessDictionary                  |
+99: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=97.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+100: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking PopulateAccessDictionary because common_setup did not pass.
+101: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase PopulateAccessDictionary is => BLOCKED
+102: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=102.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+103: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=102.2/3][pid=8226][pname=Task-1]: |                     Starting testcase TestRemoveNetconf                      |
+104: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=102.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+105: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestRemoveNetconf because common_setup did not pass.
+106: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestRemoveNetconf is => BLOCKED
+107: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=107.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+108: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=107.2/3][pid=8226][pname=Task-1]: |                     Starting testcase TestIpDhcpFailure                      |
+109: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=107.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+110: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestIpDhcpFailure because common_setup did not pass.
+111: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestIpDhcpFailure is => BLOCKED
+112: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=112.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+113: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=112.2/3][pid=8226][pname=Task-1]: |                        Starting testcase TestAaaDown                         |
+114: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=112.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+115: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestAaaDown because common_setup did not pass.
+116: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestAaaDown is => BLOCKED
+117: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=117.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+118: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=117.2/3][pid=8226][pname=Task-1]: |                  Starting testcase DeviceTrackingDbCleared                   |
+119: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=117.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+120: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking DeviceTrackingDbCleared because common_setup did not pass.
+121: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase DeviceTrackingDbCleared is => BLOCKED
+122: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=122.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+123: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=122.2/3][pid=8226][pname=Task-1]: |                Starting testcase TestAuthenticatorAndTimeout                 |
+124: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=122.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+125: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestAuthenticatorAndTimeout because common_setup did not pass.
+126: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestAuthenticatorAndTimeout is => BLOCKED
+127: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=127.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+128: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=127.2/3][pid=8226][pname=Task-1]: |                      Starting testcase AccessVlanChange                      |
+129: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=127.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+130: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking AccessVlanChange because common_setup did not pass.
+131: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase AccessVlanChange is => BLOCKED
+132: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=132.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+133: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=132.2/3][pid=8226][pname=Task-1]: |                 Starting testcase TestAccessSessionHostMode                  |
+134: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=132.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+135: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestAccessSessionHostMode because common_setup did not pass.
+136: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestAccessSessionHostMode is => BLOCKED
+137: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=137.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+138: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=137.2/3][pid=8226][pname=Task-1]: |                   Starting testcase TestIpDeleteAccessVlan                   |
+139: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=137.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+140: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestIpDeleteAccessVlan because common_setup did not pass.
+141: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestIpDeleteAccessVlan is => BLOCKED
+142: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=142.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+143: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=142.2/3][pid=8226][pname=Task-1]: |                       Starting testcase ShutAccessVlan                       |
+144: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=142.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+145: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ShutAccessVlan because common_setup did not pass.
+146: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ShutAccessVlan is => BLOCKED
+147: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=147.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+148: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=147.2/3][pid=8226][pname=Task-1]: |                      Starting testcase RemoveAccessVlan                      |
+149: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=147.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+150: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking RemoveAccessVlan because common_setup did not pass.
+151: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase RemoveAccessVlan is => BLOCKED
+152: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=152.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+153: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=152.2/3][pid=8226][pname=Task-1]: |                  Starting testcase ConcurrentAuthAllSuccess                  |
+154: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=152.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+155: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ConcurrentAuthAllSuccess because common_setup did not pass.
+156: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ConcurrentAuthAllSuccess is => BLOCKED
+157: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=157.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+158: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=157.2/3][pid=8226][pname=Task-1]: |               Starting testcase ConcurrentAuthMabFailDot1xPass               |
+159: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=157.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+160: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ConcurrentAuthMabFailDot1xPass because common_setup did not pass.
+161: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ConcurrentAuthMabFailDot1xPass is => BLOCKED
+162: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=162.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+163: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=162.2/3][pid=8226][pname=Task-1]: |               Starting testcase ConcurrentAuthDot1xFailMabPass               |
+164: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=162.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+165: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ConcurrentAuthDot1xFailMabPass because common_setup did not pass.
+166: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ConcurrentAuthDot1xFailMabPass is => BLOCKED
+167: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=167.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+168: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=167.2/3][pid=8226][pname=Task-1]: |                   Starting testcase ConcurrentAuthAllFail                    |
+169: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=167.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+170: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ConcurrentAuthAllFail because common_setup did not pass.
+171: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ConcurrentAuthAllFail is => BLOCKED
+172: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=172.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+173: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=172.2/3][pid=8226][pname=Task-1]: |             Starting testcase ConcurrentAuthPriMabFailDot1xPass              |
+174: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=172.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+175: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ConcurrentAuthPriMabFailDot1xPass because common_setup did not pass.
+176: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ConcurrentAuthPriMabFailDot1xPass is => BLOCKED
+177: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=177.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+178: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=177.2/3][pid=8226][pname=Task-1]: |             Starting testcase ConcurrentAuthPriMabPassDot1xFail              |
+179: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=177.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+180: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ConcurrentAuthPriMabPassDot1xFail because common_setup did not pass.
+181: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ConcurrentAuthPriMabPassDot1xFail is => BLOCKED
+182: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=182.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+183: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=182.2/3][pid=8226][pname=Task-1]: |                Starting testcase ErrDisableSecurityViolation                 |
+184: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=182.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+185: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ErrDisableSecurityViolation because common_setup did not pass.
+186: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ErrDisableSecurityViolation is => BLOCKED
+187: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=187.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+188: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=187.2/3][pid=8226][pname=Task-1]: |                  Starting testcase ProtectSecurityViolation                  |
+189: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=187.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+190: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ProtectSecurityViolation because common_setup did not pass.
+191: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ProtectSecurityViolation is => BLOCKED
+192: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=192.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+193: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=192.2/3][pid=8226][pname=Task-1]: |                  Starting testcase ReplaceSecurityViolation                  |
+194: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=192.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+195: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ReplaceSecurityViolation because common_setup did not pass.
+196: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ReplaceSecurityViolation is => BLOCKED
+197: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=197.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+198: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=197.2/3][pid=8226][pname=Task-1]: |                 Starting testcase RestrictSecurityViolation                  |
+199: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=197.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+200: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking RestrictSecurityViolation because common_setup did not pass.
+201: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase RestrictSecurityViolation is => BLOCKED
+202: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=202.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+203: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=202.2/3][pid=8226][pname=Task-1]: |                      Starting testcase TestDeviceReload                      |
+204: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=202.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+205: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestDeviceReload because common_setup did not pass.
+206: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestDeviceReload is => BLOCKED
+207: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=207.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+208: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=207.2/3][pid=8226][pname=Task-1]: |                          Starting testcase TestSwo                           |
+209: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=207.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+210: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking TestSwo because common_setup did not pass.
+211: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase TestSwo is => BLOCKED
+212: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=212.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+213: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=212.2/3][pid=8226][pname=Task-1]: |                         Starting testcase ISSUUpdate                         |
+214: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=212.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+215: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking ISSUUpdate because common_setup did not pass.
+216: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase ISSUUpdate is => BLOCKED
+217: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=217.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+218: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=217.2/3][pid=8226][pname=Task-1]: |                   Starting testcase DeleteDevicesFromDnac                    |
+219: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=217.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+220: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: Blocking DeleteDevicesFromDnac because common_setup did not pass.
+221: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of testcase DeleteDevicesFromDnac is => BLOCKED
+222: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=222.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+223: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=222.2/3][pid=8226][pname=Task-1]: |                           Starting common cleanup                            |
+224: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=222.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+225: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=225.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+226: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=225.2/3][pid=8226][pname=Task-1]: |                     Starting subsection clean_up_devices                     |
+227: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=225.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+228: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=228.1/5][pid=8226][pname=Task-1]: Caught an exception while executing subsection clean_up_devices:
+229: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=228.2/5][pid=8226][pname=Task-1]: Traceback (most recent call last):
+230: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=228.3/5][pid=8226][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5857, in clean_up_devices
+231: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=228.4/5][pid=8226][pname=Task-1]:     for uut in Variables.telemetry_success_devices:
+232: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-3-ERROR: %[part=228.5/5][pid=8226][pname=Task-1]: AttributeError: type object 'Variables' has no attribute 'telemetry_success_devices'
+233: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of subsection clean_up_devices is => ERRORED
+234: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=234.1/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+235: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=234.2/3][pid=8226][pname=Task-1]: |                 Starting subsection disconnect_from_devices                  |
+236: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[part=234.3/3][pid=8226][pname=Task-1]: +------------------------------------------------------------------------------+
+237: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of subsection disconnect_from_devices is => PASSED
+238: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %AETEST-6-INFO: %[pid=8226][pname=Task-1]: The result of common cleanup is => ERRORED
+239: assurance-tb1.cisco.com: 2021-07-01T13:40:31: %CISCO-6-INFO: %[pid=8226][pname=Task-1]: Start Telemetry - Task
+240: assurance-tb1.cisco.com: 2021-07-01T13:40:32: %CISCO-6-INFO: %[pid=8226][pname=Task-1]: Posted data to Kafka returning status code 200 within time 0:00:00.859364

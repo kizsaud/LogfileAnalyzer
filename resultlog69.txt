@@ -1,0 +1,41 @@
+ %AETEST-3-ERROR: %[part=424.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_config_and_verify_test:
+ %AETEST-3-ERROR: %[part=424.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 837, in REP_config_and_verify_test
+ %AETEST-3-ERROR: %[part=424.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=424.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_config_and_verify_test is => ERRORED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of testcase Tsz7693096c is => ERRORED
+ %AETEST-3-ERROR: %[part=448.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_setup:
+ %AETEST-3-ERROR: %[part=448.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 883, in REP_L2_convergence_setup
+ %AETEST-3-ERROR: %[part=448.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=448.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[part=453.1/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-3-ERROR: %[part=477.1/9][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_cleanup:
+ %AETEST-3-ERROR: %[part=477.3/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1265, in REP_L2_convergence_cleanup
+ %AETEST-3-ERROR: %[part=477.4/9][pid=13155][pname=Task-1]:     (IxPort1[1], IxPort2[1]))
+ %AETEST-3-ERROR: %[part=477.5/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/production/hcl/pyats3.6.4/lib/python3.6/site-packages/pyats/tcl/interpreter.py", line 267, in eval
+ %AETEST-3-ERROR: %[part=477.6/9][pid=13155][pname=Task-1]:     raise TclError(self.vars['::errorInfo']) from None
+ %AETEST-3-ERROR: %[part=477.7/9][pid=13155][pname=Task-1]: _tkinter.TclError: can't read "streamID": no such variable
+ %AETEST-3-ERROR: %[part=477.8/9][pid=13155][pname=Task-1]:     while executing
+ %AETEST-3-ERROR: %[part=477.9/9][pid=13155][pname=Task-1]: "ixia::traffic_config   -mode remove -stream_id  $streamID -name REP_L2_TC_upstream -port_handle 1/11/1 -port_handle2 1/11/2"
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_L2_convergence_cleanup is => ERRORED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of testcase Tsz7693111c is => ERRORED
+ %AETEST-3-ERROR: %[part=661.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_setup:
+ %AETEST-3-ERROR: %[part=661.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1386, in REP_L2_convergence_setup
+ %AETEST-3-ERROR: %[part=661.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=661.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[part=666.1/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-3-ERROR: %[part=720.1/9][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_cleanup:
+ %AETEST-3-ERROR: %[part=720.3/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1756, in REP_L2_convergence_cleanup
+ %AETEST-3-ERROR: %[part=720.4/9][pid=13155][pname=Task-1]:     (IxPort1[1], IxPort2[1]))
+ %AETEST-3-ERROR: %[part=720.5/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/production/hcl/pyats3.6.4/lib/python3.6/site-packages/pyats/tcl/interpreter.py", line 267, in eval
+ %AETEST-3-ERROR: %[part=720.6/9][pid=13155][pname=Task-1]:     raise TclError(self.vars['::errorInfo']) from None
+ %AETEST-3-ERROR: %[part=720.7/9][pid=13155][pname=Task-1]: _tkinter.TclError: can't read "streamID": no such variable
+ %AETEST-3-ERROR: %[part=720.8/9][pid=13155][pname=Task-1]:     while executing
+ %AETEST-3-ERROR: %[part=720.9/9][pid=13155][pname=Task-1]: "ixia::traffic_config   -mode remove -stream_id  $streamID -name REP_L2_TC_upstream -port_handle 1/11/1 -port_handle2 1/11/2"
+ %AETEST-6-INFO: %[part=729.1/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-3-ERROR: %[part=758.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_Unicast_convergence:
+ %AETEST-3-ERROR: %[part=758.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1800, in REP_Unicast_convergence
+ %AETEST-3-ERROR: %[part=758.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=758.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_Unicast_convergence is => ERRORED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of testcase Tsz7693115c is => ERRORED

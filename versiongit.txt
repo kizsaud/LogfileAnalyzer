@@ -1,0 +1,5 @@
+Switch Ports Model              SW Version        SW Image              Mode   
+*    1 34    WS-C3850-24XS      16.12.6           CAT3K_CAA-UNIVERSALK9 INSTALL
+
+None
+NONE

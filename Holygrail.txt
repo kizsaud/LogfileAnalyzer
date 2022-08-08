@@ -1,0 +1,225 @@
+3: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=3.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+4: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=3.2/3][pid=3367076][pname=Task-1]: |                               Starting script                                |
+5: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=3.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+6: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=6.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+7: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=6.2/3][pid=3367076][pname=Task-1]: |                           Common Setup is running                            |
+8: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=6.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+9: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=9.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+10: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=9.2/3][pid=3367076][pname=Task-1]: |    [DESCRIPTION]      Verify 4Kvlan with maximum portchannel after reload    |
+11: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=9.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+12: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=12.1/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+13: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=12.2/4][pid=3367076][pname=Task-1]: |    [DESCRIPTION]      Verify 4Kvlan with maximum portchannel after switch    |
+14: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=12.3/4][pid=3367076][pname=Task-1]: |                                     over                                     |
+15: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=12.4/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+16: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=16.1/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+17: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=16.2/4][pid=3367076][pname=Task-1]: |    [DESCRIPTION]      Verify 4Kvlan with maximum portchannel after soft o    |
+18: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=16.3/4][pid=3367076][pname=Task-1]: |                               ir of line card                                |
+19: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=16.4/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+20: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=20.1/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+21: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=20.2/4][pid=3367076][pname=Task-1]: |    [DESCRIPTION]      Verify 4Kvlan with maximum portchannel after unconf    |
+22: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=20.3/4][pid=3367076][pname=Task-1]: |                                ig/config vlan                                |
+23: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=20.4/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+24: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=24.1/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+25: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=24.2/4][pid=3367076][pname=Task-1]: |    [DESCRIPTION]      Verify 4Kvlan with maximum portchannel after shut a    |
+26: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=24.3/4][pid=3367076][pname=Task-1]: |                            nd unshut port channel                            |
+27: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=24.4/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+28: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=28.1/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+29: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=28.2/4][pid=3367076][pname=Task-1]: |    [DESCRIPTION]      Verify 4Kvlan with maximum portchannel after shut a    |
+30: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=28.3/4][pid=3367076][pname=Task-1]: |                        nd unshut port channel member                         |
+31: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=28.4/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+32: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=32.1/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+33: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=32.2/4][pid=3367076][pname=Task-1]: |    [DESCRIPTION]      Verify 4Kvlan with maximum portchannel with LACP st    |
+34: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=32.3/4][pid=3367076][pname=Task-1]: |                                 andby member                                 |
+35: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=32.4/4][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+36: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=36.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+37: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=36.2/3][pid=3367076][pname=Task-1]: |     [DESCRIPTION]      Verify 4Kvlan with maximum portchannel after ISSU     |
+38: sjc-ads-7048: 2022-05-10T10:55:03: %SCRIPT-6-INFO: %[part=36.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+39: sjc-ads-7048: 2022-05-10T10:55:05: %AETEST-6-INFO: %[part=39.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+40: sjc-ads-7048: 2022-05-10T10:55:05: %AETEST-6-INFO: %[part=39.2/3][pid=3367076][pname=Task-1]: |                            Starting common setup                             |
+41: sjc-ads-7048: 2022-05-10T10:55:05: %AETEST-6-INFO: %[part=39.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+42: sjc-ads-7048: 2022-05-10T10:55:06: %AETEST-6-INFO: %[part=42.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+43: sjc-ads-7048: 2022-05-10T10:55:06: %AETEST-6-INFO: %[part=42.2/3][pid=3367076][pname=Task-1]: |                      Starting subsection load_topology                       |
+44: sjc-ads-7048: 2022-05-10T10:55:06: %AETEST-6-INFO: %[part=42.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+45: sjc-ads-7048: 2022-05-10T10:55:06: %SCRIPT-6-INFO: %[part=45.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+46: sjc-ads-7048: 2022-05-10T10:55:06: %SCRIPT-6-INFO: %[part=45.2/3][pid=3367076][pname=Task-1]: |               Load Testbed and designate UUT and PEER devices                |
+47: sjc-ads-7048: 2022-05-10T10:55:06: %SCRIPT-6-INFO: %[part=45.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+48: sjc-ads-7048: 2022-05-10T10:55:06: %AETEST-6-INFO: %[pid=3367076][pname=Task-1]: Passed reason: Testbed and UUT loading completed Successfully
+49: sjc-ads-7048: 2022-05-10T10:55:06: %AETEST-6-INFO: %[pid=3367076][pname=Task-1]: The result of subsection load_topology is => PASSED
+50: sjc-ads-7048: 2022-05-10T10:55:07: %AETEST-6-INFO: %[part=50.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+51: sjc-ads-7048: 2022-05-10T10:55:07: %AETEST-6-INFO: %[part=50.2/3][pid=3367076][pname=Task-1]: |                Starting subsection print_testbed_information                 |
+52: sjc-ads-7048: 2022-05-10T10:55:07: %AETEST-6-INFO: %[part=50.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+53: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut1 interfaces list connected to dut2
+54: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['GigabitEthernet1/0/41', 'GigabitEthernet1/0/42', 'GigabitEthernet1/0/43', 'GigabitEthernet1/0/44', 'GigabitEthernet1/0/45', 'GigabitEthernet1/0/46', 'GigabitEthernet1/0/47', 'GigabitEthernet1/0/48', 'GigabitEthernet2/0/13', 'GigabitEthernet2/0/14', 'GigabitEthernet2/0/15', 'GigabitEthernet2/0/16', 'GigabitEthernet2/0/17', 'GigabitEthernet2/0/18', 'GigabitEthernet2/0/19', 'GigabitEthernet2/0/20']
+55: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut1 interfaces list connected to dut3
+56: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['GigabitEthernet1/0/25', 'GigabitEthernet1/0/26', 'GigabitEthernet1/0/27', 'GigabitEthernet1/0/28']
+57: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut1 interfaces list connected to dut4
+58: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['GigabitEthernet1/0/29', 'GigabitEthernet1/0/30']
+59: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut2 interfaces list connected to dut1
+60: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['GigabitEthernet1/1/0/41', 'GigabitEthernet1/1/0/42', 'GigabitEthernet1/1/0/43', 'GigabitEthernet1/1/0/44', 'GigabitEthernet1/1/0/45', 'GigabitEthernet1/1/0/46', 'GigabitEthernet1/1/0/47', 'GigabitEthernet1/1/0/48', 'GigabitEthernet2/5/0/17', 'GigabitEthernet2/5/0/18', 'GigabitEthernet2/5/0/19', 'GigabitEthernet2/5/0/20', 'GigabitEthernet2/5/0/21', 'GigabitEthernet2/5/0/22', 'GigabitEthernet2/5/0/23', 'GigabitEthernet2/5/0/24']
+61: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut2 interfaces list connected to dut3
+62: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['TenGigabitEthernet1/5/0/46', 'GigabitEthernet1/5/0/24', 'GigabitEthernet2/2/0/32', 'GigabitEthernet1/2/0/33']
+63: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut2 interfaces list connected to dut4
+64: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['GigabitEthernet1/1/0/13', 'TenGigabitEthernet2/5/0/42']
+65: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut3 interfaces list connected to dut1
+66: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['TenGigabitEthernet1/0/19', 'TenGigabitEthernet1/0/21', 'TenGigabitEthernet1/0/22', 'TenGigabitEthernet1/0/23']
+67: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut3 interfaces list connected to dut2
+68: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['TenGigabitEthernet1/0/12', 'TenGigabitEthernet1/0/4', 'TenGigabitEthernet1/0/18', 'TenGigabitEthernet1/0/15']
+69: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut4 interfaces list connected to dut1
+70: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['TenGigabitEthernet1/0/21', 'TenGigabitEthernet1/0/22']
+71: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: dut4 interfaces list connected to dut2
+72: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: ['TenGigabitEthernet1/0/13', 'TenGigabitEthernet1/0/2']
+73: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Testbed Name: server
+74: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Device: m10
+75: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/41
+76: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf1
+77: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/42
+78: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf2
+79: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/43
+80: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf3
+81: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/44
+82: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf4
+83: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/45
+84: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf5
+85: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/46
+86: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf6
+87: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/47
+88: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf7
+89: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/48
+90: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf8
+91: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/13
+92: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf9
+93: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/14
+94: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf10
+95: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/15
+96: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf11
+97: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/16
+98: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf12
+99: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/17
+100: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf13
+101: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/18
+102: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf14
+103: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/19
+104: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf15
+105: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/0/20
+106: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut2_intf16
+107: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/25
+108: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut3_intf1
+109: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/26
+110: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut3_intf2
+111: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/27
+112: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut3_intf3
+113: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/28
+114: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut3_intf4
+115: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/29
+116: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut4_intf1
+117: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/0/30
+118: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut1_dut4_intf2
+119: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Device: 9407-gen2
+120: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/41
+121: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf1
+122: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/42
+123: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf2
+124: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/43
+125: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf3
+126: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/44
+127: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf4
+128: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/45
+129: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf5
+130: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/46
+131: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf6
+132: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/47
+133: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf7
+134: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/48
+135: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf8
+136: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/17
+137: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf9
+138: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/18
+139: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf10
+140: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/19
+141: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf11
+142: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/20
+143: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf12
+144: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/21
+145: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf13
+146: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/22
+147: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf14
+148: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/23
+149: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf15
+150: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/5/0/24
+151: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut1_intf16
+152: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/5/0/46
+153: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut3_intf1
+154: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/5/0/24
+155: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut3_intf2
+156: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet2/2/0/32
+157: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut3_intf3
+158: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/2/0/33
+159: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut3_intf4
+160: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: GigabitEthernet1/1/0/13
+161: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut4_intf1
+162: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet2/5/0/42
+163: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut2_dut4_intf2
+164: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Device: g24c
+165: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/19
+166: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut1_intf1
+167: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/21
+168: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut1_intf2
+169: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/22
+170: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut1_intf3
+171: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/23
+172: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut1_intf4
+173: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/12
+174: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut2_intf1
+175: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/4
+176: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut2_intf2
+177: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/18
+178: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut2_intf3
+179: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/15
+180: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_dut2_intf4
+181: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEtherne1/0/20
+182: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_tg_intf1
+183: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Device: g24d
+184: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/21
+185: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut4_dut1_intf1
+186: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/22
+187: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut4_dut1_intf2
+188: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/13
+189: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut4_dut2_intf1
+190: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/2
+191: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut4_dut2_intf2
+192: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: TenGigabitEthernet1/0/12
+193: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut4_tg_intf1
+194: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Device: ixia
+195: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: 2/6
+196: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut3_tg_1
+197: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Interface: 2/12
+198: sjc-ads-7048: 2022-05-10T10:55:07: %SCRIPT-6-INFO: %[pid=3367076][pname=Task-1]: Link: dut4_tg_1
+199: sjc-ads-7048: 2022-05-10T10:55:07: %AETEST-6-INFO: %[pid=3367076][pname=Task-1]: The result of subsection print_testbed_information is => PASSED
+200: sjc-ads-7048: 2022-05-10T10:55:08: %AETEST-6-INFO: %[part=200.1/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+201: sjc-ads-7048: 2022-05-10T10:55:08: %AETEST-6-INFO: %[part=200.2/3][pid=3367076][pname=Task-1]: |                  Starting subsection clear_device_consoles                   |
+202: sjc-ads-7048: 2022-05-10T10:55:08: %AETEST-6-INFO: %[part=200.3/3][pid=3367076][pname=Task-1]: +------------------------------------------------------------------------------+
+203: sjc-ads-7048: 2022-05-10T10:55:08: %PREG-6-INFO: %[pid=3367076][pname=Task-1]: Attempting clear_device_consoles of device Device m10 (alias=dut1), type c9400
+204: sjc-ads-7048: 2022-05-10T10:55:08: %PREG-6-INFO: %[pid=3367076][pname=Task-1]: Attempting clear_device_consoles of device Device m10 (alias=dut1), type c9400 connection a
+205: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=205.1/2][pid=3367076][pname=Task-1]: Trying 172.21.226.11...
+206: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=205.2/2][pid=3367076][pname=Task-1]: 
+207: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=207.1/4][pid=3367076][pname=Task-1]: Connected to 172.21.226.11.
+208: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=207.2/4][pid=3367076][pname=Task-1]: 
+209: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=207.3/4][pid=3367076][pname=Task-1]: Escape character is '^]'.
+210: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=207.4/4][pid=3367076][pname=Task-1]: 
+211: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=211.1/2][pid=3367076][pname=Task-1]: 
+212: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=211.2/2][pid=3367076][pname=Task-1]: location: 166_AP_36
+213: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=213.1/5][pid=3367076][pname=Task-1]: 
+214: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=213.2/5][pid=3367076][pname=Task-1]: 
+215: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=213.3/5][pid=3367076][pname=Task-1]: User Access Verification
+216: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=213.4/5][pid=3367076][pname=Task-1]: 
+217: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=213.5/5][pid=3367076][pname=Task-1]: Password: 
+218: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=218.1/2][pid=3367076][pname=Task-1]: 
+219: sjc-ads-7048: 2022-05-10T10:55:08: %UNICON-6-INFO: %[part=218.2/2][pid=3367076][pname=Task-1]: 166-AT-36>
+220: sjc-ads-7048: 2022-05-10T10:55:09: %UNICON-6-INFO: %[part=220.1/2][pid=3367076][pname=Task-1]: enable
+221: sjc-ads-7048: 2022-05-10T10:55:09: %UNICON-6-INFO: %[part=220.2/2][pid=3367076][pname=Task-1]: Password: 
+222: sjc-ads-7048: 2022-05-10T10:55:09: %UNICON-6-INFO: %[part=222.1/2][pid=3367076][pname=Task-1]: 
+223: sjc-ads-7048: 2022-05-10T10:55:09: %UNICON-6-INFO: %[part=222.2/2][pid=3367076][pname=Task-1]: Password: 
+224: sjc-ads-7048: 2022-05-10T10:55:16: %AETEST-4-WARNING: %[pid=3367076][pname=Task-1]: Caught keyboard interrupt (ctrl+c): aborting script run immediately.
+225: sjc-ads-7048: 2022-05-10T10:55:16: %AETEST-6-INFO: %[pid=3367076][pname=Task-1]: The result of subsection clear_device_consoles is => ABORTED
+226: sjc-ads-7048: 2022-05-10T10:55:16: %AETEST-6-INFO: %[pid=3367076][pname=Task-1]: The result of common setup is => ABORTED
+227: sjc-ads-7048: 2022-05-10T10:55:16: %CISCO-6-INFO: %[pid=3367076][pname=Task-1]: Start Telemetry - Task

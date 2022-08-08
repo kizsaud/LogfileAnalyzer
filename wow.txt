@@ -1,0 +1,3062 @@
+9: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %AETEST-6-INFO: %[part=9.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+10: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %AETEST-6-INFO: %[part=9.2/3][pid=13446][pname=Task-2]: |                            Starting common setup                             |
+11: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %AETEST-6-INFO: %[part=9.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+12: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %AETEST-6-INFO: %[part=12.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+13: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %AETEST-6-INFO: %[part=12.2/3][pid=13446][pname=Task-2]: |                         Starting subsection connect                          |
+14: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %AETEST-6-INFO: %[part=12.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+15: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 logfile /tmp/stack3-dm-1-cli-20220711T145533973.log +++
+16: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ Unicon plugin iosxe +++
+17: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 logfile /auto/iconatest/production/hcl/pyats3.6.4/users/rbirudu/runinfo/app_1keyes9300_USB_job.2022Jul11_13:11:18.195417/stack3-dm-1-a-1657576533.log +++
+18: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ Unicon plugin iosxe +++
+19: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 logfile /auto/iconatest/production/hcl/pyats3.6.4/users/rbirudu/runinfo/app_1keyes9300_USB_job.2022Jul11_13:11:18.195417/stack3-dm-1-b-1657576533.log +++
+20: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ Unicon plugin iosxe +++
+21: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 logfile /auto/iconatest/production/hcl/pyats3.6.4/users/rbirudu/runinfo/app_1keyes9300_USB_job.2022Jul11_13:11:18.195417/stack3-dm-1-c-1657576533.log +++
+22: ng3k-tb2.cisco.com: 2022-07-11T14:55:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ Unicon plugin iosxe +++
+Trying 192.168.0.173...
+Connected to 192.168.0.173.
+Escape character is '^]'.
+Trying 192.168.0.178...
+Trying 192.168.0.178...
+
+26: ng3k-tb2.cisco.com: 2022-07-11T14:55:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ connection to spawn: telnet 192.168.0.173 2055, id: 140222079362216 +++
+27: ng3k-tb2.cisco.com: 2022-07-11T14:55:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ connection to spawn: telnet 192.168.0.178 2059, id: 140222079336520 +++
+28: ng3k-tb2.cisco.com: 2022-07-11T14:55:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ connection to spawn: telnet 192.168.0.178 2005, id: 140222079218016 +++
+
+stack3-dm-1#Connected to 192.168.0.178.
+Escape character is '^]'.
+
+stack3-dm-1>Connected to 192.168.0.178.
+Escape character is '^]'.
+
+stack3-dm-1>
+stack3-dm-1#
+stack3-dm-1>
+stack3-dm-1>
+37: ng3k-tb2.cisco.com: 2022-07-11T14:55:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ designating handles +++
+38: ng3k-tb2.cisco.com: 2022-07-11T14:55:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#enable
+stack3-dm-1#
+48: ng3k-tb2.cisco.com: 2022-07-11T14:55:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ initializing active handle +++
+49: ng3k-tb2.cisco.com: 2022-07-11T14:55:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'term length 0' +++
+term length 0
+stack3-dm-1#
+51: ng3k-tb2.cisco.com: 2022-07-11T14:55:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'term width 0' +++
+term width 0
+stack3-dm-1#
+53: ng3k-tb2.cisco.com: 2022-07-11T14:55:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version BLD_POLARIS_DEV_LATEST_20220626_143522
+Cisco IOS Software [Dublin], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.10.20220626:145751 [BLD_POLARIS_DEV_LATEST_20220626_143522:/nobackup/mcpre/s2c-build-ws 101]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Sun 26-Jun-22 07:58 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2022 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+
+stack3-dm-1 uptime is 35 minutes
+Uptime for this control processor is 37 minutes
+System returned to ROM by Admin reload CLI
+System image file is "flash:packages.conf"
+Last reload reason: Admin reload CLI
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information: 
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot  
+------------------------------------------------------------------------------
+network-advantage   	Smart License                 	 network-advantage   
+dna-advantage       	Subscription Smart License    	 dna-advantage                 
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Smart Licensing Using Policy
+
+cisco C9300LM-48U-4Y (X86) processor with 1311799K/6147K bytes of memory.
+Processor board ID FOC2551Y5UD
+1 Virtual Ethernet interface
+112 Gigabit Ethernet interfaces
+8 Ten Gigabit Ethernet interfaces
+12 TwentyFive Gigabit Ethernet interfaces
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-2:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-2:.
+11264000K bytes of Flash at flash-3:.
+234430023K bytes of USB Flash at usbflash1:.
+234430023K bytes of USB Flash at usbflash1-2:.
+
+Base Ethernet MAC Address          : 38:fd:f8:50:de:80
+Motherboard Assembly Number        : 73-20377-03
+Motherboard Serial Number          : FOC25470HFX
+Model Revision Number              : A0
+Motherboard Revision Number        : 04
+Model Number                       : C9300LM-48U-4Y
+System Serial Number               : FOC2551Y5UD
+CLEI Code Number                   : 0123456789
+
+
+Switch Ports Model              SW Version        SW Image              Mode   
+------ ----- -----              ----------        ----------            ----   
+*    1 54    C9300LM-48U-4Y     17.10.01          CAT9K_IOSXE           INSTALL
+     2 54    C9300LM-48UX-4Y    17.10.01          CAT9K_IOSXE           INSTALL
+     3 30    C9300LM-24U-4Y     17.10.01          CAT9K_IOSXE           INSTALL
+
+
+Switch 02
+---------
+Switch uptime                      : 37 minutes 
+
+Base Ethernet MAC Address          : c4:4d:84:ef:83:00
+Motherboard Assembly Number        : 73-20374-03
+Motherboard Serial Number          : FOC25400M3P
+Model Revision Number              : A0
+Motherboard Revision Number        : 07
+Model Number                       : C9300LM-48UX-4Y
+System Serial Number               : FOC2546YR11
+Last reload reason                 : Admin reload CLI
+CLEI Code Number                   : 0123456789
+
+Switch 03
+---------
+Switch uptime                      : 37 minutes 
+
+Base Ethernet MAC Address          : c4:4d:84:ef:7d:00
+Motherboard Assembly Number        : 73-20375-02
+Motherboard Serial Number          : FOC25382UHP
+Model Revision Number              : A0
+Motherboard Revision Number        : 12
+Model Number                       : C9300LM-24U-4Y
+System Serial Number               : FOC2545YHKR
+Last reload reason                 : Admin reload CLI
+CLEI Code Number                   : 0123456789
+
+stack3-dm-1#
+108: ng3k-tb2.cisco.com: 2022-07-11T14:56:01: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#no logging console
+stack3-dm-1(config)#line console 0
+stack3-dm-1(config-line)#exec-timeout 0
+stack3-dm-1(config-line)#end
+stack3-dm-1#
+114: ng3k-tb2.cisco.com: 2022-07-11T14:56:02: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ initializing standby handle +++
+115: ng3k-tb2.cisco.com: 2022-07-11T14:56:02: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'b' and alias 'b': executing command 'term length 0' +++
+term length 0
+stack3-dm-1#
+118: ng3k-tb2.cisco.com: 2022-07-11T14:56:03: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'b' and alias 'b': executing command 'term width 0' +++
+term width 0
+stack3-dm-1#
+121: ng3k-tb2.cisco.com: 2022-07-11T14:56:03: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'b' and alias 'b': executing command 'show version' +++
+show version
+Cisco IOS XE Software, Version BLD_POLARIS_DEV_LATEST_20220626_143522
+Cisco IOS Software [Dublin], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.10.20220626:145751 [BLD_POLARIS_DEV_LATEST_20220626_143522:/nobackup/mcpre/s2c-build-ws 101]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Sun 26-Jun-22 07:58 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2022 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+
+stack3-dm-1 uptime is 35 minutes
+Uptime for this control processor is 37 minutes
+System returned to ROM by Admin reload CLI
+System image file is "flash:packages.conf"
+Last reload reason: Admin reload CLI
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information: 
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot  
+------------------------------------------------------------------------------
+network-advantage   	Smart License                 	 network-advantage   
+dna-advantage       	Subscription Smart License    	 dna-advantage                 
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Smart Licensing Using Policy
+
+cisco C9300LM-48U-4Y (X86) processor with 1311799K/6147K bytes of memory.
+Processor board ID FOC2551Y5UD
+1 Virtual Ethernet interface
+112 Gigabit Ethernet interfaces
+8 Ten Gigabit Ethernet interfaces
+12 TwentyFive Gigabit Ethernet interfaces
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-2:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-2:.
+11264000K bytes of Flash at flash-3:.
+234430023K bytes of USB Flash at usbflash1:.
+234430023K bytes of USB Flash at usbflash1-2:.
+
+Base Ethernet MAC Address          : 38:fd:f8:50:de:80
+Motherboard Assembly Number        : 73-20377-03
+Motherboard Serial Number          : FOC25470HFX
+Model Revision Number              : A0
+Motherboard Revision Number        : 04
+Model Number                       : C9300LM-48U-4Y
+System Serial Number               : FOC2551Y5UD
+CLEI Code Number                   : 0123456789
+
+
+Switch Ports Model              SW Version        SW Image              Mode   
+------ ----- -----              ----------        ----------            ----   
+*    1 54    C9300LM-48U-4Y     17.10.01          CAT9K_IOSXE           INSTALL
+     2 54    C9300LM-48UX-4Y    17.10.01          CAT9K_IOSXE           INSTALL
+     3 30    C9300LM-24U-4Y     17.10.01          CAT9K_IOSXE           INSTALL
+
+
+Switch 02
+---------
+Switch uptime                      : 37 minutes 
+
+Base Ethernet MAC Address          : c4:4d:84:ef:83:00
+Motherboard Assembly Number        : 73-20374-03
+Motherboard Serial Number          : FOC25400M3P
+Model Revision Number              : A0
+Motherboard Revision Number        : 07
+Model Number                       : C9300LM-48UX-4Y
+System Serial Number               : FOC2546YR11
+Last reload reason                 : Admin reload CLI
+CLEI Code Number                   : 0123456789
+
+Switch 03
+---------
+Switch uptime                      : 37 minutes 
+
+Base Ethernet MAC Address          : c4:4d:84:ef:7d:00
+Motherboard Assembly Number        : 73-20375-02
+Motherboard Serial Number          : FOC25382UHP
+Model Revision Number              : A0
+Motherboard Revision Number        : 12
+Model Number                       : C9300LM-24U-4Y
+System Serial Number               : FOC2545YHKR
+Last reload reason                 : Admin reload CLI
+CLEI Code Number                   : 0123456789
+
+stack3-dm-1#
+176: ng3k-tb2.cisco.com: 2022-07-11T14:56:09: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ assigning ha mode +++
+177: ng3k-tb2.cisco.com: 2022-07-11T14:56:09: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'sh redundancy state' +++
+sh redundancy state
+       my state = 13 -ACTIVE 
+     peer state = 8  -STANDBY HOT 
+           Mode = Duplex
+           Unit = Primary
+        Unit ID = 1
+
+Redundancy Mode (Operational) = sso
+Redundancy Mode (Configured)  = sso
+Redundancy State              = sso
+     Maintenance Mode = Disabled
+    Manual Swact = enabled
+ Communications = Up
+
+   client count = 121
+ client_notification_TMR = 30000 milliseconds
+           RF debug mask = 0x0   
+
+stack3-dm-1#
+183: ng3k-tb2.cisco.com: 2022-07-11T14:56:10: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Check for number of switches in the stack
+184: ng3k-tb2.cisco.com: 2022-07-11T14:56:10: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'enable' +++
+enable
+stack3-dm-1#
+186: ng3k-tb2.cisco.com: 2022-07-11T14:56:10: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#
+195: ng3k-tb2.cisco.com: 2022-07-11T14:56:11: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Value of tot_sw_list : 3
+196: ng3k-tb2.cisco.com: 2022-07-11T14:56:11: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Stack length is : 3
+197: ng3k-tb2.cisco.com: 2022-07-11T14:56:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch stack-mode' +++
+show switch stack-mode
+Switch#  Role    Mac Address     Version   Mode  Configured  State 
+--------------------------------------------------------------------------------------------------------------------
+*1      Active   38fd.f850.de80    P3      N+1     None       Ready               
+ 2      Standby  c44d.84ef.8300    P2A     N+1     None       Ready               
+ 3      Member   c44d.84ef.7d00    P2A     N+1     None       Ready               
+
+
+
+stack3-dm-1#
+203: ng3k-tb2.cisco.com: 2022-07-11T14:56:12: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Switch stack mode is N+1
+204: ng3k-tb2.cisco.com: 2022-07-11T14:56:12: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': receive +++
+switch 1 role active
+WARNING: Changing the switch role may result in redundancy mode being configur
+206: ng3k-tb2.cisco.com: 2022-07-11T14:56:12: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': receive +++
+ed to designated Active/Standby mode for this stack. If the configured Active or Standby switch numb
+ers do not boot up, then the stack will not be able to boot. Do you want to continue?[y/n]? [yes]: yes
+stack3-dm-1#switch 2 role standby
+WARNING: Changing the switch role may result in redundancy mode being configured to designated Active/Standby mode for this stack. If the configured Active or Standby switch numbers do not boot up, then the stack will not be able to boot. Do you want to continue?[y/n]? [yes]: yes
+stack3-dm-1#
+stack3-dm-1#213: ng3k-tb2.cisco.com: 2022-07-11T14:56:13: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'write' +++
+write
+Building configuration...
+[OK]
+stack3-dm-1#
+216: ng3k-tb2.cisco.com: 2022-07-11T14:56:18: %AP_PORT_RESTART_SSO_LIB-6-INFO: %[pid=13446][pname=Task-2]: Going to reload the Switch to change the stack-mode
+217: ng3k-tb2.cisco.com: 2022-07-11T14:56:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': reload +++
+218: ng3k-tb2.cisco.com: 2022-07-11T14:56:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Processing on active rp stack3-dm-1-a
+redundancy reload shelf
+Reload the entire shelf [confirm]
+Preparing to reload this shelf
+
+Chassis 1 reloading, reason - Reload command
+Jul 11 14:56:11.849: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 14:56:13.172: %PMAN-5-EXITACTION: R0/0: pvp: Process manager i
+
+
+Initializing Hardware......
+   
+System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+Compiled Wed 05/25/2022 14:26:50.47 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-48U-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+
+*Jul 11 21:57:24.290: %IOSXEBOOT-4-SMART_LOG: (local/local): Mon Jul 11 21:57:24 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+#####
+Switch number is 1
+All switches in the stack have been discovered. Accelerating discovery
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           Cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software [Dublin], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.10.20220626:145751 [BLD_POLARIS_DEV_LATEST_20220626_143522:/nobackup/mcpre/s2c-build-ws 101]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Sun 26-Jun-22 07:58 by mcpre
+
+
+This software version supports only Smart Licensing as the software licensing mechanism.
+
+
+PLEASE READ THE FOLLOWING TERMS CAREFULLY. INSTALLING THE LICENSE OR
+LICENSE KEY PROVIDED FOR ANY CISCO SOFTWARE PRODUCT, PRODUCT FEATURE,
+AND/OR SUBSEQUENTLY PROVIDED SOFTWARE FEATURES (COLLECTIVELY, THE
+"SOFTWARE"), AND/OR USING SUCH SOFTWARE CONSTITUTES YOUR FULL
+ACCEPTANCE OF THE FOLLOWING TERMS. YOU MUST NOT PROCEED FURTHER IF YOU
+ARE NOT WILLING TO BE BOUND BY ALL THE TERMS SET FORTH HEREIN.
+
+Your use of the Software is subject to the Cisco End User License Agreement
+(EULA) and any relevant supplemental terms (SEULA) found at
+http://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html.
+
+You hereby acknowledge and agree that certain Software and/or features are
+licensed for a particular term, that the license to such Software and/or
+features is valid only for the applicable term and that such Software and/or
+features may be shut down or otherwise terminated by Cisco after expiration
+of the applicable license term (e.g., 90-day trial period). Cisco reserves
+the right to terminate any such Software feature electronically or by any
+other means available. While Cisco may provide alerts, it is your sole
+responsibility to monitor your usage of any such term Software feature to
+ensure that your systems and networks are prepared for a shutdown of the
+Software feature.
+
+
+
+FIPS: Flash Key Check : Key Not Found, FIPS Mode Not Enabled
+cisco C9300LM-48U-4Y (X86) processor with 1311799K/6147K bytes of memory.
+Processor board ID FOC2551Y5UD
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-2:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-2:.
+11264000K bytes of Flash at flash-3:.
+234430023K bytes of USB Flash at usbflash1:.
+234430023K bytes of USB Flash at usbflash1-2:.
+
+Base Ethernet MAC Address          : 38:fd:f8:50:de:80
+Motherboard Assembly Number        : 73-20377-03
+Motherboard Serial Number          : FOC25470HFX
+Model Revision Number              : A0
+Motherboard Revision Number        : 04
+Model Number                       : C9300LM-48U-4Y
+System Serial Number               : FOC2551Y5UD
+CLEI Code Number                   : 0123456789
+
+
+Upoe-plus command is already enabled for switch number:1
+
+Applying config on Switch 2...[DONE]
+Applying config on Switch 3...[DONE]
+
+
+Press RETURN to get started!
+
+
+337: ng3k-tb2.cisco.com: 2022-07-11T14:59:39: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Waiting for 10 seconds
+
+stack3-dm-1>enable
+stack3-dm-1#
+340: ng3k-tb2.cisco.com: 2022-07-11T14:59:50: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Wait for Standby RP to be ready.
+341: ng3k-tb2.cisco.com: 2022-07-11T14:59:50: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Initializing                         17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Initializing                         17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Initializing                         17.10.01.0.161945   
+
+
+
+stack3-dm-1#350: ng3k-tb2.cisco.com: 2022-07-11T14:59:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+351: ng3k-tb2.cisco.com: 2022-07-11T15:00:21: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#360: ng3k-tb2.cisco.com: 2022-07-11T15:00:22: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+361: ng3k-tb2.cisco.com: 2022-07-11T15:00:52: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#370: ng3k-tb2.cisco.com: 2022-07-11T15:00:53: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+371: ng3k-tb2.cisco.com: 2022-07-11T15:01:23: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#380: ng3k-tb2.cisco.com: 2022-07-11T15:01:24: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+381: ng3k-tb2.cisco.com: 2022-07-11T15:01:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     HA sync in progress                  17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#390: ng3k-tb2.cisco.com: 2022-07-11T15:01:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+391: ng3k-tb2.cisco.com: 2022-07-11T15:02:25: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     HA sync in progress                  17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#400: ng3k-tb2.cisco.com: 2022-07-11T15:02:26: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+401: ng3k-tb2.cisco.com: 2022-07-11T15:02:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#410: ng3k-tb2.cisco.com: 2022-07-11T15:02:57: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+411: ng3k-tb2.cisco.com: 2022-07-11T15:03:27: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#420: ng3k-tb2.cisco.com: 2022-07-11T15:03:28: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+421: ng3k-tb2.cisco.com: 2022-07-11T15:03:58: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#430: ng3k-tb2.cisco.com: 2022-07-11T15:03:59: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+431: ng3k-tb2.cisco.com: 2022-07-11T15:04:29: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#440: ng3k-tb2.cisco.com: 2022-07-11T15:04:30: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+441: ng3k-tb2.cisco.com: 2022-07-11T15:05:00: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#450: ng3k-tb2.cisco.com: 2022-07-11T15:05:01: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+451: ng3k-tb2.cisco.com: 2022-07-11T15:05:31: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#460: ng3k-tb2.cisco.com: 2022-07-11T15:05:32: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+461: ng3k-tb2.cisco.com: 2022-07-11T15:06:02: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#470: ng3k-tb2.cisco.com: 2022-07-11T15:06:03: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+471: ng3k-tb2.cisco.com: 2022-07-11T15:06:34: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#480: ng3k-tb2.cisco.com: 2022-07-11T15:06:34: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+481: ng3k-tb2.cisco.com: 2022-07-11T15:07:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#490: ng3k-tb2.cisco.com: 2022-07-11T15:07:06: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+491: ng3k-tb2.cisco.com: 2022-07-11T15:07:36: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#500: ng3k-tb2.cisco.com: 2022-07-11T15:07:37: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+501: ng3k-tb2.cisco.com: 2022-07-11T15:08:07: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#510: ng3k-tb2.cisco.com: 2022-07-11T15:08:08: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+511: ng3k-tb2.cisco.com: 2022-07-11T15:08:38: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#520: ng3k-tb2.cisco.com: 2022-07-11T15:08:39: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+521: ng3k-tb2.cisco.com: 2022-07-11T15:09:09: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#530: ng3k-tb2.cisco.com: 2022-07-11T15:09:10: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+531: ng3k-tb2.cisco.com: 2022-07-11T15:09:40: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#540: ng3k-tb2.cisco.com: 2022-07-11T15:09:41: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+541: ng3k-tb2.cisco.com: 2022-07-11T15:10:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#550: ng3k-tb2.cisco.com: 2022-07-11T15:10:12: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+551: ng3k-tb2.cisco.com: 2022-07-11T15:10:42: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#560: ng3k-tb2.cisco.com: 2022-07-11T15:10:43: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+561: ng3k-tb2.cisco.com: 2022-07-11T15:11:13: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#570: ng3k-tb2.cisco.com: 2022-07-11T15:11:14: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+571: ng3k-tb2.cisco.com: 2022-07-11T15:11:44: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#580: ng3k-tb2.cisco.com: 2022-07-11T15:11:45: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+581: ng3k-tb2.cisco.com: 2022-07-11T15:12:15: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#590: ng3k-tb2.cisco.com: 2022-07-11T15:12:16: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+591: ng3k-tb2.cisco.com: 2022-07-11T15:12:46: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#600: ng3k-tb2.cisco.com: 2022-07-11T15:12:47: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+601: ng3k-tb2.cisco.com: 2022-07-11T15:13:17: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#610: ng3k-tb2.cisco.com: 2022-07-11T15:13:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+611: ng3k-tb2.cisco.com: 2022-07-11T15:13:48: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#620: ng3k-tb2.cisco.com: 2022-07-11T15:13:49: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+621: ng3k-tb2.cisco.com: 2022-07-11T15:14:19: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#630: ng3k-tb2.cisco.com: 2022-07-11T15:14:20: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+
+631: ng3k-tb2.cisco.com: 2022-07-11T15:14:50: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Timeout in 900 secs. Standby RP is not in Ready state. Reload failed
+632: ng3k-tb2.cisco.com: 2022-07-11T15:14:50: %AP_PORT_RESTART_SSO_LIB-6-INFO: %[pid=13446][pname=Task-2]: Reload failed
+633: ng3k-tb2.cisco.com: 2022-07-11T15:14:50: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: setting 1+1 mode failed
+634: ng3k-tb2.cisco.com: 2022-07-11T15:14:50: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'terminal width 0' +++
+terminal width 0
+stack3-dm-1#
+636: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show ip interface brief | inc Ap1' +++
+show ip interface brief | inc Ap1
+Ap1/0/1                unassigned      YES unset  up                    up      
+Ap1/0/2                unassigned      YES unset  up                    up      
+stack3-dm-1#
+640: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap1/0/1
+641: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap1/0/2
+642: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show ip interface brief | inc Ap2' +++
+show ip interface brief | inc Ap2
+Ap2/0/1                unassigned      YES unset  up                    up      
+Ap2/0/2                unassigned      YES unset  up                    up      
+stack3-dm-1#
+646: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap2/0/1
+647: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap2/0/2
+648: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of subsection connect is => PASSED
+649: ng3k-tb2.cisco.com: 2022-07-11T15:14:51: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of common setup is => PASSED
+650: ng3k-tb2.cisco.com: 2022-07-11T15:14:52: %AETEST-6-INFO: %[part=650.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+651: ng3k-tb2.cisco.com: 2022-07-11T15:14:52: %AETEST-6-INFO: %[part=650.2/3][pid=13446][pname=Task-2]: |                          Starting testcase app_test                          |
+652: ng3k-tb2.cisco.com: 2022-07-11T15:14:52: %AETEST-6-INFO: %[part=650.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+Chassis 2 reloading, reason - Reload command
+Jul 11 14:56:12.027: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 14:56:13.794: %PMA
+
+
+Initializing Hardware......
+   
+System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+Compiled Wed 05/25/2022 14:26:50.47 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-48UX-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+
+*Jul 11 21:57:30.428: %IOSXEBOOT-4-SMART_LOG: (local/local): Mon Jul 11 21:57:30 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+
+Switch number is 2
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+Chassis 3 reloading, reason - Reload command
+Jul 11 14:56:11.975: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 14:56:13.709: %P
+
+
+Initializing Hardware......
+    
+System Bootstrap, Version 17.8.1r, RELEASE SOFTWARE (P)
+Compiled Wed 02/02/2022 21:26:43.69 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-24U-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+Warning: ignoring ROMMON var "BOOT_PARAM"
+
+
+Waiting for 120 seconds for other switches to boot
+########
+Switch number is 3
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+655: ng3k-tb2.cisco.com: 2022-07-11T15:14:52: %PLUGIN_BUNDLE-6-INFO: %[pid=13446][pname=Task-2]: Applying CRFT 'collect-on-reload' configuration
+
+656: ng3k-tb2.cisco.com: 2022-07-11T15:14:52: %PLUGIN_BUNDLE-6-INFO: %[pid=13446][pname=Task-2]: Configure 'service internal' on stack3-dm-1
+
+657: ng3k-tb2.cisco.com: 2022-07-11T15:14:52: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#service internal
+stack3-dm-1(config)#end
+stack3-dm-1#
+661: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %PLUGIN_BUNDLE-6-INFO: %[pid=13446][pname=Task-2]: Configure 'platform crft collect-on-reload' on stack3-dm-1
+662: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#platform crft collect-on-reload http://1.1.1.1/fake _reload__stack3-dm-1__000001_ localhost
+stack3-dm-1(config)#end
+stack3-dm-1#
+667: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %AETEST-6-INFO: %[part=667.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+668: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %AETEST-6-INFO: %[part=667.2/3][pid=13446][pname=Task-2]: |                   Starting section app_DNA_license_verify                    |
+669: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %AETEST-6-INFO: %[part=667.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+670: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %SCRIPT-6-INFO: %[part=670.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+671: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %SCRIPT-6-INFO: %[part=670.2/3][pid=13446][pname=Task-2]: |            Verifying the license Type whether its a DNA Advantage            |
+672: ng3k-tb2.cisco.com: 2022-07-11T15:14:53: %SCRIPT-6-INFO: %[part=670.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+673: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show ip interface brief | inc Ap1' +++
+show ip interface brief | inc Ap1
+Ap1/0/1                unassigned      YES unset  up                    up      
+Ap1/0/2                unassigned      YES unset  up                    up      
+stack3-dm-1#
+677: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap1/0/1
+678: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap1/0/2
+679: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show ip interface brief | inc Ap2' +++
+show ip interface brief | inc Ap2
+Ap2/0/1                unassigned      YES unset  up                    up      
+Ap2/0/2                unassigned      YES unset  up                    up      
+stack3-dm-1#
+683: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap2/0/1
+684: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %APP_LIB-4-WARNING: %[pid=13446][pname=Task-2]: AP Port found and set to Ap2/0/2
+685: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: configure management interface and check connectivity
+686: ng3k-tb2.cisco.com: 2022-07-11T15:14:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#interface gig0/0
+stack3-dm-1(config-if)#ip address 192.168.0.71 255.255.0.0
+stack3-dm-1(config-if)#no shutdown
+stack3-dm-1(config-if)#end
+stack3-dm-1#
+692: ng3k-tb2.cisco.com: 2022-07-11T15:14:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#ip tftp source-interface gig0/0
+stack3-dm-1(config)#end
+stack3-dm-1#
+696: ng3k-tb2.cisco.com: 2022-07-11T15:15:06: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'ping vrf Mgmt-vrf 192.168.0.6' +++
+ping vrf Mgmt-vrf 192.168.0.6
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+.!!!!
+Success rate is 80 percent (4/5), round-trip min/avg/max = 1/1/1 ms
+stack3-dm-1#
+700: ng3k-tb2.cisco.com: 2022-07-11T15:15:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'ping vrf Mgmt-vrf 192.168.0.6' +++
+ping vrf Mgmt-vrf 192.168.0.6
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 192.168.0.6, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/1 ms
+stack3-dm-1#
+704: ng3k-tb2.cisco.com: 2022-07-11T15:15:19: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: PING to linux server SUCESSFULL
+705: ng3k-tb2.cisco.com: 2022-07-11T15:15:19: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#int Ap1/0/2
+stack3-dm-1(config-if)#                         switchport trunk allowed vlan 14
+stack3-dm-1(config-if)#                         switchport mode trunk
+stack3-dm-1(config-if)#end
+stack3-dm-1#
+711: ng3k-tb2.cisco.com: 2022-07-11T15:15:20: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#int Ap2/0/2
+stack3-dm-1(config-if)#                         switchport trunk allowed vlan 14
+stack3-dm-1(config-if)#                         switchport mode trunk
+stack3-dm-1(config-if)#end
+stack3-dm-1#
+717: ng3k-tb2.cisco.com: 2022-07-11T15:15:21: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#app-hosting appid 1keyes
+stack3-dm-1(config-app-hosting)#                         app-vnic AppGigabitEthernet trunk
+stack3-dm-1(config-config-app-hosting-trunk)#                         vlan 14 guest-interface 0
+stack3-dm-1(config-config-app-hosting-vlan-access-ip)#                         guest-ipaddress 14.0.0.13 netmask 255.255.255.0
+stack3-dm-1(config-config-app-hosting-vlan-access-ip)#                         app-default-gateway 14.0.0.1 guest-interface 0
+stack3-dm-1(config-app-hosting)#                         app-resource docker
+stack3-dm-1(config-app-hosting-docker)#                         run-opts 1 "-e TEAGENT_ACCOUNT_TOKEN=12345678"
+stack3-dm-1(config-app-hosting-docker)#                         run-opts 2 "--hostname=cisco-teye-USB --memory=1g"
+stack3-dm-1(config-app-hosting-docker)#                         prepend-pkg-opts
+stack3-dm-1(config-app-hosting-docker)#                         app-resource profile custom
+stack3-dm-1(config-app-resource-profile-custom)#                         cpu 1850
+stack3-dm-1(config-app-resource-profile-custom)#                         memory 500
+stack3-dm-1(config-app-resource-profile-custom)#                         persist-disk 200
+stack3-dm-1(config-app-resource-profile-custom)#                         name-server0 14.0.0.1
+stack3-dm-1(config-app-hosting)#                         start
+stack3-dm-1(config-app-hosting)#end
+stack3-dm-1#
+742: ng3k-tb2.cisco.com: 2022-07-11T15:15:23: %SCRIPT-6-INFO: %[part=742.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+743: ng3k-tb2.cisco.com: 2022-07-11T15:15:23: %SCRIPT-6-INFO: %[part=742.2/3][pid=13446][pname=Task-2]: |                         Verifying app-hosting status                         |
+744: ng3k-tb2.cisco.com: 2022-07-11T15:15:23: %SCRIPT-6-INFO: %[part=742.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+745: ng3k-tb2.cisco.com: 2022-07-11T15:15:23: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': config +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#iox
+stack3-dm-1(config)#end
+stack3-dm-1#
+749: ng3k-tb2.cisco.com: 2022-07-11T15:15:54: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of section app_DNA_license_verify is => PASSED
+750: ng3k-tb2.cisco.com: 2022-07-11T15:15:54: %AETEST-6-INFO: %[part=750.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+751: ng3k-tb2.cisco.com: 2022-07-11T15:15:54: %AETEST-6-INFO: %[part=750.2/3][pid=13446][pname=Task-2]: |                    Starting section ap_greenfield_verify                     |
+752: ng3k-tb2.cisco.com: 2022-07-11T15:15:54: %AETEST-6-INFO: %[part=750.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+753: ng3k-tb2.cisco.com: 2022-07-11T15:15:54: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Executing Green field and verifying app host status
+754: ng3k-tb2.cisco.com: 2022-07-11T15:15:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'mkdir Apps' +++
+mkdir Apps
+Create directory filename [Apps]? 
+%Error Creating dir flash:/Apps (File exists)
+stack3-dm-1#
+757: ng3k-tb2.cisco.com: 2022-07-11T15:15:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show iox-service' +++
+show iox-service
+
+IOx Infrastructure Summary:
+---------------------------
+IOx service (CAF)              : Running
+IOx service (HA)               : Running 
+IOx service (IOxman)           : Running 
+IOx service (Sec storage)      : Running 
+Libvirtd 5.5.0                 : Running
+Dockerd v19.03.13-ce           : Running
+Redundancy Status              : Ready 
+Sync status                    : Successful
+Last application sync time     : 2022-07-11 15:15:32.935109
+
+stack3-dm-1#
+764: ng3k-tb2.cisco.com: 2022-07-11T15:15:55: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: All IOx services are up running
+765: ng3k-tb2.cisco.com: 2022-07-11T15:15:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'clear logg' +++
+clear logg
+Clear logging buffer [confirm]
+stack3-dm-1#
+768: ng3k-tb2.cisco.com: 2022-07-11T15:15:56: %SCRIPT-6-INFO: %[part=768.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+769: ng3k-tb2.cisco.com: 2022-07-11T15:15:56: %SCRIPT-6-INFO: %[part=768.2/3][pid=13446][pname=Task-2]: |                         Verifying app-hosting status                         |
+770: ng3k-tb2.cisco.com: 2022-07-11T15:15:56: %SCRIPT-6-INFO: %[part=768.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+771: ng3k-tb2.cisco.com: 2022-07-11T15:15:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+No App found
+
+stack3-dm-1#
+774: ng3k-tb2.cisco.com: 2022-07-11T15:15:56: %APP_LIB-6-INFO: %[pid=13446][pname=Task-2]: Before copying
+775: ng3k-tb2.cisco.com: 2022-07-11T15:15:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': receive +++
+copy tftp://192.168.0.6//Apps//docker-enterprise-agent-cat9k-signed-0.10.34.tar flash:/Apps/ 
+Destination filename [/Apps/docker-enterprise-agent-cat9k-signed-0.10.34.tar]? 
+778: ng3k-tb2.cisco.com: 2022-07-11T15:15:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': receive +++
+
+%Warning:There is a file already existing with this name 
+Do you want to over write? [confirm]
+Accessing tftp://192.168.0.6//Apps//docker-enterprise-agent-cat9k-signed-0.10.34.tar...
+Loading /Apps//docker-enterprise-agent-cat9k-signed-0.10.34.tar from 192.168.0.6 (via GigabitEthernet0/0): !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[OK - 165376000 bytes]
+
+165376000 bytes copied in 37.359 secs (4426671 bytes/sec)
+stack3-dm-1#
+825: ng3k-tb2.cisco.com: 2022-07-11T15:17:05: %APP_LIB-6-INFO: %[pid=13446][pname=Task-2]: done copying
+
+stack3-dm-1#827: ng3k-tb2.cisco.com: 2022-07-11T15:17:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'app-hosting install appid 1keyes package flash:/Apps/docker-enterprise-agent-cat9k-signed-0.10.34.tar' +++
+app-hosting install appid 1keyes package flash:/Apps/docker-enterprise-agent-cat9k-signed-0.10.34.tar
+Installing package 'flash:/Apps/docker-enterprise-agent-cat9k-signed-0.10.34.tar' for '1keyes'. Use 'show app-hosting list' for progress.
+
+stack3-dm-1#
+832: ng3k-tb2.cisco.com: 2022-07-11T15:18:35: %SCRIPT-6-INFO: %[part=832.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+833: ng3k-tb2.cisco.com: 2022-07-11T15:18:35: %SCRIPT-6-INFO: %[part=832.2/3][pid=13446][pname=Task-2]: |                         Verifying app-hosting status                         |
+834: ng3k-tb2.cisco.com: 2022-07-11T15:18:35: %SCRIPT-6-INFO: %[part=832.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+835: ng3k-tb2.cisco.com: 2022-07-11T15:18:35: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+App id                                   State
+---------------------------------------------------------
+1keyes                                   RUNNING
+
+stack3-dm-1#
+839: ng3k-tb2.cisco.com: 2022-07-11T15:18:42: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+App id                                   State
+---------------------------------------------------------
+1keyes                                   RUNNING
+
+stack3-dm-1#
+843: ng3k-tb2.cisco.com: 2022-07-11T15:18:43: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'app-hosting stop appid 1keyes' +++
+app-hosting stop appid 1keyes
+1keyes stopped successfully
+Current state is: STOPPED
+stack3-dm-1#
+846: ng3k-tb2.cisco.com: 2022-07-11T15:18:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+App id                                   State
+---------------------------------------------------------
+1keyes                                   STOPPED
+
+stack3-dm-1#
+850: ng3k-tb2.cisco.com: 2022-07-11T15:18:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'app-hosting deactivate appid 1keyes' +++
+app-hosting deactivate appid 1keyes
+1keyes deactivated successfully
+Current state is: DEPLOYED
+
+stack3-dm-1#
+853: ng3k-tb2.cisco.com: 2022-07-11T15:19:02: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+App id                                   State
+---------------------------------------------------------
+1keyes                                   DEPLOYED
+
+stack3-dm-1#
+857: ng3k-tb2.cisco.com: 2022-07-11T15:19:02: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'app-hosting uninstall appid 1keyes' +++
+app-hosting uninstall appid 1keyes
+Uninstalling '1keyes'. Use 'show app-hosting list' for progress.
+
+stack3-dm-1#
+860: ng3k-tb2.cisco.com: 2022-07-11T15:19:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+No App found
+
+stack3-dm-1#
+863: ng3k-tb2.cisco.com: 2022-07-11T15:19:09: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+No App found
+
+stack3-dm-1#
+866: ng3k-tb2.cisco.com: 2022-07-11T15:19:09: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of section ap_greenfield_verify is => PASSED
+867: ng3k-tb2.cisco.com: 2022-07-11T15:19:09: %AETEST-6-INFO: %[part=867.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+868: ng3k-tb2.cisco.com: 2022-07-11T15:19:09: %AETEST-6-INFO: %[part=867.2/3][pid=13446][pname=Task-2]: |                    Starting section ap_Corruptfile_verify                    |
+869: ng3k-tb2.cisco.com: 2022-07-11T15:19:09: %AETEST-6-INFO: %[part=867.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+870: ng3k-tb2.cisco.com: 2022-07-11T15:19:09: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': config +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#iox
+stack3-dm-1(config)#end
+stack3-dm-1#
+874: ng3k-tb2.cisco.com: 2022-07-11T15:19:10: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show iox-service' +++
+show iox-service
+
+IOx Infrastructure Summary:
+---------------------------
+IOx service (CAF)              : Running
+IOx service (HA)               : Running 
+IOx service (IOxman)           : Running 
+IOx service (Sec storage)      : Running 
+Libvirtd 5.5.0                 : Running
+Dockerd v19.03.13-ce           : Running
+Redundancy Status              : Ready 
+Sync status                    : Successful
+Last application sync time     : 2022-07-11 15:18:54.175359
+
+stack3-dm-1#
+882: ng3k-tb2.cisco.com: 2022-07-11T15:19:10: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: All IOx services are up running
+883: ng3k-tb2.cisco.com: 2022-07-11T15:19:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'clear logg' +++
+clear logg
+Clear logging buffer [confirm]
+stack3-dm-1#
+886: ng3k-tb2.cisco.com: 2022-07-11T15:19:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'app-hosting verification enable' +++
+app-hosting verification enable
+App signature verification enabled successfully
+
+stack3-dm-1#
+889: ng3k-tb2.cisco.com: 2022-07-11T15:19:18: %APP_LIB-6-INFO: %[pid=13446][pname=Task-2]: Before copying
+890: ng3k-tb2.cisco.com: 2022-07-11T15:19:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': receive +++
+copy tftp://192.168.0.6//Apps//docker-enterprise-agent-invalid-cat9k-0.10.28-signed.tar flash: 
+Destination filename [docker-enterprise-agent-invalid-cat9k-0.10.28-signed.tar]? 
+893: ng3k-tb2.cisco.com: 2022-07-11T15:19:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': receive +++
+
+%Warning:There is a file already existing with this name 
+Do you want to over write? [confirm]
+Accessing tftp://192.168.0.6//Apps//docker-enterprise-agent-invalid-cat9k-0.10.28-signed.tar...
+Loading /Apps//docker-enterprise-agent-invalid-cat9k-0.10.28-signed.tar from 192.168.0.6 (via GigabitEthernet0/0): !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[OK - 162662488 bytes]
+
+162662488 bytes copied in 36.893 secs (4409034 bytes/sec)
+stack3-dm-1#
+939: ng3k-tb2.cisco.com: 2022-07-11T15:20:26: %APP_LIB-6-INFO: %[pid=13446][pname=Task-2]: done copying
+
+stack3-dm-1#941: ng3k-tb2.cisco.com: 2022-07-11T15:20:26: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'app-hosting install appid 1keyes package flash:docker-enterprise-agent-invalid-cat9k-0.10.28-signed.tar' +++
+app-hosting install appid 1keyes package flash:docker-enterprise-agent-invalid-cat9k-0.10.28-signed.tar
+Installing package 'flash:docker-enterprise-agent-invalid-cat9k-0.10.28-signed.tar' for '1keyes'. Use 'show app-hosting list' for progress.
+
+stack3-dm-1#
+946: ng3k-tb2.cisco.com: 2022-07-11T15:20:47: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show app-hosting list' +++
+show app-hosting list
+No App found
+
+stack3-dm-1#
+949: ng3k-tb2.cisco.com: 2022-07-11T15:22:17: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show logging | i app-hosting' +++
+show logging | i app-hosting
+stack3-dm-1#
+951: ng3k-tb2.cisco.com: 2022-07-11T15:22:22: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Failed to display warning message app-hosting: Install failed when trying to install corrupt image
+952: ng3k-tb2.cisco.com: 2022-07-11T15:22:22: %AETEST-3-ERROR: %[pid=13446][pname=Task-2]: Failed reason: ailed to display warning message app-hosting: Install failed when trying to install corrupt image
+953: ng3k-tb2.cisco.com: 2022-07-11T15:22:22: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of section ap_Corruptfile_verify is => FAILED
+954: ng3k-tb2.cisco.com: 2022-07-11T15:22:22: %AETEST-6-INFO: %[part=954.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+955: ng3k-tb2.cisco.com: 2022-07-11T15:22:22: %AETEST-6-INFO: %[part=954.2/3][pid=13446][pname=Task-2]: |               Starting section ap_DNA_licence_essential_verify               |
+956: ng3k-tb2.cisco.com: 2022-07-11T15:22:22: %AETEST-6-INFO: %[part=954.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+957: ng3k-tb2.cisco.com: 2022-07-11T15:22:22: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show license summary' +++
+show license summary
+Account Information:
+  Smart Account: <none>
+  Virtual Account: <none>
+
+License Usage:
+  License                 Entitlement Tag               Count Status
+  -----------------------------------------------------------------------------
+  network-advantage       (C9300L 48P Network Adv...)       2 IN USE
+  dna-advantage           (C9300L 48P DNA Advantage)        2 IN USE
+  network-advantage       (C9300L 24P Network Adv...)       1 IN USE
+  dna-advantage           (C9300L 24P DNA Advantage)        1 IN USE
+
+
+stack3-dm-1#
+964: ng3k-tb2.cisco.com: 2022-07-11T15:22:28: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: License Running is DNA advantage
+965: ng3k-tb2.cisco.com: 2022-07-11T15:22:28: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': config +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#license boot level network-essentials addon dna-essentials
+% use 'write' command to make license boot config take effect on next boot
+
+stack3-dm-1(config)#end
+stack3-dm-1#
+970: ng3k-tb2.cisco.com: 2022-07-11T15:22:29: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Executing reload and verifying app hosting
+971: ng3k-tb2.cisco.com: 2022-07-11T15:22:29: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'write memory' +++
+write memory
+Building configuration...
+[OK]
+stack3-dm-1#
+974: ng3k-tb2.cisco.com: 2022-07-11T15:22:34: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': reload +++
+975: ng3k-tb2.cisco.com: 2022-07-11T15:22:34: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Processing on active rp stack3-dm-1-a
+redundancy reload shelf
+Reload the entire shelf [confirm]
+Preparing to reload this shelf
+
+Chassis 1 reloading, reason - Reload command
+Jul 11 15:22:28.675: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 15:22:30.930: %PMAN-5-EXITACTION: R0/0: pvp: Process manage
+
+
+Initializing Hardware......
+    
+System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+Compiled Wed 05/25/2022 14:26:50.47 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-48U-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+
+*Jul 11 22:23:42.271: %IOSXEBOOT-4-SMART_LOG: (local/local): Mon Jul 11 22:23:42 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+###
+Switch number is 1
+All switches in the stack have been discovered. Accelerating discovery
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           Cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software [Dublin], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.10.20220626:145751 [BLD_POLARIS_DEV_LATEST_20220626_143522:/nobackup/mcpre/s2c-build-ws 101]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Sun 26-Jun-22 07:58 by mcpre
+
+
+This software version supports only Smart Licensing as the software licensing mechanism.
+
+
+PLEASE READ THE FOLLOWING TERMS CAREFULLY. INSTALLING THE LICENSE OR
+LICENSE KEY PROVIDED FOR ANY CISCO SOFTWARE PRODUCT, PRODUCT FEATURE,
+AND/OR SUBSEQUENTLY PROVIDED SOFTWARE FEATURES (COLLECTIVELY, THE
+"SOFTWARE"), AND/OR USING SUCH SOFTWARE CONSTITUTES YOUR FULL
+ACCEPTANCE OF THE FOLLOWING TERMS. YOU MUST NOT PROCEED FURTHER IF YOU
+ARE NOT WILLING TO BE BOUND BY ALL THE TERMS SET FORTH HEREIN.
+
+Your use of the Software is subject to the Cisco End User License Agreement
+(EULA) and any relevant supplemental terms (SEULA) found at
+http://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html.
+
+You hereby acknowledge and agree that certain Software and/or features are
+licensed for a particular term, that the license to such Software and/or
+features is valid only for the applicable term and that such Software and/or
+features may be shut down or otherwise terminated by Cisco after expiration
+of the applicable license term (e.g., 90-day trial period). Cisco reserves
+the right to terminate any such Software feature electronically or by any
+other means available. While Cisco may provide alerts, it is your sole
+responsibility to monitor your usage of any such term Software feature to
+ensure that your systems and networks are prepared for a shutdown of the
+Software feature.
+
+
+
+FIPS: Flash Key Check : Key Not Found, FIPS Mode Not Enabled
+cisco C9300LM-48U-4Y (X86) processor with 1311799K/6147K bytes of memory.
+Processor board ID FOC2551Y5UD
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-2:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-2:.
+11264000K bytes of Flash at flash-3:.
+234430023K bytes of USB Flash at usbflash1:.
+234430023K bytes of USB Flash at usbflash1-2:.
+
+Base Ethernet MAC Address          : 38:fd:f8:50:de:80
+Motherboard Assembly Number        : 73-20377-03
+Motherboard Serial Number          : FOC25470HFX
+Model Revision Number              : A0
+Motherboard Revision Number        : 04
+Model Number                       : C9300LM-48U-4Y
+System Serial Number               : FOC2551Y5UD
+CLEI Code Number                   : 0123456789
+
+
+Applying config on Switch 2...[DONE]
+Applying config on Switch 3...[DONE]
+
+
+Press RETURN to get started!
+
+
+1090: ng3k-tb2.cisco.com: 2022-07-11T15:25:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Waiting for 10 seconds
+
+stack3-dm-1>enable
+stack3-dm-1#
+1093: ng3k-tb2.cisco.com: 2022-07-11T15:26:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Wait for Standby RP to be ready.
+1094: ng3k-tb2.cisco.com: 2022-07-11T15:26:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Initializing                         17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Initializing                         17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Initializing                         17.10.01.0.161945   
+
+
+
+stack3-dm-1#1103: ng3k-tb2.cisco.com: 2022-07-11T15:26:06: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1104: ng3k-tb2.cisco.com: 2022-07-11T15:26:36: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1113: ng3k-tb2.cisco.com: 2022-07-11T15:26:37: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1114: ng3k-tb2.cisco.com: 2022-07-11T15:27:07: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1123: ng3k-tb2.cisco.com: 2022-07-11T15:27:08: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1124: ng3k-tb2.cisco.com: 2022-07-11T15:27:38: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1133: ng3k-tb2.cisco.com: 2022-07-11T15:27:39: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1134: ng3k-tb2.cisco.com: 2022-07-11T15:28:09: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     HA sync in progress                  17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1143: ng3k-tb2.cisco.com: 2022-07-11T15:28:10: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1144: ng3k-tb2.cisco.com: 2022-07-11T15:28:40: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1153: ng3k-tb2.cisco.com: 2022-07-11T15:28:41: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1154: ng3k-tb2.cisco.com: 2022-07-11T15:29:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1163: ng3k-tb2.cisco.com: 2022-07-11T15:29:12: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1164: ng3k-tb2.cisco.com: 2022-07-11T15:29:42: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1173: ng3k-tb2.cisco.com: 2022-07-11T15:29:43: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1174: ng3k-tb2.cisco.com: 2022-07-11T15:30:13: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1183: ng3k-tb2.cisco.com: 2022-07-11T15:30:14: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1184: ng3k-tb2.cisco.com: 2022-07-11T15:30:44: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1193: ng3k-tb2.cisco.com: 2022-07-11T15:30:45: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1194: ng3k-tb2.cisco.com: 2022-07-11T15:31:15: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1203: ng3k-tb2.cisco.com: 2022-07-11T15:31:16: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1204: ng3k-tb2.cisco.com: 2022-07-11T15:31:46: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1213: ng3k-tb2.cisco.com: 2022-07-11T15:31:47: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1214: ng3k-tb2.cisco.com: 2022-07-11T15:32:17: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1223: ng3k-tb2.cisco.com: 2022-07-11T15:32:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1224: ng3k-tb2.cisco.com: 2022-07-11T15:32:48: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1233: ng3k-tb2.cisco.com: 2022-07-11T15:32:49: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1234: ng3k-tb2.cisco.com: 2022-07-11T15:33:19: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1243: ng3k-tb2.cisco.com: 2022-07-11T15:33:20: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1244: ng3k-tb2.cisco.com: 2022-07-11T15:33:50: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1253: ng3k-tb2.cisco.com: 2022-07-11T15:33:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1254: ng3k-tb2.cisco.com: 2022-07-11T15:34:21: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1263: ng3k-tb2.cisco.com: 2022-07-11T15:34:22: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1264: ng3k-tb2.cisco.com: 2022-07-11T15:34:52: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1273: ng3k-tb2.cisco.com: 2022-07-11T15:34:53: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1274: ng3k-tb2.cisco.com: 2022-07-11T15:35:24: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1283: ng3k-tb2.cisco.com: 2022-07-11T15:35:24: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1284: ng3k-tb2.cisco.com: 2022-07-11T15:35:55: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1293: ng3k-tb2.cisco.com: 2022-07-11T15:35:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1294: ng3k-tb2.cisco.com: 2022-07-11T15:36:26: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1303: ng3k-tb2.cisco.com: 2022-07-11T15:36:27: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1304: ng3k-tb2.cisco.com: 2022-07-11T15:36:57: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1313: ng3k-tb2.cisco.com: 2022-07-11T15:36:58: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1314: ng3k-tb2.cisco.com: 2022-07-11T15:37:28: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1323: ng3k-tb2.cisco.com: 2022-07-11T15:37:29: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1324: ng3k-tb2.cisco.com: 2022-07-11T15:37:59: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1333: ng3k-tb2.cisco.com: 2022-07-11T15:38:00: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1334: ng3k-tb2.cisco.com: 2022-07-11T15:38:30: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1343: ng3k-tb2.cisco.com: 2022-07-11T15:38:31: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1344: ng3k-tb2.cisco.com: 2022-07-11T15:39:01: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1353: ng3k-tb2.cisco.com: 2022-07-11T15:39:02: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1354: ng3k-tb2.cisco.com: 2022-07-11T15:39:32: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1363: ng3k-tb2.cisco.com: 2022-07-11T15:39:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1364: ng3k-tb2.cisco.com: 2022-07-11T15:40:03: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1373: ng3k-tb2.cisco.com: 2022-07-11T15:40:04: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1374: ng3k-tb2.cisco.com: 2022-07-11T15:40:34: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1383: ng3k-tb2.cisco.com: 2022-07-11T15:40:35: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+
+1384: ng3k-tb2.cisco.com: 2022-07-11T15:41:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Timeout in 900 secs. Standby RP is not in Ready state. Reload failed
+1385: ng3k-tb2.cisco.com: 2022-07-11T15:41:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+
+Chassis 2 reloading, reason - Reload command
+Jul 11 15:22:28.383: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 15:22:30.248: %PMAN
+
+
+Initializing Hardware......
+    
+System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+Compiled Wed 05/25/2022 14:26:50.47 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-48UX-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+
+*Jul 11 22:23:40.728: %IOSXEBOOT-4-SMART_LOG: (local/local): Mon Jul 11 22:23:40 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+
+Switch number is 2
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+Chassis 3 reloading, reason - Reload command
+Jul 11 15:22:27.906: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 15:22:30.137: %PMAN
+
+
+Initializing Hardware......
+    
+System Bootstrap, Version 17.8.1r, RELEASE SOFTWARE (P)
+Compiled Wed 02/02/2022 21:26:43.69 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-24U-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+Warning: ignoring ROMMON var "BOOT_PARAM"
+
+
+Waiting for 120 seconds for other switches to boot
+########
+Switch number is 3
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#iox
+stack3-dm-1(config)#end
+stack3-dm-1#
+1391: ng3k-tb2.cisco.com: 2022-07-11T15:41:06: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show iox-service' +++
+show iox-service
+
+IOx Infrastructure Summary:
+---------------------------
+IOx service (CAF)              : Running
+IOx service (HA)               : Running 
+IOx service (IOxman)           : Running 
+IOx service (Sec storage)      : Running 
+Libvirtd 5.5.0                 : Running
+Dockerd v19.03.13-ce           : Running
+Redundancy Status              : Ready 
+Sync status                    : Successful
+Last application sync time     : 2022-07-11 22:27:38.613998
+
+stack3-dm-1#
+1399: ng3k-tb2.cisco.com: 2022-07-11T15:41:06: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: All IOx services are up running
+1400: ng3k-tb2.cisco.com: 2022-07-11T15:41:07: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'clear logg' +++
+clear logg
+Clear logging buffer [confirm]
+stack3-dm-1#
+1403: ng3k-tb2.cisco.com: 2022-07-11T15:41:12: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'app-hosting install appid 1keyes package tftp://192.168.0.6//Apps//docker-enterprise-agent-cat9k-signed-0.10.34.tar' +++
+app-hosting install appid 1keyes package tftp://192.168.0.6//Apps//docker-enterprise-agent-cat9k-signed-0.10.34.tar
+Installing package 'tftp://192.168.0.6//Apps//docker-enterprise-agent-cat9k-signed-0.10.34.tar' for '1keyes'. Use 'show app-hosting list' for progress.
+
+stack3-dm-1#
+1408: ng3k-tb2.cisco.com: 2022-07-11T15:42:43: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'sh log | i  app-hosting' +++
+sh log | i  app-hosting
+stack3-dm-1#
+1410: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Failed to display warning message app-hosting when trying to install
+1411: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-3-ERROR: %[part=1411.1/5][pid=13446][pname=Task-2]: Caught an exception while executing section ap_DNA_licence_essential_verify:
+1412: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-3-ERROR: %[part=1411.2/5][pid=13446][pname=Task-2]: Traceback (most recent call last):
+1413: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-3-ERROR: %[part=1411.3/5][pid=13446][pname=Task-2]:   File "/auto/iconatest/users/rbirudu/pyats/projects/preg/scripts/feature/1keyes_apphosting/ap_1keyes_DNA_9300_usb.py", line 432, in ap_DNA_licence_essential_verify
+1414: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-3-ERROR: %[part=1411.4/5][pid=13446][pname=Task-2]:     self.abort('Failed to display warning message %s when trying to install' %search_str)
+1415: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-3-ERROR: %[part=1411.5/5][pid=13446][pname=Task-2]: AttributeError: 'app_test' object has no attribute 'abort'
+1416: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of section ap_DNA_licence_essential_verify is => ERRORED
+1417: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-6-INFO: %[part=1417.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+1418: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-6-INFO: %[part=1417.2/3][pid=13446][pname=Task-2]: |                           Starting section cleanup                           |
+1419: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %AETEST-6-INFO: %[part=1417.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+1420: ng3k-tb2.cisco.com: 2022-07-11T15:42:48: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#default int Ap1/0/2
+Interface AppGigabitEthernet1/0/2 set to default configuration
+stack3-dm-1(config)#end
+stack3-dm-1#
+1425: ng3k-tb2.cisco.com: 2022-07-11T15:42:49: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': configure +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#default int Ap2/0/2
+Interface AppGigabitEthernet2/0/2 set to default configuration
+stack3-dm-1(config)#end
+stack3-dm-1#
+1430: ng3k-tb2.cisco.com: 2022-07-11T15:42:49: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': config +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#license boot level network-advantage addon dna-advantage
+% use 'write' command to make license boot config take effect on next boot
+
+stack3-dm-1(config)#end
+stack3-dm-1#
+1435: ng3k-tb2.cisco.com: 2022-07-11T15:42:50: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: license boot level network-advantage addon dna-advantage
+1436: ng3k-tb2.cisco.com: 2022-07-11T15:42:50: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'write memory' +++
+write memory
+Building configuration...
+[OK]
+stack3-dm-1#
+1439: ng3k-tb2.cisco.com: 2022-07-11T15:43:05: %AP_PORT_RESTART_SSO_LIB-6-INFO: %[pid=13446][pname=Task-2]: setting Switch to N+1 mode
+1440: ng3k-tb2.cisco.com: 2022-07-11T15:43:06: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': receive +++
+switch clear stack-mode
+WARNING: Clearing the chassis HA configuration will result in both the chas
+sis move into Stand Alone mode. This involves reloading the standby chassis after clearing its HA configuration and coming up with all interfaces in shutdown mode. Do you wish to continue? [y/n]? [yes]: yes
+stack3-dm-1#
+stack3-dm-1#1445: ng3k-tb2.cisco.com: 2022-07-11T15:43:06: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'write' +++
+write
+Building configuration...
+[OK]
+stack3-dm-1#
+1448: ng3k-tb2.cisco.com: 2022-07-11T15:43:11: %AP_PORT_RESTART_SSO_LIB-6-INFO: %[pid=13446][pname=Task-2]: Going to reload the Switch to change the stack-mode
+1449: ng3k-tb2.cisco.com: 2022-07-11T15:43:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': reload +++
+1450: ng3k-tb2.cisco.com: 2022-07-11T15:43:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Processing on active rp stack3-dm-1-a
+redundancy reload shelf
+Reload the entire shelf [confirm]
+Preparing to reload this shelf
+
+Chassis 1 reloading, reason - Reload command
+Jul 11 15:43:04.951: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 15:43:07.658: %PMAN-5-EXITACTION: R0/0: pvp: Process manager 
+
+
+Initializing Hardware......
+    
+System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+Compiled Wed 05/25/2022 14:26:50.47 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-48U-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+
+*Jul 11 22:44:24.851: %IOSXEBOOT-4-SMART_LOG: (local/local): Mon Jul 11 22:44:24 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+
+Switch number is 1
+All switches in the stack have been discovered. Accelerating discovery
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           Cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software [Dublin], Catalyst L3 Switch Software (CAT9K_IOSXE), Experimental Version 17.10.20220626:145751 [BLD_POLARIS_DEV_LATEST_20220626_143522:/nobackup/mcpre/s2c-build-ws 101]
+Copyright (c) 1986-2022 by Cisco Systems, Inc.
+Compiled Sun 26-Jun-22 07:58 by mcpre
+
+
+This software version supports only Smart Licensing as the software licensing mechanism.
+
+
+PLEASE READ THE FOLLOWING TERMS CAREFULLY. INSTALLING THE LICENSE OR
+LICENSE KEY PROVIDED FOR ANY CISCO SOFTWARE PRODUCT, PRODUCT FEATURE,
+AND/OR SUBSEQUENTLY PROVIDED SOFTWARE FEATURES (COLLECTIVELY, THE
+"SOFTWARE"), AND/OR USING SUCH SOFTWARE CONSTITUTES YOUR FULL
+ACCEPTANCE OF THE FOLLOWING TERMS. YOU MUST NOT PROCEED FURTHER IF YOU
+ARE NOT WILLING TO BE BOUND BY ALL THE TERMS SET FORTH HEREIN.
+
+Your use of the Software is subject to the Cisco End User License Agreement
+(EULA) and any relevant supplemental terms (SEULA) found at
+http://www.cisco.com/c/en/us/about/legal/cloud-and-software/software-terms.html.
+
+You hereby acknowledge and agree that certain Software and/or features are
+licensed for a particular term, that the license to such Software and/or
+features is valid only for the applicable term and that such Software and/or
+features may be shut down or otherwise terminated by Cisco after expiration
+of the applicable license term (e.g., 90-day trial period). Cisco reserves
+the right to terminate any such Software feature electronically or by any
+other means available. While Cisco may provide alerts, it is your sole
+responsibility to monitor your usage of any such term Software feature to
+ensure that your systems and networks are prepared for a shutdown of the
+Software feature.
+
+
+
+FIPS: Flash Key Check : Key Not Found, FIPS Mode Not Enabled
+cisco C9300LM-48U-4Y (X86) processor with 1311799K/6147K bytes of memory.
+Processor board ID FOC2551Y5UD
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+1638400K bytes of Crash Files at crashinfo-2:.
+1638400K bytes of Crash Files at crashinfo-3:.
+11264000K bytes of Flash at flash:.
+11264000K bytes of Flash at flash-2:.
+11264000K bytes of Flash at flash-3:.
+234430023K bytes of USB Flash at usbflash1:.
+234430023K bytes of USB Flash at usbflash1-2:.
+
+Base Ethernet MAC Address          : 38:fd:f8:50:de:80
+Motherboard Assembly Number        : 73-20377-03
+Motherboard Serial Number          : FOC25470HFX
+Model Revision Number              : A0
+Motherboard Revision Number        : 04
+Model Number                       : C9300LM-48U-4Y
+System Serial Number               : FOC2551Y5UD
+CLEI Code Number                   : 0123456789
+
+
+Upoe-plus command is already enabled for switch number:2
+
+Applying config on Switch 2...[DONE]
+Applying config on Switch 3...[DONE]
+
+
+Press RETURN to get started!
+
+
+1563: ng3k-tb2.cisco.com: 2022-07-11T15:46:32: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Waiting for 10 seconds
+
+stack3-dm-1>enable
+stack3-dm-1#
+1566: ng3k-tb2.cisco.com: 2022-07-11T15:46:43: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Wait for Standby RP to be ready.
+1567: ng3k-tb2.cisco.com: 2022-07-11T15:46:43: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Initializing                         17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Initializing                         17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Initializing                         17.10.01.0.161945   
+
+
+
+stack3-dm-1#1576: ng3k-tb2.cisco.com: 2022-07-11T15:46:44: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1577: ng3k-tb2.cisco.com: 2022-07-11T15:47:14: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1586: ng3k-tb2.cisco.com: 2022-07-11T15:47:15: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1587: ng3k-tb2.cisco.com: 2022-07-11T15:47:45: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1596: ng3k-tb2.cisco.com: 2022-07-11T15:47:46: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1597: ng3k-tb2.cisco.com: 2022-07-11T15:48:16: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Member   c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1606: ng3k-tb2.cisco.com: 2022-07-11T15:48:17: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1607: ng3k-tb2.cisco.com: 2022-07-11T15:48:47: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     HA sync in progress                  17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1616: ng3k-tb2.cisco.com: 2022-07-11T15:48:48: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1617: ng3k-tb2.cisco.com: 2022-07-11T15:49:18: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     HA sync in progress                  17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1626: ng3k-tb2.cisco.com: 2022-07-11T15:49:19: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1627: ng3k-tb2.cisco.com: 2022-07-11T15:49:49: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1636: ng3k-tb2.cisco.com: 2022-07-11T15:49:50: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1637: ng3k-tb2.cisco.com: 2022-07-11T15:50:20: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1646: ng3k-tb2.cisco.com: 2022-07-11T15:50:21: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1647: ng3k-tb2.cisco.com: 2022-07-11T15:50:51: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1656: ng3k-tb2.cisco.com: 2022-07-11T15:50:52: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1657: ng3k-tb2.cisco.com: 2022-07-11T15:51:23: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1666: ng3k-tb2.cisco.com: 2022-07-11T15:51:23: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1667: ng3k-tb2.cisco.com: 2022-07-11T15:51:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1676: ng3k-tb2.cisco.com: 2022-07-11T15:51:54: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1677: ng3k-tb2.cisco.com: 2022-07-11T15:52:25: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1686: ng3k-tb2.cisco.com: 2022-07-11T15:52:26: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1687: ng3k-tb2.cisco.com: 2022-07-11T15:52:56: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1696: ng3k-tb2.cisco.com: 2022-07-11T15:52:57: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1697: ng3k-tb2.cisco.com: 2022-07-11T15:53:27: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1706: ng3k-tb2.cisco.com: 2022-07-11T15:53:28: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1707: ng3k-tb2.cisco.com: 2022-07-11T15:53:58: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1716: ng3k-tb2.cisco.com: 2022-07-11T15:53:59: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1717: ng3k-tb2.cisco.com: 2022-07-11T15:54:29: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1726: ng3k-tb2.cisco.com: 2022-07-11T15:54:30: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1727: ng3k-tb2.cisco.com: 2022-07-11T15:55:00: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1736: ng3k-tb2.cisco.com: 2022-07-11T15:55:01: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1737: ng3k-tb2.cisco.com: 2022-07-11T15:55:31: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1746: ng3k-tb2.cisco.com: 2022-07-11T15:55:32: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1747: ng3k-tb2.cisco.com: 2022-07-11T15:56:02: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1756: ng3k-tb2.cisco.com: 2022-07-11T15:56:03: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1757: ng3k-tb2.cisco.com: 2022-07-11T15:56:33: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1766: ng3k-tb2.cisco.com: 2022-07-11T15:56:34: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1767: ng3k-tb2.cisco.com: 2022-07-11T15:57:04: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1776: ng3k-tb2.cisco.com: 2022-07-11T15:57:05: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1777: ng3k-tb2.cisco.com: 2022-07-11T15:57:35: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1786: ng3k-tb2.cisco.com: 2022-07-11T15:57:36: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1787: ng3k-tb2.cisco.com: 2022-07-11T15:58:06: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1796: ng3k-tb2.cisco.com: 2022-07-11T15:58:07: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1797: ng3k-tb2.cisco.com: 2022-07-11T15:58:37: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1806: ng3k-tb2.cisco.com: 2022-07-11T15:58:38: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1807: ng3k-tb2.cisco.com: 2022-07-11T15:59:08: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1816: ng3k-tb2.cisco.com: 2022-07-11T15:59:09: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1817: ng3k-tb2.cisco.com: 2022-07-11T15:59:39: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1826: ng3k-tb2.cisco.com: 2022-07-11T15:59:40: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1827: ng3k-tb2.cisco.com: 2022-07-11T16:00:10: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1836: ng3k-tb2.cisco.com: 2022-07-11T16:00:11: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1837: ng3k-tb2.cisco.com: 2022-07-11T16:00:41: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1846: ng3k-tb2.cisco.com: 2022-07-11T16:00:42: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+1847: ng3k-tb2.cisco.com: 2022-07-11T16:01:12: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#1856: ng3k-tb2.cisco.com: 2022-07-11T16:01:13: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Sleeping for 30 secs.
+
+1857: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: Timeout in 900 secs. Standby RP is not in Ready state. Reload failed
+1858: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AP_PORT_RESTART_SSO_LIB-6-INFO: %[pid=13446][pname=Task-2]: Reload failed
+1859: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of section cleanup is => PASSED
+1860: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of testcase app_test is => ERRORED
+1861: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[part=1861.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+1862: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[part=1861.2/3][pid=13446][pname=Task-2]: |                           Starting common cleanup                            |
+1863: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[part=1861.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+1864: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[part=1864.1/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+1865: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[part=1864.2/3][pid=13446][pname=Task-2]: |                       Starting subsection common_clean                       |
+1866: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %AETEST-6-INFO: %[part=1864.3/3][pid=13446][pname=Task-2]: +------------------------------------------------------------------------------+
+1867: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: passed
+1868: ng3k-tb2.cisco.com: 2022-07-11T16:01:43: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Check for number of switches in the stack
+1869: ng3k-tb2.cisco.com: 2022-07-11T16:01:44: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'enable' +++
+enable
+stack3-dm-1#
+1871: ng3k-tb2.cisco.com: 2022-07-11T16:01:44: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'show switch' +++
+show switch
+Switch/Stack Mac Address : 38fd.f850.de80 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State                                   Image Version
+------------------------------------------------------------------------------------------------------------------
+*1       Active   38fd.f850.de80     15     P3      Ready                                17.10.01.0.161945   
+ 2       Standby  c44d.84ef.8300     14     P2A     Ready                                17.10.01.0.161945   
+ 3       Member   c44d.84ef.7d00     13     P2A     Ready                                17.10.01.0.161945   
+
+
+
+stack3-dm-1#
+1880: ng3k-tb2.cisco.com: 2022-07-11T16:01:45: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Value of tot_sw_list : 3
+1881: ng3k-tb2.cisco.com: 2022-07-11T16:01:45: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: Stack length is : 3
+1882: ng3k-tb2.cisco.com: 2022-07-11T16:01:45: %SCRIPT-6-INFO: %[pid=13446][pname=Task-2]: switch number as expected
+1883: ng3k-tb2.cisco.com: 2022-07-11T16:01:45: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': config +++
+
+Chassis 2 reloading, reason - Reload command
+Jul 11 15:43:05.240: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 15:43:06.967: %PM
+
+
+Initializing Hardware......
+    
+System Bootstrap, Version 17.9.1r, RELEASE SOFTWARE (P)
+Compiled Wed 05/25/2022 14:26:50.47 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-48UX-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+
+
+*Jul 11 22:44:18.816: %IOSXEBOOT-4-SMART_LOG: (local/local): Mon Jul 11 22:44:18 Universal 2022 INFO: Starting SMART daemon
+
+Waiting for 120 seconds for other switches to boot
+###
+Switch number is 2
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+
+Chassis 3 reloading, reason - Reload command
+Jul 11 15:43:04.661: %PMAN-5-EXITACTION: F0/0: pvp: Process manager is exiting: reload fp action requested
+Jul 11 15:43:06.734: %P
+
+
+Initializing Hardware......
+    
+System Bootstrap, Version 17.8.1r, RELEASE SOFTWARE (P)
+Compiled Wed 02/02/2022 21:26:43.69 by rel
+
+Current ROMMON image : Primary
+Last reset cause     : SoftwareReload
+C9300LM-24U-4Y platform with 8388608 Kbytes of main memory
+
+Preparing to autoboot. [Press Ctrl-C to interrupt]  5     5     /-\|/-\|/-4     \|/-\|/-\|3     /-\|/-\|/-2     \|/-\|/-\|1     /-\|/-\|/-0     
+boot: attempting to boot from [flash:packages.conf]
+boot: reading file packages.conf
+#
+##############################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+
+Warning: ignoring ROMMON var "BOOT_PARAM"
+
+
+Waiting for 120 seconds for other switches to boot
+#########
+Switch number is 3
+All switches in the stack have been discovered. Accelerating discovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stack3-dm-1 console is now available
+
+
+
+
+
+Press RETURN to get started.
+
+
+
+
+
+
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#no iox
+stack3-dm-1(config)#end
+stack3-dm-1#
+1889: ng3k-tb2.cisco.com: 2022-07-11T16:01:45: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': executing command 'clear iox' +++
+clear iox
+IOX is configured/UP. IOX must be disabled before invoking this command
+stack3-dm-1#
+1891: ng3k-tb2.cisco.com: 2022-07-11T16:01:46: %UNICON-6-INFO: %[pid=13446][pname=Task-2]: +++ stack3-dm-1 with via 'a' and alias 'a': config +++
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+stack3-dm-1(config)#no app-hosting appid 1keyes
+stack3-dm-1(config)#end
+stack3-dm-1#
+1896: ng3k-tb2.cisco.com: 2022-07-11T16:01:46: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of subsection common_clean is => PASSED
+1897: ng3k-tb2.cisco.com: 2022-07-11T16:01:46: %AETEST-6-INFO: %[pid=13446][pname=Task-2]: The result of common cleanup is => PASSED
+1898: ng3k-tb2.cisco.com: 2022-07-11T16:01:46: %CISCO-6-INFO: %[pid=13446][pname=Task-2]: Start Telemetry - Task
+1899: ng3k-tb2.cisco.com: 2022-07-11T16:01:47: %CISCO-3-ERROR: %[part=1899.1/5][pid=13446][pname=Task-2]: module 'csccon' has no attribute 'stats'
+1900: ng3k-tb2.cisco.com: 2022-07-11T16:01:47: %CISCO-3-ERROR: %[part=1899.2/5][pid=13446][pname=Task-2]: Traceback (most recent call last):
+1901: ng3k-tb2.cisco.com: 2022-07-11T16:01:47: %CISCO-3-ERROR: %[part=1899.3/5][pid=13446][pname=Task-2]:   File "/auto/iconatest/production/hcl/pyats3.6.4/lib/python3.6/site-packages/pyats/cisco/businesstelemetry.py", line 1541, in post_task
+1902: ng3k-tb2.cisco.com: 2022-07-11T16:01:47: %CISCO-3-ERROR: %[part=1899.4/5][pid=13446][pname=Task-2]:     csccon_data = get_csccon_data(data=sys.modules['csccon'].stats,
+1903: ng3k-tb2.cisco.com: 2022-07-11T16:01:47: %CISCO-3-ERROR: %[part=1899.5/5][pid=13446][pname=Task-2]: AttributeError: module 'csccon' has no attribute 'stats'

@@ -1,0 +1,278 @@
+3: bgl-ads-2812: 2021-10-20T05:39:43: %AETEST-6-INFO: %[part=3.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+4: bgl-ads-2812: 2021-10-20T05:39:43: %AETEST-6-INFO: %[part=3.2/3][pid=2304089][pname=Task-1]: |                            Starting common setup                             |
+5: bgl-ads-2812: 2021-10-20T05:39:43: %AETEST-6-INFO: %[part=3.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+6: bgl-ads-2812: 2021-10-20T05:39:43: %AETEST-6-INFO: %[part=6.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+7: bgl-ads-2812: 2021-10-20T05:39:43: %AETEST-6-INFO: %[part=6.2/3][pid=2304089][pname=Task-1]: |                       Starting subsection common_setup                       |
+8: bgl-ads-2812: 2021-10-20T05:39:43: %AETEST-6-INFO: %[part=6.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+9: bgl-ads-2812: 2021-10-20T05:39:43: %WARNINGS-4-WARNING: %[part=9.1/3][pid=2304089][pname=Task-1]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py:1020:
+10: bgl-ads-2812: 2021-10-20T05:39:43: %WARNINGS-4-WARNING: %[part=9.2/3][pid=2304089][pname=Task-1]: InsecureRequestWarning: Unverified HTTPS request is being made to host '10.126.109.107'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+11: bgl-ads-2812: 2021-10-20T05:39:43: %WARNINGS-4-WARNING: %[part=9.3/3][pid=2304089][pname=Task-1]:   InsecureRequestWarning,
+12: bgl-ads-2812: 2021-10-20T05:39:43: %WARNINGS-4-WARNING: %[part=12.1/3][pid=2304089][pname=Task-1]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py:1020:
+13: bgl-ads-2812: 2021-10-20T05:39:43: %WARNINGS-4-WARNING: %[part=12.2/3][pid=2304089][pname=Task-1]: InsecureRequestWarning: Unverified HTTPS request is being made to host '10.126.109.107'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+14: bgl-ads-2812: 2021-10-20T05:39:43: %WARNINGS-4-WARNING: %[part=12.3/3][pid=2304089][pname=Task-1]:   InsecureRequestWarning,
+15: bgl-ads-2812: 2021-10-20T05:39:43: %SERVICES-6-INFO: %[pid=2304089][pname=Task-1]: Maglev setup completed
+16: bgl-ads-2812: 2021-10-20T05:39:44: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Passed reason: Common Setup Completed Successfully
+17: bgl-ads-2812: 2021-10-20T05:39:44: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of subsection common_setup is => PASSED
+18: bgl-ads-2812: 2021-10-20T05:39:44: %AETEST-6-INFO: %[part=18.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+19: bgl-ads-2812: 2021-10-20T05:39:44: %AETEST-6-INFO: %[part=18.2/3][pid=2304089][pname=Task-1]: |                    Starting subsection connect_to_devices                    |
+20: bgl-ads-2812: 2021-10-20T05:39:44: %AETEST-6-INFO: %[part=18.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+21: bgl-ads-2812: 2021-10-20T05:39:44: %SCRIPT-6-INFO: %[part=21.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+22: bgl-ads-2812: 2021-10-20T05:39:44: %SCRIPT-6-INFO: %[part=21.2/3][pid=2304089][pname=Task-1]: |                       ***** Aetest Common Setup *****                        |
+23: bgl-ads-2812: 2021-10-20T05:39:44: %SCRIPT-6-INFO: %[part=21.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+24: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=24.1/3][pid=2304089][pname=Task-1]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/adapters/topology.py:306:
+25: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=24.2/3][pid=2304089][pname=Task-1]: DeprecationWarning: The 'series' key has been deprecated, it is replaced by the 'platform' key.
+26: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=24.3/3][pid=2304089][pname=Task-1]:   " by the 'platform' key.", DeprecationWarning)
+27: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ edge-9300 logfile /tmp/edge-9300-cli-20211020T053944401.log +++
+28: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ Unicon plugin iosxe/cat9k +++
+29: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=29.1/3][pid=2304089][pname=Task-1]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/adapters/topology.py:306:
+30: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=29.2/3][pid=2304089][pname=Task-1]: DeprecationWarning: The 'series' key has been deprecated, it is replaced by the 'platform' key.
+31: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=29.3/3][pid=2304089][pname=Task-1]:   " by the 'platform' key.", DeprecationWarning)
+32: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ edge-9300 logfile /auto/iconatest-bgl/production/hcl/pyats3.6.3/users/udasubra/runinfo/wired_client_assurance_job.2021Oct20_05:39:35.378949/edge-9300-a-1634688584.log +++
+33: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ Unicon plugin iosxe/cat9k +++
+34: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=34.1/3][pid=2304089][pname=Task-1]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/adapters/topology.py:306:
+35: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=34.2/3][pid=2304089][pname=Task-1]: DeprecationWarning: The 'series' key has been deprecated, it is replaced by the 'platform' key.
+36: bgl-ads-2812: 2021-10-20T05:39:44: %WARNINGS-4-WARNING: %[part=34.3/3][pid=2304089][pname=Task-1]:   " by the 'platform' key.", DeprecationWarning)
+37: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ edge-9300 logfile /auto/iconatest-bgl/production/hcl/pyats3.6.3/users/udasubra/runinfo/wired_client_assurance_job.2021Oct20_05:39:35.378949/edge-9300-b-1634688584.log +++
+38: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ Unicon plugin iosxe/cat9k +++
+Trying 10.106.19.224...
+Trying 10.106.19.224...
+
+41: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ connection to spawn: telnet 10.106.19.224 2027, id: 140660042827536 +++
+42: bgl-ads-2812: 2021-10-20T05:39:44: %UNICON-6-INFO: %[pid=2304089][pname=Task-1]: +++ connection to spawn: telnet 10.106.19.224 2035, id: 140660042736976 +++
+telnet: connect to address 10.106.19.224: Connection refused
+44: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.1/50][pid=2304089][pname=Task-1]: Caught an exception while executing subsection connect_to_devices:
+45: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.2/50][pid=2304089][pname=Task-1]: Traceback (most recent call last):
+46: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.3/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/eal/backend/pty_backend.py", line 496, in _read
+47: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.4/50][pid=2304089][pname=Task-1]:     return os.read(self.fd, size)
+48: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.5/50][pid=2304089][pname=Task-1]: OSError: [Errno 5] Input/output error
+49: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.6/50][pid=2304089][pname=Task-1]: 
+50: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.7/50][pid=2304089][pname=Task-1]: The above exception was the direct cause of the following exception:
+51: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.8/50][pid=2304089][pname=Task-1]: 
+52: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.9/50][pid=2304089][pname=Task-1]: Traceback (most recent call last):
+53: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.10/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/statemachine/statemachine.py", line 720, in go_to
+54: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.11/50][pid=2304089][pname=Task-1]:     output = transition.do_transitions()
+55: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.12/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/statemachine/statetransition.py", line 481, in do_transitions
+56: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.13/50][pid=2304089][pname=Task-1]:     timeout=self.timeout)
+57: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.14/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/eal/dialogs.py", line 459, in process
+58: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.15/50][pid=2304089][pname=Task-1]:     return dp.process()
+59: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.16/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/eal/dialog_processor.py", line 321, in process
+60: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.17/50][pid=2304089][pname=Task-1]:     if self.expect_eval_statements(pat) is True:
+61: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.18/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/eal/dialog_processor.py", line 219, in expect_eval_statements
+62: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.19/50][pid=2304089][pname=Task-1]:     if self.spawn.read_update_buffer():
+63: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.20/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/eal/backend/pty_backend.py", line 133, in read_update_buffer
+64: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.21/50][pid=2304089][pname=Task-1]:     data = self.read(size)
+65: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.22/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/eal/backend/pty_backend.py", line 118, in read
+66: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.23/50][pid=2304089][pname=Task-1]:     byte_data = self._read(size)
+67: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.24/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/eal/backend/pty_backend.py", line 499, in _read
+68: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.25/50][pid=2304089][pname=Task-1]:     raise EOF('Unable to read. Connection closed or not available', e) from e
+69: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.26/50][pid=2304089][pname=Task-1]: unicon.core.errors.EOF: ('Unable to read. Connection closed or not available', OSError(5, 'Input/output error'))
+70: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.27/50][pid=2304089][pname=Task-1]: 
+71: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.28/50][pid=2304089][pname=Task-1]: The above exception was the direct cause of the following exception:
+72: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.29/50][pid=2304089][pname=Task-1]: 
+73: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.30/50][pid=2304089][pname=Task-1]: Traceback (most recent call last):
+74: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.31/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/bases/routers/connection.py", line 576, in connect
+75: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.32/50][pid=2304089][pname=Task-1]:     self.connection_provider.connect()
+76: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.33/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/bases/routers/connection_provider.py", line 344, in connect
+77: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.34/50][pid=2304089][pname=Task-1]:     self.establish_connection()
+78: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.35/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/bases/routers/connection_provider.py", line 391, in establish_connection
+79: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.36/50][pid=2304089][pname=Task-1]:     dialog=self.get_connection_dialog())
+80: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.37/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/statemachine/statemachine.py", line 725, in go_to
+81: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.38/50][pid=2304089][pname=Task-1]:     str(expected_state)) from err
+82: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.39/50][pid=2304089][pname=Task-1]: unicon.core.errors.StateMachineError: Failed while bringing device to "any" state
+83: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.40/50][pid=2304089][pname=Task-1]: 
+84: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.41/50][pid=2304089][pname=Task-1]: The above exception was the direct cause of the following exception:
+85: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.42/50][pid=2304089][pname=Task-1]: 
+86: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.43/50][pid=2304089][pname=Task-1]: Traceback (most recent call last):
+87: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.44/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 1241, in connect_to_devices
+88: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.45/50][pid=2304089][pname=Task-1]:     Variables.device_dict[dev_object].connect()
+89: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.46/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/pyats/connections/manager.py", line 426, in connect
+90: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.47/50][pid=2304089][pname=Task-1]:     output = connection.connect()
+91: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.48/50][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/unicon/bases/routers/connection.py", line 583, in connect
+92: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.49/50][pid=2304089][pname=Task-1]:     self.hostname) from err
+93: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=44.50/50][pid=2304089][pname=Task-1]: unicon.core.errors.ConnectionError: failed to connect to edge-9300
+94: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of subsection connect_to_devices is => ERRORED
+95: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=95.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+96: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=95.2/3][pid=2304089][pname=Task-1]: |                       Starting subsection dnac_connect                       |
+97: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=95.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+98: bgl-ads-2812: 2021-10-20T05:40:06: %SCRIPT-6-INFO: %[pid=2304089][pname=Task-1]: Connecting to Pnp Server Connect
+99: bgl-ads-2812: 2021-10-20T05:40:06: %WARNINGS-4-WARNING: %[part=99.1/3][pid=2304089][pname=Task-1]: /auto/iconatest-bgl/production/hcl/pyats3.6.3/lib/python3.6/site-packages/urllib3/connectionpool.py:1020:
+100: bgl-ads-2812: 2021-10-20T05:40:06: %WARNINGS-4-WARNING: %[part=99.2/3][pid=2304089][pname=Task-1]: InsecureRequestWarning: Unverified HTTPS request is being made to host '10.126.109.107'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+101: bgl-ads-2812: 2021-10-20T05:40:06: %WARNINGS-4-WARNING: %[part=99.3/3][pid=2304089][pname=Task-1]:   InsecureRequestWarning,
+102: bgl-ads-2812: 2021-10-20T05:40:06: %SCRIPT-6-INFO: %[pid=2304089][pname=Task-1]: The Connection Output is <northbound.test.wired_client_assurance.lib.pnp_server_connect.PnPServerConnect object at 0x7fedf7dfd898>
+103: bgl-ads-2812: 2021-10-20T05:40:06: %SCRIPT-6-INFO: %[pid=2304089][pname=Task-1]: Connecting to wired assurance
+104: bgl-ads-2812: 2021-10-20T05:40:06: %SCRIPT-6-INFO: %[pid=2304089][pname=Task-1]: The Connection Output is <northbound.test.wired_client_assurance.lib.assurance_wired_client_lib.AssuranceApiWC object at 0x7fedf7e098d0>
+105: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of subsection dnac_connect is => PASSED
+106: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=106.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+107: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=106.2/3][pid=2304089][pname=Task-1]: |                 Starting subsection create_parent_parameters                 |
+108: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=106.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+109: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of subsection create_parent_parameters is => PASSED
+110: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of common setup is => ERRORED
+111: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=111.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+112: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=111.2/3][pid=2304089][pname=Task-1]: |                   Starting testcase TestBrownFieldScenario                   |
+113: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=111.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+114: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestBrownFieldScenario because common_setup did not pass.
+115: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestBrownFieldScenario is => BLOCKED
+116: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=116.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+117: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=116.2/3][pid=2304089][pname=Task-1]: |             Starting testcase TestTelemetryConnectionBrownField              |
+118: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=116.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+119: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestTelemetryConnectionBrownField because common_setup did not pass.
+120: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestTelemetryConnectionBrownField is => BLOCKED
+121: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=121.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+122: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=121.2/3][pid=2304089][pname=Task-1]: |                   Starting testcase DnacGreenFieldScenario                   |
+123: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=121.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+124: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking DnacGreenFieldScenario because common_setup did not pass.
+125: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase DnacGreenFieldScenario is => BLOCKED
+126: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=126.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+127: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=126.2/3][pid=2304089][pname=Task-1]: |             Starting testcase TestTelemetryConnectionGreenField              |
+128: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=126.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+129: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestTelemetryConnectionGreenField because common_setup did not pass.
+130: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestTelemetryConnectionGreenField is => BLOCKED
+131: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=131.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+132: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=131.2/3][pid=2304089][pname=Task-1]: |                    Starting testcase DeviceConfigurations                    |
+133: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=131.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+134: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking DeviceConfigurations because common_setup did not pass.
+135: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase DeviceConfigurations is => BLOCKED
+136: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=136.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+137: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=136.2/3][pid=2304089][pname=Task-1]: |                  Starting testcase PopulateAccessDictionary                  |
+138: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=136.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+139: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking PopulateAccessDictionary because common_setup did not pass.
+140: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase PopulateAccessDictionary is => BLOCKED
+141: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=141.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+142: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=141.2/3][pid=2304089][pname=Task-1]: |                     Starting testcase TestRemoveNetconf                      |
+143: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=141.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+144: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestRemoveNetconf because common_setup did not pass.
+145: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestRemoveNetconf is => BLOCKED
+146: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=146.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+147: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=146.2/3][pid=2304089][pname=Task-1]: |                     Starting testcase TestIpDhcpFailure                      |
+148: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=146.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+149: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestIpDhcpFailure because common_setup did not pass.
+150: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestIpDhcpFailure is => BLOCKED
+151: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=151.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+152: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=151.2/3][pid=2304089][pname=Task-1]: |                        Starting testcase TestAaaDown                         |
+153: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=151.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+154: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestAaaDown because common_setup did not pass.
+155: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestAaaDown is => BLOCKED
+156: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=156.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+157: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=156.2/3][pid=2304089][pname=Task-1]: |                  Starting testcase DeviceTrackingDbCleared                   |
+158: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=156.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+159: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking DeviceTrackingDbCleared because common_setup did not pass.
+160: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase DeviceTrackingDbCleared is => BLOCKED
+161: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=161.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+162: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=161.2/3][pid=2304089][pname=Task-1]: |                Starting testcase TestAuthenticatorAndTimeout                 |
+163: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=161.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+164: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestAuthenticatorAndTimeout because common_setup did not pass.
+165: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestAuthenticatorAndTimeout is => BLOCKED
+166: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=166.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+167: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=166.2/3][pid=2304089][pname=Task-1]: |                      Starting testcase AccessVlanChange                      |
+168: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=166.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+169: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking AccessVlanChange because common_setup did not pass.
+170: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase AccessVlanChange is => BLOCKED
+171: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=171.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+172: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=171.2/3][pid=2304089][pname=Task-1]: |                 Starting testcase TestAccessSessionHostMode                  |
+173: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=171.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+174: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestAccessSessionHostMode because common_setup did not pass.
+175: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestAccessSessionHostMode is => BLOCKED
+176: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=176.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+177: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=176.2/3][pid=2304089][pname=Task-1]: |                   Starting testcase TestIpDeleteAccessVlan                   |
+178: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=176.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+179: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestIpDeleteAccessVlan because common_setup did not pass.
+180: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestIpDeleteAccessVlan is => BLOCKED
+181: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=181.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+182: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=181.2/3][pid=2304089][pname=Task-1]: |                       Starting testcase ShutAccessVlan                       |
+183: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=181.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+184: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ShutAccessVlan because common_setup did not pass.
+185: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ShutAccessVlan is => BLOCKED
+186: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=186.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+187: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=186.2/3][pid=2304089][pname=Task-1]: |                      Starting testcase RemoveAccessVlan                      |
+188: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=186.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+189: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking RemoveAccessVlan because common_setup did not pass.
+190: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase RemoveAccessVlan is => BLOCKED
+191: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=191.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+192: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=191.2/3][pid=2304089][pname=Task-1]: |                  Starting testcase ConcurrentAuthAllSuccess                  |
+193: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=191.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+194: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ConcurrentAuthAllSuccess because common_setup did not pass.
+195: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ConcurrentAuthAllSuccess is => BLOCKED
+196: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=196.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+197: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=196.2/3][pid=2304089][pname=Task-1]: |               Starting testcase ConcurrentAuthMabFailDot1xPass               |
+198: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=196.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+199: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ConcurrentAuthMabFailDot1xPass because common_setup did not pass.
+200: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ConcurrentAuthMabFailDot1xPass is => BLOCKED
+201: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=201.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+202: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=201.2/3][pid=2304089][pname=Task-1]: |               Starting testcase ConcurrentAuthDot1xFailMabPass               |
+203: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=201.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+204: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ConcurrentAuthDot1xFailMabPass because common_setup did not pass.
+205: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ConcurrentAuthDot1xFailMabPass is => BLOCKED
+206: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=206.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+207: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=206.2/3][pid=2304089][pname=Task-1]: |                   Starting testcase ConcurrentAuthAllFail                    |
+208: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=206.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+209: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ConcurrentAuthAllFail because common_setup did not pass.
+210: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ConcurrentAuthAllFail is => BLOCKED
+211: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=211.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+212: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=211.2/3][pid=2304089][pname=Task-1]: |             Starting testcase ConcurrentAuthPriMabFailDot1xPass              |
+213: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=211.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+214: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ConcurrentAuthPriMabFailDot1xPass because common_setup did not pass.
+215: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ConcurrentAuthPriMabFailDot1xPass is => BLOCKED
+216: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=216.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+217: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=216.2/3][pid=2304089][pname=Task-1]: |             Starting testcase ConcurrentAuthPriMabPassDot1xFail              |
+218: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=216.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+219: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ConcurrentAuthPriMabPassDot1xFail because common_setup did not pass.
+220: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ConcurrentAuthPriMabPassDot1xFail is => BLOCKED
+221: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=221.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+222: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=221.2/3][pid=2304089][pname=Task-1]: |                Starting testcase ErrDisableSecurityViolation                 |
+223: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=221.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+224: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ErrDisableSecurityViolation because common_setup did not pass.
+225: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ErrDisableSecurityViolation is => BLOCKED
+226: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=226.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+227: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=226.2/3][pid=2304089][pname=Task-1]: |                  Starting testcase ProtectSecurityViolation                  |
+228: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=226.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+229: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ProtectSecurityViolation because common_setup did not pass.
+230: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ProtectSecurityViolation is => BLOCKED
+231: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=231.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+232: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=231.2/3][pid=2304089][pname=Task-1]: |                  Starting testcase ReplaceSecurityViolation                  |
+233: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=231.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+234: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ReplaceSecurityViolation because common_setup did not pass.
+235: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ReplaceSecurityViolation is => BLOCKED
+236: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=236.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+237: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=236.2/3][pid=2304089][pname=Task-1]: |                 Starting testcase RestrictSecurityViolation                  |
+238: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=236.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+239: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking RestrictSecurityViolation because common_setup did not pass.
+240: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase RestrictSecurityViolation is => BLOCKED
+241: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=241.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+242: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=241.2/3][pid=2304089][pname=Task-1]: |                      Starting testcase TestDeviceReload                      |
+243: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=241.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+244: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestDeviceReload because common_setup did not pass.
+245: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestDeviceReload is => BLOCKED
+246: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=246.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+247: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=246.2/3][pid=2304089][pname=Task-1]: |                          Starting testcase TestSwo                           |
+248: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=246.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+249: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking TestSwo because common_setup did not pass.
+250: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase TestSwo is => BLOCKED
+251: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=251.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+252: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=251.2/3][pid=2304089][pname=Task-1]: |                         Starting testcase ISSUUpdate                         |
+253: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=251.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+254: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking ISSUUpdate because common_setup did not pass.
+255: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase ISSUUpdate is => BLOCKED
+256: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=256.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+257: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=256.2/3][pid=2304089][pname=Task-1]: |                   Starting testcase DeleteDevicesFromDnac                    |
+258: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=256.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+259: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: Blocking DeleteDevicesFromDnac because common_setup did not pass.
+260: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of testcase DeleteDevicesFromDnac is => BLOCKED
+261: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=261.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+262: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=261.2/3][pid=2304089][pname=Task-1]: |                           Starting common cleanup                            |
+263: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=261.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+264: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=264.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+265: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=264.2/3][pid=2304089][pname=Task-1]: |                     Starting subsection clean_up_devices                     |
+266: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=264.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+267: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=267.1/5][pid=2304089][pname=Task-1]: Caught an exception while executing subsection clean_up_devices:
+268: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=267.2/5][pid=2304089][pname=Task-1]: Traceback (most recent call last):
+269: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=267.3/5][pid=2304089][pname=Task-1]:   File "/auto/iconatest-bgl/users/udasubra/preg/scripts/feature/dnac_assurance/wired_client_assurance.py", line 5858, in clean_up_devices
+270: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=267.4/5][pid=2304089][pname=Task-1]:     for uut in Variables.telemetry_success_devices:
+271: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-3-ERROR: %[part=267.5/5][pid=2304089][pname=Task-1]: AttributeError: type object 'Variables' has no attribute 'telemetry_success_devices'
+272: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of subsection clean_up_devices is => ERRORED
+273: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=273.1/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+274: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=273.2/3][pid=2304089][pname=Task-1]: |                 Starting subsection disconnect_from_devices                  |
+275: bgl-ads-2812: 2021-10-20T05:40:06: %AETEST-6-INFO: %[part=273.3/3][pid=2304089][pname=Task-1]: +------------------------------------------------------------------------------+
+276: bgl-ads-2812: 2021-10-20T05:40:26: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of subsection disconnect_from_devices is => PASSED
+277: bgl-ads-2812: 2021-10-20T05:40:26: %AETEST-6-INFO: %[pid=2304089][pname=Task-1]: The result of common cleanup is => ERRORED
+278: bgl-ads-2812: 2021-10-20T05:40:26: %CISCO-6-INFO: %[pid=2304089][pname=Task-1]: Start Telemetry - Task
+279: bgl-ads-2812: 2021-10-20T05:40:27: %CISCO-6-INFO: %[pid=2304089][pname=Task-1]: Posted data to Kafka returning status code 200 within time 0:00:00.829447

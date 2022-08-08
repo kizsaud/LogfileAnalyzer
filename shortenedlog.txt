@@ -1,0 +1,185 @@
+ %AETEST-6-INFO: %[part=13.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=13.2/3][pid=13155][pname=Task-1]: |                            Starting common setup                             |
+ %AETEST-6-INFO: %[part=13.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=16.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=16.2/3][pid=13155][pname=Task-1]: |                    Starting subsection validate_topology                     |
+ %AETEST-6-INFO: %[part=16.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of subsection validate_topology is => PASSED
+ %AETEST-6-INFO: %[part=26.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=26.2/3][pid=13155][pname=Task-1]: |                    Starting subsection connect_to_devices                    |
+ %AETEST-6-INFO: %[part=26.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of subsection connect_to_devices is => PASSED
+ %AETEST-6-INFO: %[part=210.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=210.2/3][pid=13155][pname=Task-1]: |                     Starting subsection pre_router_check                     |
+ %AETEST-6-INFO: %[part=210.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of subsection pre_router_check is => PASSED
+ %AETEST-6-INFO: %[part=231.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=231.2/3][pid=13155][pname=Task-1]: |                 Starting subsection add_switch_configuration                 |
+ %AETEST-6-INFO: %[part=231.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of subsection add_switch_configuration is => PASSED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of common setup is => PASSED
+ %AETEST-6-INFO: %[part=384.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=384.2/3][pid=13155][pname=Task-1]: |                        Starting testcase Tsz7693096c                         |
+ %AETEST-6-INFO: %[part=384.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=387.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=387.2/3][pid=13155][pname=Task-1]: |                 Starting section REP_config_and_verify_setup                 |
+ %AETEST-6-INFO: %[part=387.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_config_and_verify_setup is => PASSED
+ %AETEST-6-INFO: %[part=407.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=407.2/3][pid=13155][pname=Task-1]: |                 Starting section REP_config_and_verify_test                  |
+ %AETEST-6-INFO: %[part=407.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-3-ERROR: %[part=424.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_config_and_verify_test:
+ %AETEST-3-ERROR: %[part=424.2/5][pid=13155][pname=Task-1]: Traceback (most recent call last):
+ %AETEST-3-ERROR: %[part=424.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 837, in REP_config_and_verify_test
+ %AETEST-3-ERROR: %[part=424.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=424.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_config_and_verify_test is => ERRORED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of testcase Tsz7693096c is => ERRORED
+ %AETEST-6-INFO: %[part=431.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=431.2/3][pid=13155][pname=Task-1]: |                        Starting testcase Tsz7693111c                         |
+ %AETEST-6-INFO: %[part=431.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=434.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=434.2/3][pid=13155][pname=Task-1]: |                  Starting section REP_L2_convergence_setup                   |
+ %AETEST-6-INFO: %[part=434.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=440.1/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=440.2/3][pid=13155][pname=Task-1]: :       Starting STEP 1: Obtain REP Interface details before Test Start        :
+ %AETEST-6-INFO: %[part=440.3/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 1: Obtain REP Interface details before Test Start is => ERRORED
+ %AETEST-3-ERROR: %[part=448.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_setup:
+ %AETEST-3-ERROR: %[part=448.2/5][pid=13155][pname=Task-1]: Traceback (most recent call last):
+ %AETEST-3-ERROR: %[part=448.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 883, in REP_L2_convergence_setup
+ %AETEST-3-ERROR: %[part=448.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=448.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[part=453.1/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-6-INFO: %[part=453.2/3][pid=13155][pname=Task-1]: :                       STEPS Report                       :
+ %AETEST-6-INFO: %[part=453.3/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 1 - Obtain REP Interface details before Test Start   Errored
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: ............................................................
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_L2_convergence_setup is => ERRORED
+ %AETEST-6-INFO: %[part=459.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=459.2/3][pid=13155][pname=Task-1]: |                   Starting section REP_L2_convergence_test                   |
+ %AETEST-6-INFO: %[part=459.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: Blocking REP_L2_convergence_test because testcase setup did not pass.
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_L2_convergence_test is => BLOCKED
+ %AETEST-6-INFO: %[part=464.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=464.2/3][pid=13155][pname=Task-1]: |                 Starting section REP_L2_convergence_cleanup                  |
+ %AETEST-6-INFO: %[part=464.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-3-ERROR: %[part=477.1/9][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_cleanup:
+ %AETEST-3-ERROR: %[part=477.2/9][pid=13155][pname=Task-1]: Traceback (most recent call last):
+ %AETEST-3-ERROR: %[part=477.3/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1265, in REP_L2_convergence_cleanup
+ %AETEST-3-ERROR: %[part=477.4/9][pid=13155][pname=Task-1]:     (IxPort1[1], IxPort2[1]))
+ %AETEST-3-ERROR: %[part=477.5/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/production/hcl/pyats3.6.4/lib/python3.6/site-packages/pyats/tcl/interpreter.py", line 267, in eval
+ %AETEST-3-ERROR: %[part=477.6/9][pid=13155][pname=Task-1]:     raise TclError(self.vars['::errorInfo']) from None
+ %AETEST-3-ERROR: %[part=477.7/9][pid=13155][pname=Task-1]: _tkinter.TclError: can't read "streamID": no such variable
+ %AETEST-3-ERROR: %[part=477.8/9][pid=13155][pname=Task-1]:     while executing
+ %AETEST-3-ERROR: %[part=477.9/9][pid=13155][pname=Task-1]: "ixia::traffic_config   -mode remove -stream_id  $streamID -name REP_L2_TC_upstream -port_handle 1/11/1 -port_handle2 1/11/2"
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_L2_convergence_cleanup is => ERRORED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of testcase Tsz7693111c is => ERRORED
+ %AETEST-6-INFO: %[part=488.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=488.2/3][pid=13155][pname=Task-1]: |                        Starting testcase Tsz7693114c                         |
+ %AETEST-6-INFO: %[part=488.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=491.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=491.2/3][pid=13155][pname=Task-1]: |                  Starting section REP_L2_convergence_setup                   |
+ %AETEST-6-INFO: %[part=491.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=497.1/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=497.2/3][pid=13155][pname=Task-1]: :                        Starting STEP 1: Enable Debugs                        :
+ %AETEST-6-INFO: %[part=497.3/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 1: Enable Debugs is => PASSED
+ %AETEST-6-INFO: %[part=653.1/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=653.2/3][pid=13155][pname=Task-1]: :       Starting STEP 2: Obtain REP Interface details before Test Start        :
+ %AETEST-6-INFO: %[part=653.3/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 2: Obtain REP Interface details before Test Start is => ERRORED
+ %AETEST-3-ERROR: %[part=661.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_setup:
+ %AETEST-3-ERROR: %[part=661.2/5][pid=13155][pname=Task-1]: Traceback (most recent call last):
+ %AETEST-3-ERROR: %[part=661.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1386, in REP_L2_convergence_setup
+ %AETEST-3-ERROR: %[part=661.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=661.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[part=666.1/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-6-INFO: %[part=666.2/3][pid=13155][pname=Task-1]: :                       STEPS Report                       :
+ %AETEST-6-INFO: %[part=666.3/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 1 - Enable Debugs                                Passed
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 2 - Obtain REP Interface details before Test Start   Errored
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: ............................................................
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_L2_convergence_setup is => ERRORED
+ %AETEST-6-INFO: %[part=673.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=673.2/3][pid=13155][pname=Task-1]: |                   Starting section REP_L2_convergence_test                   |
+ %AETEST-6-INFO: %[part=673.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: Blocking REP_L2_convergence_test because testcase setup did not pass.
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_L2_convergence_test is => BLOCKED
+ %AETEST-6-INFO: %[part=678.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=678.2/3][pid=13155][pname=Task-1]: |                 Starting section REP_L2_convergence_cleanup                  |
+ %AETEST-6-INFO: %[part=678.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=684.1/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=684.2/4][pid=13155][pname=Task-1]: :    Starting STEP 1: Device Gladiator24-1 (alias=CoreA), type c9300 - Turn    :
+ %AETEST-6-INFO: %[part=684.3/4][pid=13155][pname=Task-1]: :                            off debugs and get logs                           :
+ %AETEST-6-INFO: %[part=684.4/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 1: Device Gladiator24-1 (alias=CoreA), type c9300 - Turn off debugs and get logs is => PASSED
+ %AETEST-6-INFO: %[part=689.1/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=689.2/4][pid=13155][pname=Task-1]: :    Starting STEP 2: Device Gladiator24-2 (alias=CoreB), type c9300 - Turn    :
+ %AETEST-6-INFO: %[part=689.3/4][pid=13155][pname=Task-1]: :                            off debugs and get logs                           :
+ %AETEST-6-INFO: %[part=689.4/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 2: Device Gladiator24-2 (alias=CoreB), type c9300 - Turn off debugs and get logs is => PASSED
+ %AETEST-6-INFO: %[part=694.1/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=694.2/4][pid=13155][pname=Task-1]: :    Starting STEP 3: Device Nyquist10G-1 (alias=Stack), type c9300 - Turn     :
+ %AETEST-6-INFO: %[part=694.3/4][pid=13155][pname=Task-1]: :                           off debugs and get logs                            :
+ %AETEST-6-INFO: %[part=694.4/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 3: Device Nyquist10G-1 (alias=Stack), type c9300 - Turn off debugs and get logs is => PASSED
+ %AETEST-6-INFO: %[part=699.1/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=699.2/4][pid=13155][pname=Task-1]: :    Starting STEP 4: Device Gladiator24-3 (alias=C9300), type c9300 - Turn    :
+ %AETEST-6-INFO: %[part=699.3/4][pid=13155][pname=Task-1]: :                            off debugs and get logs                           :
+ %AETEST-6-INFO: %[part=699.4/4][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 4: Device Gladiator24-3 (alias=C9300), type c9300 - Turn off debugs and get logs is => PASSED
+ %AETEST-6-INFO: %[part=704.1/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=704.2/3][pid=13155][pname=Task-1]: :        Starting STEP 5:  Stop and Export EPC pcaps on CoreA and CoreB        :
+ %AETEST-6-INFO: %[part=704.3/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 5:  Stop and Export EPC pcaps on CoreA and CoreB is => PASSED
+ %AETEST-6-INFO: %[part=709.1/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[part=709.2/3][pid=13155][pname=Task-1]: :               Starting STEP 6:  Stopping the TRAFFIC from IXIA               :
+ %AETEST-6-INFO: %[part=709.3/3][pid=13155][pname=Task-1]: +..............................................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of STEP 6:  Stopping the TRAFFIC from IXIA is => ERRORED
+ %AETEST-3-ERROR: %[part=720.1/9][pid=13155][pname=Task-1]: Caught an exception while executing section REP_L2_convergence_cleanup:
+ %AETEST-3-ERROR: %[part=720.2/9][pid=13155][pname=Task-1]: Traceback (most recent call last):
+ %AETEST-3-ERROR: %[part=720.3/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1756, in REP_L2_convergence_cleanup
+ %AETEST-3-ERROR: %[part=720.4/9][pid=13155][pname=Task-1]:     (IxPort1[1], IxPort2[1]))
+ %AETEST-3-ERROR: %[part=720.5/9][pid=13155][pname=Task-1]:   File "/auto/iconatest/production/hcl/pyats3.6.4/lib/python3.6/site-packages/pyats/tcl/interpreter.py", line 267, in eval
+ %AETEST-3-ERROR: %[part=720.6/9][pid=13155][pname=Task-1]:     raise TclError(self.vars['::errorInfo']) from None
+ %AETEST-3-ERROR: %[part=720.7/9][pid=13155][pname=Task-1]: _tkinter.TclError: can't read "streamID": no such variable
+ %AETEST-3-ERROR: %[part=720.8/9][pid=13155][pname=Task-1]:     while executing
+ %AETEST-3-ERROR: %[part=720.9/9][pid=13155][pname=Task-1]: "ixia::traffic_config   -mode remove -stream_id  $streamID -name REP_L2_TC_upstream -port_handle 1/11/1 -port_handle2 1/11/2"
+ %AETEST-6-INFO: %[part=729.1/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-6-INFO: %[part=729.2/3][pid=13155][pname=Task-1]: :                       STEPS Report                       :
+ %AETEST-6-INFO: %[part=729.3/3][pid=13155][pname=Task-1]: +..........................................................+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 1 - Device Gladiator24-1 (alias=CoreA), type c9300 - Turn off debugs and get logs    Passed
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 2 - Device Gladiator24-2 (alias=CoreB), type c9300 - Turn off debugs and get logs    Passed
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 3 - Device Nyquist10G-1 (alias=Stack), type c9300 - Turn off debugs and get logs    Passed
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 4 - Device Gladiator24-3 (alias=C9300), type c9300 - Turn off debugs and get logs    Passed
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 5 -  Stop and Export EPC pcaps on CoreA and CoreB    Passed
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: STEP 6 -  Stopping the TRAFFIC from IXIA             Errored
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: ............................................................
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_L2_convergence_cleanup is => ERRORED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of testcase Tsz7693114c is => ERRORED
+ %AETEST-6-INFO: %[part=741.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=741.2/3][pid=13155][pname=Task-1]: |                        Starting testcase Tsz7693115c                         |
+ %AETEST-6-INFO: %[part=741.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=744.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=744.2/3][pid=13155][pname=Task-1]: |                   Starting section REP_Unicast_convergence                   |
+ %AETEST-6-INFO: %[part=744.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-3-ERROR: %[part=758.1/5][pid=13155][pname=Task-1]: Caught an exception while executing section REP_Unicast_convergence:
+ %AETEST-3-ERROR: %[part=758.2/5][pid=13155][pname=Task-1]: Traceback (most recent call last):
+ %AETEST-3-ERROR: %[part=758.3/5][pid=13155][pname=Task-1]:   File "/auto/iconatest/users/tetitus/pyats/projects/RENN/RENN_main1_1721.py", line 1800, in REP_Unicast_convergence
+ %AETEST-3-ERROR: %[part=758.4/5][pid=13155][pname=Task-1]:     for x in Interface_rep_info_port2)
+ %AETEST-3-ERROR: %[part=758.5/5][pid=13155][pname=Task-1]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of section REP_Unicast_convergence is => ERRORED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of testcase Tsz7693115c is => ERRORED
+ %AETEST-6-INFO: %[part=765.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=765.2/3][pid=13155][pname=Task-1]: |                           Starting common cleanup                            |
+ %AETEST-6-INFO: %[part=765.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=768.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=768.2/3][pid=13155][pname=Task-1]: |                    Starting subsection post_router_check                     |
+ %AETEST-6-INFO: %[part=768.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of subsection post_router_check is => PASSED
+ %AETEST-6-INFO: %[part=780.1/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[part=780.2/3][pid=13155][pname=Task-1]: |                       Starting subsection clean_device                       |
+ %AETEST-6-INFO: %[part=780.3/3][pid=13155][pname=Task-1]: +------------------------------------------------------------------------------+
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of subsection clean_device is => PASSED
+ %AETEST-6-INFO: %[pid=13155][pname=Task-1]: The result of common cleanup is => PASSED

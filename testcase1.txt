@@ -1,0 +1,448 @@
+]: |    Starting testcase TC1_FunctionalTests[loopdetect_triggers=no_errdisabl    |
+]: |                                 e_recovery]                                  |
+]: +------------------------------------------------------------------------------+
+]: +------------------------------------------------------------------------------+
+]: |    Starting PreContextProcessor-1 'pyATS Health Check get_testcase_name'     |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :                     Starting STEP 1: Starting action api                     :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :               Starting STEP 1.1: Calling API get_testcase_name               :
+]: +..............................................................................+
+]: The result of STEP 1.1: Calling API get_testcase_name is => PASSED
+]: The result of STEP 1: Starting action api is => PASSED
+]: The result of PreContextProcessor-1 'pyATS Health Check get_testcase_name' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PreContextProcessor-2 'pyATS Health Check get_devices'        |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :                     Starting STEP 1: Starting action api                     :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :                  Starting STEP 1.1: Calling API get_devices                  :
+]: +..............................................................................+
+]: The result of STEP 1.1: Calling API get_devices is => PASSED
+]: The result of STEP 1: Starting action api is => PASSED
+]: The result of PreContextProcessor-2 'pyATS Health Check get_devices' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-3 'pyATS Health Check cpu'            |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'cpu' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-3 'pyATS Health Check cpu' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PreContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'memory' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-4 'pyATS Health Check memory' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PreContextProcessor-5 'pyATS Health Check logging'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'logging' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-5 'pyATS Health Check logging' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'core' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-6 'pyATS Health Check core' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |                            Starting section setup                            |
+]: +------------------------------------------------------------------------------+
+]: +------------------------------------------------------------------------------+
+]: |    Starting PreContextProcessor-1 'pyATS Health Check get_testcase_name'     |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :                     Starting STEP 1: Starting action api                     :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :               Starting STEP 1.1: Calling API get_testcase_name               :
+]: +..............................................................................+
+]: The result of STEP 1.1: Calling API get_testcase_name is => PASSED
+]: The result of STEP 1: Starting action api is => PASSED
+]: The result of PreContextProcessor-1 'pyATS Health Check get_testcase_name' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PreContextProcessor-2 'pyATS Health Check get_devices'        |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'get_devices' is skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PreContextProcessor-2 'pyATS Health Check get_devices' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-3 'pyATS Health Check cpu'            |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'cpu' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-3 'pyATS Health Check cpu' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PreContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'memory' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-4 'pyATS Health Check memory' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PreContextProcessor-5 'pyATS Health Check logging'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'logging' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-5 'pyATS Health Check logging' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'core' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-6 'pyATS Health Check core' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |    Starting PostContextProcessor-1 'pyATS Health Check get_testcase_name'    |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'get_testcase_name' was skipped due to: ["processor {'pre'} does not meet criteria ['post', 'post_if_pre_execute', 'both']"]
+]: The result of PostContextProcessor-1 'pyATS Health Check get_testcase_name' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PostContextProcessor-2 'pyATS Health Check get_devices'       |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'get_devices' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-2 'pyATS Health Check get_devices' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PostContextProcessor-3 'pyATS Health Check cpu'           |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'cpu' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-3 'pyATS Health Check cpu' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'memory' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-4 'pyATS Health Check memory' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-5 'pyATS Health Check logging'         |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'logging' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-5 'pyATS Health Check logging' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PostContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'core' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-6 'pyATS Health Check core' is => SKIPPED
+]: The result of section setup is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |                      Starting section test_TC1_SomeName                      |
+]: +------------------------------------------------------------------------------+
+]: +------------------------------------------------------------------------------+
+]: |    Starting PreContextProcessor-1 'pyATS Health Check get_testcase_name'     |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :                     Starting STEP 1: Starting action api                     :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :               Starting STEP 1.1: Calling API get_testcase_name               :
+]: +..............................................................................+
+]: The result of STEP 1.1: Calling API get_testcase_name is => PASSED
+]: The result of STEP 1: Starting action api is => PASSED
+]: The result of PreContextProcessor-1 'pyATS Health Check get_testcase_name' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PreContextProcessor-2 'pyATS Health Check get_devices'        |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'get_devices' is skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PreContextProcessor-2 'pyATS Health Check get_devices' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-3 'pyATS Health Check cpu'            |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'cpu' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-3 'pyATS Health Check cpu' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PreContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'memory' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-4 'pyATS Health Check memory' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PreContextProcessor-5 'pyATS Health Check logging'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'logging' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-5 'pyATS Health Check logging' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'core' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-6 'pyATS Health Check core' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |    Starting PostContextProcessor-1 'pyATS Health Check get_testcase_name'    |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'get_testcase_name' was skipped due to: ["processor {'pre'} does not meet criteria ['post', 'post_if_pre_execute', 'both']"]
+]: The result of PostContextProcessor-1 'pyATS Health Check get_testcase_name' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PostContextProcessor-2 'pyATS Health Check get_devices'       |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'get_devices' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-2 'pyATS Health Check get_devices' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PostContextProcessor-3 'pyATS Health Check cpu'           |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'cpu' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-3 'pyATS Health Check cpu' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'memory' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-4 'pyATS Health Check memory' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-5 'pyATS Health Check logging'         |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'logging' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-5 'pyATS Health Check logging' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PostContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'core' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-6 'pyATS Health Check core' is => SKIPPED
+]: The result of section test_TC1_SomeName is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |                            Starting section clean                            |
+]: +------------------------------------------------------------------------------+
+]: +------------------------------------------------------------------------------+
+]: |    Starting PreContextProcessor-1 'pyATS Health Check get_testcase_name'     |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :                     Starting STEP 1: Starting action api                     :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :               Starting STEP 1.1: Calling API get_testcase_name               :
+]: +..............................................................................+
+]: The result of STEP 1.1: Calling API get_testcase_name is => PASSED
+]: The result of STEP 1: Starting action api is => PASSED
+]: The result of PreContextProcessor-1 'pyATS Health Check get_testcase_name' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PreContextProcessor-2 'pyATS Health Check get_devices'        |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'get_devices' is skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PreContextProcessor-2 'pyATS Health Check get_devices' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-3 'pyATS Health Check cpu'            |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'cpu' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-3 'pyATS Health Check cpu' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PreContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'memory' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-4 'pyATS Health Check memory' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PreContextProcessor-5 'pyATS Health Check logging'          |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'logging' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-5 'pyATS Health Check logging' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PreContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: Pre-processor pyATS Health 'core' is skipped due to: ["processor {'post'} does not meet criteria ['pre', 'both']"]
+]: The result of PreContextProcessor-6 'pyATS Health Check core' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |    Starting PostContextProcessor-1 'pyATS Health Check get_testcase_name'    |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'get_testcase_name' was skipped due to: ["processor {'pre'} does not meet criteria ['post', 'post_if_pre_execute', 'both']"]
+]: The result of PostContextProcessor-1 'pyATS Health Check get_testcase_name' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PostContextProcessor-2 'pyATS Health Check get_devices'       |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'get_devices' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-2 'pyATS Health Check get_devices' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PostContextProcessor-3 'pyATS Health Check cpu'           |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'cpu' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-3 'pyATS Health Check cpu' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'memory' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-4 'pyATS Health Check memory' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-5 'pyATS Health Check logging'         |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'logging' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-5 'pyATS Health Check logging' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PostContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'core' was skipped due to: ["health arg {'health_tc_sections'} does not meet criteria"]
+]: The result of PostContextProcessor-6 'pyATS Health Check core' is => SKIPPED
+]: The result of section clean is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |    Starting PostContextProcessor-1 'pyATS Health Check get_testcase_name'    |
+]: +------------------------------------------------------------------------------+
+]: Post-processor pyATS Health 'get_testcase_name' was skipped due to: ["processor {'pre'} does not meet criteria ['post', 'post_if_pre_execute', 'both']"]
+]: The result of PostContextProcessor-1 'pyATS Health Check get_testcase_name' is => SKIPPED
+]: +------------------------------------------------------------------------------+
+]: |       Starting PostContextProcessor-2 'pyATS Health Check get_devices'       |
+]: +------------------------------------------------------------------------------+
+]: The result of PostContextProcessor-2 'pyATS Health Check get_devices' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |           Starting PostContextProcessor-3 'pyATS Health Check cpu'           |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :         Starting STEP 1: Executing actions in the loop concurrently          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut1'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :          Starting STEP 1.1: Calling API 'health_cpu' on 'ph5b_dut1'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).    :
+]: :      sum_value_operator('value', '<', "90")' is included in the output       :
+]: +..............................................................................+
+]: Passed reason: 'include' criteria is satisfied.
+]: The result of STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).sum_value_operator('value', '<', "90")' is included in the output is => PASSED
+]: The result of STEP 1.1: Calling API 'health_cpu' on 'ph5b_dut1' is => PASSED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut1' is => PASSED
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut2'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :          Starting STEP 1.1: Calling API 'health_cpu' on 'ph5b_dut2'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).    :
+]: :      sum_value_operator('value', '<', "90")' is included in the output       :
+]: +..............................................................................+
+]: Failed reason: 'include' criteria is not satisfied.
+]: The result of STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).sum_value_operator('value', '<', "90")' is included in the output is => FAILED
+]: The result of STEP 1.1: Calling API 'health_cpu' on 'ph5b_dut2' is => FAILED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut2' is => FAILED
+]: +..............................................................................+
+]: :       Starting STEP 1.1: Executed action api on ph5b_dut2 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.1: Executed action api on ph5b_dut2 in parallel is => FAILED
+]: +..............................................................................+
+]: :       Starting STEP 1.2: Executed action api on ph5b_dut1 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.2: Executed action api on ph5b_dut1 in parallel is => PASSED
+]: The result of STEP 1: Executing actions in the loop concurrently is => FAILED
+]: The result of PostContextProcessor-3 'pyATS Health Check cpu' is => FAILED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-4 'pyATS Health Check memory'          |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :         Starting STEP 1: Executing actions in the loop concurrently          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut1'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :        Starting STEP 1.1: Calling API 'health_memory' on 'ph5b_dut1'         :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).    :
+]: :      sum_value_operator('value', '<', "90")' is included in the output       :
+]: +..............................................................................+
+]: Passed reason: 'include' criteria is satisfied.
+]: The result of STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).sum_value_operator('value', '<', "90")' is included in the output is => PASSED
+]: The result of STEP 1.1: Calling API 'health_memory' on 'ph5b_dut1' is => PASSED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut1' is => PASSED
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut2'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :        Starting STEP 1.1: Calling API 'health_memory' on 'ph5b_dut2'         :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).    :
+]: :      sum_value_operator('value', '<', "90")' is included in the output       :
+]: +..............................................................................+
+]: Passed reason: 'include' criteria is satisfied.
+]: The result of STEP 1.1.1: Verify that 'contains('ALL_PROCESSES', level=-1).sum_value_operator('value', '<', "90")' is included in the output is => PASSED
+]: The result of STEP 1.1: Calling API 'health_memory' on 'ph5b_dut2' is => PASSED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut2' is => PASSED
+]: +..............................................................................+
+]: :       Starting STEP 1.1: Executed action api on ph5b_dut2 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.1: Executed action api on ph5b_dut2 in parallel is => PASSED
+]: +..............................................................................+
+]: :       Starting STEP 1.2: Executed action api on ph5b_dut1 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.2: Executed action api on ph5b_dut1 in parallel is => PASSED
+]: The result of STEP 1: Executing actions in the loop concurrently is => PASSED
+]: The result of PostContextProcessor-4 'pyATS Health Check memory' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |         Starting PostContextProcessor-5 'pyATS Health Check logging'         |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :         Starting STEP 1: Executing actions in the loop concurrently          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut1'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :        Starting STEP 1.1: Calling API 'health_logging' on 'ph5b_dut1'        :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'value_operator('num_of_logs', '==',     :
+]: :                        0)' is included in the output                         :
+]: +..............................................................................+
+]: Passed reason: 'include' criteria is satisfied.
+]: The result of STEP 1.1.1: Verify that 'value_operator('num_of_logs', '==', 0)' is included in the output is => PASSED
+]: The result of STEP 1.1: Calling API 'health_logging' on 'ph5b_dut1' is => PASSED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut1' is => PASSED
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut2'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :        Starting STEP 1.1: Calling API 'health_logging' on 'ph5b_dut2'        :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'value_operator('num_of_logs', '==',     :
+]: :                        0)' is included in the output                         :
+]: +..............................................................................+
+]: Passed reason: 'include' criteria is satisfied.
+]: The result of STEP 1.1.1: Verify that 'value_operator('num_of_logs', '==', 0)' is included in the output is => PASSED
+]: The result of STEP 1.1: Calling API 'health_logging' on 'ph5b_dut2' is => PASSED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut2' is => PASSED
+]: +..............................................................................+
+]: :       Starting STEP 1.1: Executed action api on ph5b_dut2 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.1: Executed action api on ph5b_dut2 in parallel is => PASSED
+]: +..............................................................................+
+]: :       Starting STEP 1.2: Executed action api on ph5b_dut1 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.2: Executed action api on ph5b_dut1 in parallel is => PASSED
+]: The result of STEP 1: Executing actions in the loop concurrently is => PASSED
+]: The result of PostContextProcessor-5 'pyATS Health Check logging' is => PASSED
+]: +------------------------------------------------------------------------------+
+]: |          Starting PostContextProcessor-6 'pyATS Health Check core'           |
+]: +------------------------------------------------------------------------------+
+]: +..............................................................................+
+]: :         Starting STEP 1: Executing actions in the loop concurrently          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut1'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :         Starting STEP 1.1: Calling API 'health_core' on 'ph5b_dut1'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'value_operator('num_of_cores', '==',    :
+]: :                         0)' is included in the output                        :
+]: +..............................................................................+
+]: Passed reason: 'include' criteria is satisfied.
+]: The result of STEP 1.1.1: Verify that 'value_operator('num_of_cores', '==', 0)' is included in the output is => PASSED
+]: The result of STEP 1.1: Calling API 'health_core' on 'ph5b_dut1' is => PASSED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut1' is => PASSED
+]: +..............................................................................+
+]: :          Starting STEP 1: Starting action api on device 'ph5b_dut2'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :         Starting STEP 1.1: Calling API 'health_core' on 'ph5b_dut2'          :
+]: +..............................................................................+
+]: +..............................................................................+
+]: :    Starting STEP 1.1.1: Verify that 'value_operator('num_of_cores', '==',    :
+]: :                         0)' is included in the output                        :
+]: +..............................................................................+
+]: Passed reason: 'include' criteria is satisfied.
+]: The result of STEP 1.1.1: Verify that 'value_operator('num_of_cores', '==', 0)' is included in the output is => PASSED
+]: The result of STEP 1.1: Calling API 'health_core' on 'ph5b_dut2' is => PASSED
+]: The result of STEP 1: Starting action api on device 'ph5b_dut2' is => PASSED
+]: +..............................................................................+
+]: :       Starting STEP 1.1: Executed action api on ph5b_dut2 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.1: Executed action api on ph5b_dut2 in parallel is => PASSED
+]: +..............................................................................+
+]: :       Starting STEP 1.2: Executed action api on ph5b_dut1 in parallel        :
+]: +..............................................................................+
+]: The result of STEP 1.2: Executed action api on ph5b_dut1 in parallel is => PASSED
+]: The result of STEP 1: Executing actions in the loop concurrently is => PASSED
+]: The result of PostContextProcessor-6 'pyATS Health Check core' is => PASSED
+]: The result of testcase TC1_FunctionalTests[loopdetect_triggers=no_errdisable_recovery] is => FAILED
+]: +------------------------------------------------------------------------------+
+]: |    Starting testcase TC1_FunctionalTests[loopdetect_triggers=errdisable_r    |

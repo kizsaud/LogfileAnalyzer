@@ -1,0 +1,18 @@
+FROM METHOD SETUP
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase Tsz7693096c is => ERRORED
+ERRORED REASON:]: ValueError: dictionary update sequence element #0 has length 1; 2 is required
+ERRORED FROM:]: The result of section REP_config_and_verify_test is => ERRORED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase Tsz7693111c is => ERRORED
+ERRORED REASON:]: ............................................................
+ERRORED FROM:]: The result of section REP_L2_convergence_setup is => ERRORED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase Tsz7693114c is => ERRORED
+ERRORED REASON:]: "ixia::traffic_config   -mode remove -stream_id  $streamID -name REP_L2_TC_upstream -port_handle 1/11/1 -port_handle2 1/11/2"
+ERRORED FROM:]: The result of section REP_L2_convergence_cleanup is => ERRORED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]: The result of testcase Tsz7693115c is => ERRORED
+ERRORED REASON:]: ............................................................
+ERRORED FROM:]: The result of section REP_L2_convergence_setup is => ERRORED
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
