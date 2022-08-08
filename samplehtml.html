@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        #myInput {
+            background-image: url('/css/searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+        
+        #myTable {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+            font-size: 18px;
+        }
+        
+        #myTable th,
+        #myTable td {
+            text-align: left;
+            padding: 12px;
+        }
+        
+        #myTable tr {
+            border-bottom: 1px solid #ddd;
+        }
+        
+        #myTable tr.header,
+        #myTable tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    <table id="myTable">
+        <tr class="header">
+
+            <th>Testcase </th>
+            <th>Result: </th>
+            <th>SECTION </th>
+            <th>Reason </th>
+            <th>Analysis </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: right;"> 0</td>
+                <td>Tsz7693096c</td>
+                <td>ERRORED </td>
+                <td>REP_config_and_verify_test</td>
+                <td>Error: dictionary update sequence element #0 has length 1; 2 is required</td>
+                <td>Script issue</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"> 1</td>
+                <td>Tsz7693111c</td>
+                <td>ERRORED </td>
+                <td>REP_L2_convergence_setup </td>
+                <td>Error: dictionary update sequence element #0 has length 1; 2 is required</td>
+                <td>Script issue</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"> 2</td>
+                <td>Tsz7693114c</td>
+                <td>ERRORED </td>
+                <td>REP_L2_convergence_cleanup</td>
+                <td>Error: can&#x27;t read &quot;streamID&quot;: no such variable </td>
+                <td>Script issue</td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"> 3</td>
+                <td>Tsz7693115c</td>
+                <td>faid </td>
+                <td>REP_L2_convergence_setup </td>
+                <td>Error: dictionary update sequence element #0 has length 1; 2 is required</td>
+                <td>Script issue</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[2];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
